@@ -1,0 +1,788 @@
+/* ------------------------------------------------------------
+ * PROJECT        : 
+ * FILENAME       : default.css (as PHP)
+ * ------------------------------------------------------------
+ * LAST UPDATED   : 21 Mar 2010
+ * ------------------------------------------------------------
+ * AUTHOR(S)      : Kevin Scholl (kevin@ksscholl.com)
+ * ------------------------------------------------------------
+ * NOTE(S)        : 
+ * ------------------------------------------------------------ */
+ 
+ 
+/* ------------------------------------------------------------
+ *  FONT ELEMENTS
+ * ------------------------------------------------------------ */
+ 
+.headleadermedium {
+  	font: bold 13px/18px verdana, arial, helvetica, sans-serif;
+  	color: #333333;
+}
+
+.headersmall {
+  	font: bold 12px/18px verdana, arial, helvetica, sans-serif;
+  	color: #333333;
+}
+
+.headercontenttitle {
+ 	font: bold 16px/19px verdana, arial, helvetica, sans-serif;
+ 	color: #333333;
+ 	padding-top: 1px;
+}
+
+.headercontentabout {
+ 	font: bold 14px/22px verdana, arial, helvetica, sans-serif;
+ 	color: #333333;
+}
+
+.headercontentsub {
+ 	font: normal 11px/22px verdana, arial, helvetica, sans-serif;
+ 	color: #333333;
+ 	padding-top: 1px;
+}
+
+.headerorange8pt {
+	font: bold 12px/18px verdana, arial, helvetica, sans-serif;
+	color: #7A8271;
+}
+
+.textsm {
+  	font: normal 11px/18px verdana, arial, helvetica, sans-serif;
+}
+
+.textsmborder {
+  	font: normal 11px/18px verdana, arial, helvetica, sans-serif;
+  	border-left: solid 1px #ddd;
+  	border-bottom: solid 1px #ddd;
+  	padding: 5px 15px 15px 15px;
+  	background-color: #fafafa;
+}
+
+
+.textsmlink {
+  	font: bold 10px/24px verdana, arial, helvetica, sans-serif;
+}
+
+
+.footer-sm {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+}
+
+.select-sm {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	color: #8F9FB0;
+}
+
+
+
+.footer-sm a:link,
+.footer-sm a:visited {
+	font: normal 11px/18px arial,helvetica,sans-serif;
+	color: #777255;
+	text-decoration: underline;
+}
+
+.footer-sm a:hover,
+.footer-sm a:active,
+{
+	color: #000;
+	text-decoration: underline;
+}
+
+.footer2 a:link,
+.footer2 a:visited {
+	font: bold 11px/18px verdana,arial,helvetica,sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+
+.footer2 a:hover,
+.footer2 a:active,
+{
+	color: #000;
+	text-decoration: underline;
+}
+
+
+.introbullets {
+	font: normal 11px/20px verdana,arial,helvetica,sans-serif;
+	}
+
+.space {
+ 	line-height: 2px;
+ 	}
+ 	
+ .spaceol {
+ 	line-height: 10px;
+ 	}	
+ 
+ .spacefieldset {
+  	line-height: 40px;
+ 	}
+ 
+ .bold {
+ 	font-weight: bold;
+ 	}
+ 
+/* ------------------------------------------------------------
+ *  TABLE AND TD - DIV ELEMENTS
+ * ------------------------------------------------------------ */
+
+#feedtable {
+	width: 222px;
+	padding: 0;
+	margin-left: 90px;
+	}
+
+#contractortable td {
+	text-align: left;
+	}	
+	
+#spectable {
+	margin-top: 10px;
+	}
+
+#spectable td {
+	text-align: left;
+	vertical-align: middle;
+	background-color: #efefef;
+	padding: 3px;
+	}
+	
+#alliance td {
+	text-align: left;
+	vertical-align: middle;
+	padding: 1px;
+	border: 0px;
+	}	
+
+#listtable {
+	width: 400px;
+	margin-left: 10px;
+	}
+
+#listtable td {
+	text-align: left;
+	padding: 2px 0px 2px 7px;
+	}
+	
+#listtable td.idea {
+	background-color: #EFEFEF;
+	font: normal 11px/20px verdana,arial,helvetica,sans-serif;
+	}	
+
+#listtable td.toprow {
+	background-color: #fff;
+	padding: 2px 0px 10px 0px;
+	font: bold 11px/20px verdana,arial,helvetica,sans-serif;
+	}
+	
+#tooltable {
+	float: right;
+	width: 205px;
+	margin: 5px 30px 0px 0px;
+		}
+
+#tooltable td {
+	border: 1px solid #BBBEB1;
+	background-image: url(/images/bg_tools.jpg);
+	padding: 5px 5px 2px 5px;
+	font: bold 11px/18px arial, helvetica, sans-serif;
+		}
+
+#tooltable td a {
+	font: normal 11px/18px arial, helvetica, sans-serif;
+		}
+
+#tooltable td ul {
+  position: relative;
+  	margin: 6px 0 0 0px;
+    border-top: 1px dotted #DBDBB7;
+  	padding: 6px 10px 0px 0px;
+	list-style-type: none;
+  } 
+  
+#tooltable span.header {
+  padding: 0px 0 0px 0;
+  font: bold 11px/20px arial,helvetica,sans-serif;
+  color: #D25400;
+  }
+  
+  
+#homeabouttable {
+  padding: 30px 100px 80px 100px;
+  }
+	
+#homeabouttable a {
+  text-decoration: none;
+  color: #444;
+  }
+
+
+
+.td-header {
+	padding: 33px 0px 28px 55px;
+	vertical-align: top;
+	text-align: left;
+	font: normal 12px/18px arial, helvetica, sans-serif;
+	background-image: url(/images/title-background.jpg);
+}
+
+.td-content {
+	padding: 10px 35px 10px 30px;
+	vertical-align: top;
+	text-align: left;
+	font: normal 12px/18px arial, helvetica, sans-serif;
+}
+
+#contractorspace {
+	margin: 0px 0 0 10px;
+	width: 400px;
+	}
+
+#contractorspace td {
+	padding: 0px 0 5px 0;
+	}
+	
+#contractorspace td.bottomdot {
+	border-top: 1px dotted #ddd;
+	}	
+#contractorspace td.topdot {
+	border-bottom: 1px dotted #ddd;
+	}	
+
+#contractorspace td.contractortool {
+	padding: 0px 20px 0px 20px;
+	width: 40%;
+	}
+	
+#classifiedspace {
+	margin: 0px 0 0 10px;
+	width: 520px;
+	}
+
+#classifiedspace td {
+	padding: 5px 0 5px 0;
+	border-top: 1px dotted #ddd;
+	}
+	
+#homebuilderspace {
+	margin: 0px 0 0 10px;
+	width: 570px;
+	}
+
+#homebuilderspace td {
+	padding: 5px 0 5px 0;
+	border-top: 1px dotted #ddd;
+	width: 50%;
+	}	
+
+#linkmanager {
+	width: 85%;
+	font: normal 12px/19px verdana,arial,helvetica,sans-serif;
+	padding-left: 1px;
+	}
+	
+	
+
+/* =================================================== *
+ * SIDE NAV ADS
+ * =================================================== */ 
+
+#headersidead {
+	font: bold 14px/17px verdana,arial, helvetica, sans-serif;
+	padding: 5px 0px 15px 12px;
+	color: #666;
+	text-align: left;
+	}
+
+
+#sidecontractortable td {
+	text-align: left;
+	font: normal 10px/23px verdana,arial,helvetica,sans-serif;
+	border-bottom: 1px solid #fafafa;
+	}  
+ 
+#sidecontractortable td a {
+	color: #A2ACA2;
+	text-decoration: none;
+	DISPLAY: block;
+	height: 24px;
+	padding-left: 10px;
+	} 
+	
+#sidecontractortable td a:hover {
+	color: #A2ACA2;
+	text-decoration: none;
+	DISPLAY: block;
+	background-image: url(/images/contractor-on.gif);
+	height: 24px;
+	}
+	
+#siderolodextable td {
+	text-align: left;
+	font: normal 11px/18px verdana,arial,helvetica,sans-serif;
+	border-bottom: 1px solid #fafafa;
+	}  
+ 
+#siderolodextable td a {
+	color: #A2ACA2;
+	text-decoration: none;
+	DISPLAY: block;
+	height: 24px;
+	padding-left: 10px;
+	font: normal 11px/23px verdana,arial,helvetica,sans-serif;
+	} 
+	
+#siderolodextable td a:hover {
+	color: #A2ACA2;
+	text-decoration: none;
+	DISPLAY: block;
+	background-image: url(/images/contractor-on.gif);
+	height: 24px;
+	}
+	
+#sidecalctable td {
+	text-align: left;
+	font: normal 10px/14px verdana,arial,helvetica,sans-serif;
+	border-bottom: 1px solid #fafafa;
+	padding: 5px 0 5px 0;
+	}  
+ 
+ 
+#sideendgallery {
+	background: transparent url(/images/bg_side_col-gallery-end.png) left top no-repeat;
+	margin: 0;
+	width: 100%;
+	}
+	
+#sideendgallery td {
+	text-align: left;
+	vertical-align: top;
+	font: bold 10px/14px verdana,arial,helvetica,sans-serif;
+	color: #C6D5CD;
+	padding: 0px 0 10px 50px;
+	height: 39px;
+	}
+	
+#sideend {
+	background-color: #fff;
+	margin: 0;
+	width: 100%;
+	}	
+ 
+#sideend td {
+	text-align: left;
+	vertical-align: top;
+	font: bold 10px/14px verdana,arial,helvetica,sans-serif;
+	color: #C6D5CD;
+	padding: 12px 0 10px 50px;
+	} 
+ 
+ 
+ 
+ 
+ /* =================================================== *
+  * ROLODEX
+  * =================================================== */
+ 
+ 
+ 
+ .leftrolocolumn {
+ 	font: normal 11px/18px verdana,arial,helvetica,sans-serif;
+ 	width: 50%;
+ 	vertical-align: top;
+ 	height: auto;
+ 	padding-top: 30px;
+ 	padding-right: 15px;
+ 	padding-bottom: 0px;
+ 	padding-left: 30px;
+ 	}
+ 
+ .rightrolocolumn {
+ 	padding: 30px 15px 0px 30px;
+ 	font: normal 11px/18px verdana,arial,helvetica,sans-serif;
+ 	width: 50%;
+ 	vertical-align: top;
+ 	}
+ 
+ 
+/* ------------------------------------------------------------
+ *  FIELDSET ELEMENTS
+ * ------------------------------------------------------------ */
+
+
+fieldset div.intro {
+	border: 1px solid #A1AFBD; }
+
+.introfield legend {
+	margin: 0 0 0 -5px;
+	padding: 0 5px;
+	font: bold 12px arial,helvetica,sans-serif;
+	color: #7C8FA3;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	vertical-align: top; }
+	
+	
+.introfield {
+  	background: transparent url(/images/bg_fieldset4.jpg) left bottom repeat-x;
+  	width: 486px;
+  	border: 1px solid #A1AFBD;
+  	padding: 10px 5px 15px 8px;
+	font: normal 11px/19px verdana,arial,helvetica,sans-serif;
+	color: #64788E; 
+	text-align: left;
+  	}
+  	
+#tips {
+  	background: transparent url(/images/bg_fieldset4.jpg) left bottom repeat-x;
+  	width: 550px;
+  	}
+
+#fieldtable a:link       { color: #7C8FA3; }
+#fieldtable a:visited    { color: #7C8FA3; }
+#fieldtable a:hover      { color: #A1AFBD; }
+#fieldtable a:active     { color: #A1AFBD; }
+
+
+  	
+#sheet {
+  	background: transparent url(/images/bg_fieldset3.jpg) center bottom repeat-x;
+  	width: 400px;
+  	margin-bottom: 25px;
+  	}
+  	
+fieldset.product2 {
+  	background: transparent url(/images/bg_fieldset2.jpg) center bottom repeat-x;
+  	width: 95%;
+  	margin-bottom: 25px;
+	}
+	
+fieldset.product2 ul il {
+	list-style-type: square;
+	}	
+
+fieldset.product3 {
+  	background: transparent url(/images/bg_fieldset2.jpg) center bottom repeat-x;
+  	width: 90%;
+  	margin-bottom: 20px;
+	}
+	
+fieldset.product3 ul il {
+	list-style-type: square;
+	}
+	
+fieldset.product4 {
+  	background: transparent url(/images/bg_fieldset4.jpg) center bottom repeat-x;
+  	width: 95%;
+  	margin-bottom: 20px;
+	line-height: 10px;
+	}
+	
+fieldset.product4 ul il {
+	list-style-type: square;
+	}
+	
+fieldset.product5 {
+  	background: transparent url(/images/bg_fieldset3.jpg) center bottom repeat-x;
+  	width: 95%;
+  	margin-bottom: 25px;
+	}
+	
+fieldset.product5 ul il {
+	list-style-type: square;
+	}	
+	
+fieldset.homepage {
+  	background: transparent url(/images/bg_fieldset2.jpg) center bottom repeat-x;
+  	width: 100%;
+  	margin-bottom: 20px;
+	}
+	
+fieldset.homepage ul il {
+	list-style-type: square;
+	}
+		
+
+#fieldtable {
+  	width: 100%;
+  	margin: 10px;
+  	padding: 15px 20px 15px 20px;
+  	}
+  	
+#fieldtable td.left {
+  	padding: 5px 25px 5px 5px;
+  	vertical-align: top;
+  	}
+  	
+#fieldtable td.left2 {
+  	padding: 25px 25px 20px 5px;
+  	vertical-align: top;
+  	}
+  	
+#fieldtable td.right {
+  	padding: 50px 0px 0px 10px;
+  	vertical-align: top;
+  	}
+  	
+#fieldtable td.right2 {
+  	padding: 0px 0px 0px 10px;
+  	vertical-align: top;
+  	} 
+  	
+#hometable {
+  	width: 100%;
+  	margin: 10px;
+  	padding: 10px;
+  	}
+  	
+#hometable td {
+  	padding: 5px 25px 10px 5px;
+  	vertical-align: top;
+  	} 
+  	
+#hometable td {
+  	padding: 5px 25px 10px 5px;
+  	vertical-align: top;
+  	}
+  	
+table#hometable span.intromark {
+margin: 0 0 0 -5px;
+padding: 0 5px;
+font: bold 12px arial,helvetica,sans-serif;
+color: #7C8FA3;
+text-transform: uppercase;
+letter-spacing: .25em;
+vertical-align: top; }
+  	
+  	
+  	
+ul.fieldtips li {
+  font: normal 11px/19px verdana,arial,helvetica,sans-serif;
+	}  	
+
+
+/* ------------------------------------------------------------
+ *  FIELDSET TD COLUMNS
+ * ------------------------------------------------------------ */
+
+.leftcolumn {
+	padding: 25px;
+	font: normal 12px/19px verdana,arial,helvetica,sans-serif;
+	color: #64788E; 
+	text-align: left; }
+
+.leftcolumn a {
+	text-decoration: underline;
+	color: #7C8FA3;
+}
+
+.leftcolumn a:hover {
+	text-decoration: underline;
+	color: #A1AFBD;
+}
+
+.leftcolumn a span {
+	text-decoration: none;
+	color: #777777;
+}
+
+.leftcolumn a:hover span {
+	text-decoration: underline;
+} 
+
+
+.leftcolumnstep {
+	padding: 25px;
+	text-align: left; }
+	
+.leftcolumnstep p {
+	font: normal 12px/20px verdana,arial,helvetica,sans-serif;
+	color: #64788E; }	
+
+.leftcolumnstep a {
+	text-decoration: none;
+	color: #7C8FA3;
+}
+
+.leftcolumnstep a:hover {
+	text-decoration: none;
+	color: #BAC5CF;
+}
+
+.leftcolumncredit {
+	padding: 30px 25px 30px 50px;
+	font: normal 12px/19px verdana,arial,helvetica,sans-serif;
+	color: #64788E; 
+	text-align: left; }
+
+.leftcolumncredit a {
+	text-decoration: underline;
+	color: #7C8FA3;
+}
+
+.leftcolumncredit a:hover {
+	text-decoration: underline;
+	color: #A1AFBD;
+}
+
+.leftcolumncredit a span {
+	text-decoration: none;
+	color: #777777;
+}
+
+.leftcolumncredit a:hover span {
+	text-decoration: underline;
+}	
+
+/* ------------------------------------------------------------
+ *  IMAGE ELEMENTS
+ * ------------------------------------------------------------ */
+
+#bigsidead {
+	background: transparent url(/images/bg_big_side_ad.gif) left top no-repeat;
+	height: 280px;
+	padding-top: 37px;
+	padding-bottom: 12px;
+	}	
+	
+#bigsidead2 {
+	background: transparent url(/images/bg_big_side_ad.gif) left top no-repeat;
+	height: 280px;
+	padding-top: 37px;
+	padding-bottom: 12px;
+	}	
+	
+#ratead {
+	padding-top: 25px;
+	text-align: center;
+	margin-left: 22px;
+	}	
+
+#gallerysidead {
+	padding-right: -5px;
+	}
+	
+#googlebox 
+	{
+	background: transparent url(/images/google-box.gif) left top no-repeat;
+	height: 370px;
+	padding: 35px 0px 12px 20px;
+	}
+
+.sepline {
+	background: transparent url(/images/line-sm.gif) left 32px no-repeat;
+	width: 250px;
+	height: 55px;
+	}
+
+
+/* ------------------------------------------------------------
+ *  BOTTOM BORDER ITEMS
+ * ------------------------------------------------------------ */	
+
+
+#borderelement {
+	background: transparent url(/images/bg_footer-shadow-top.gif) top left repeat-x;
+	border-top: 1px solid #CCD6D6;
+	}
+	
+#borderelementright {
+	margin-left: 0px;
+	}
+	
+#borderfooterelement {
+	background: transparent url(/images/bg_footer-shadow-bottom.gif) top left repeat-x;
+	border-top: 0px;
+	}
+	
+#borderfooterelementleft {
+	background: transparent url(/images/bg_footer-shadow-bottom.gif) top left repeat-x;
+	border-top: 0px;
+	}	
+
+/* ------------------------------------------------------------
+ *  FIELD - MENU ITEMS
+ * ------------------------------------------------------------ */	
+
+
+.inputfield {
+	font: normal 11px/100% Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	background-color: #EFF3F5;
+	border: 1px inset #fafafa;
+	height: 16px;
+	vertical-align: middle;
+}
+
+.inputresults {
+	font: normal 11px/100% Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	background-color: #E9E9EB;
+	border: 1px inset #fafafa;
+	height: 16px;
+	vertical-align: middle;
+}
+
+.button {
+	font: bold 10px verdana,arial, helvetica, sans-serif;
+	color: #333;
+	}
+	
+.nbuymenu {
+	font: normal 11px/100% Verdana, Arial, Helvetica, sans-serif;
+	background-color: #EFF3F5;
+	border: 1px inset #fafafa;
+	vertical-align: middle;
+}	
+	
+/* ------------------------------------------------------------
+ *  LIST DIRECTORY
+ * ------------------------------------------------------------ */	
+
+
+.listdirectory {
+	background: transparent url(/images/icon-list-directory.gif) left center no-repeat;
+}
+
+.listgallery {
+	background: transparent url(/images/icon-list-info.gif) left center no-repeat;
+}
+
+.listproduct {
+	background: transparent url(/images/icon-list-product.gif) left center no-repeat;
+}
+
+.listtools {
+	background: transparent url(/images/icon-list-tool.gif) left center no-repeat;
+}
+
+.listtool {
+	background: transparent url(/images/icon-list-tools.gif) left center no-repeat;
+}
+
+.listapply {
+	background: transparent url(/images/icon-list-apply.gif) left center no-repeat;
+}
+
+.listtopics {
+	background: transparent url(/images/icon-list-topic.gif) left center no-repeat;
+}
+
+.listservice {
+	background: transparent url(/images/icon-list-service.gif) left center no-repeat;
+}
+
+.listyellow {
+	background: transparent url(/images/icon-list-yellow.gif) left center no-repeat;
+}
+
+.listcredit {
+	background: transparent url(/images/icon-list-credit.gif) left center no-repeat;
+}
+

@@ -1,0 +1,603 @@
+
+/* Style Index * /
+
+#0 Reset
+#1 BLOG Feeds
+#2 Toggle Menu Buttons
+#3 Responsive Image Code
+#4 To-Top Navigation
+
+
+/* #0 Reset */
+
+
+
+/* ------------------------------------------------------------
+* #1 SIDENAV: BLOG FEED ENTRIES & SIDE SHAPE
+* ------------------------------------------------------------ */
+
+#feed > .entry h4 a {
+	color: #E3CCAE !important;
+	line-height: 24px !important;
+	}
+	
+	
+.widget > .entry h4 a {
+	line-height: 24px !important;
+	}
+
+#centerimg {
+	display: block;
+	margin-left: auto;
+    	margin-right: auto;
+    	max-width:100%;
+    	height:auto;
+    	}
+
+
+/* ------------------------------------------------------------
+ * #2 TOGGLE MENU BUTTONS
+ * ------------------------------------------------------------ */
+
+.container-toggleshop {
+margin: -10px 10px 50px 0px;
+border: 0;
+background: transparent;
+padding: 0;
+width: 100%;
+cursor: pointer !important;
+}
+
+.container-toggleshop.bottomside {
+margin-top: 50px;
+}
+
+.container-toggleshop.first {
+margin-top: 0px;
+}
+
+.container-toggleshop .drop-button {
+position: relative;
+}
+.container-toggleshop .drop-button .drop-btn {
+display: block;
+margin: 0;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #ccc;
+border-radius: 1px;
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+background: #eee;
+background: -webkit-gradient(linear, 0% 10%, 0% 90%, from(#f5f5f5), to(#dddddd));
+background: -webkit-linear-gradient(top, #f5f5f5 10%, #dddddd 90%);
+background: -moz-linear-gradient(top, #f5f5f5 10%, #dddddd 90%);
+background: -ms-linear-gradient(top, #f5f5f5 10%, #dddddd 90%);
+background: -o-linear-gradient(top, #f5f5f5 10%, #dddddd 90%);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#f5f5f5, endColorstr=#dddddd)";
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+box-shadow: 0 1px 1px #dedede;
+padding: 0px 4px;
+}
+.container-toggleshop .drop-button .drop-btn a {
+display: block;
+background: transparent url(../images/icon_btn_closed.png) left center no-repeat;
+padding: 5px 5px 5px 35px;
+color: #333;
+text-decoration: none;
+}
+.container-toggleshop .drop-button .drop-btn a.open {
+background-image: url(../images/icon_btn_closed.png);
+}
+
+	
+.widget > .entry h4 a {
+	line-height: 24px !important;
+	}
+	
+
+/* ------------------------------------------------------------
+* #3 RESPONSIVE IMAGE CODE
+* ------------------------------------------------------------ */
+
+
+
+.centerimg {
+	display: block;
+	margin-left: auto;
+    	margin-right: auto;
+    	max-width:100%;
+    	height:auto;
+    	}
+
+.summaryimg {
+	display: block;
+	margin-left: auto;
+    	margin-right: auto;
+    	max-width:100%;
+    	height:auto;
+    	}
+
+
+
+/* ------------------------------------------------------------
+* #4 TO TOP JQ
+* ------------------------------------------------------------ */
+
+
+
+#toTop {
+	display:none;
+	content: '';
+	text-decoration:none;
+	position:fixed;
+	bottom:200px;
+	right:12px;
+	overflow:hidden;
+	width:50px;
+	height:50px;
+	border:none;
+	text-indent:100%;
+	background:url(../images/ui.totop.png) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(../images/ui.totop.png) no-repeat left -50px;
+	content: '';
+	width:50px;
+	height:50px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}
+
+
+/* ------------------------------------------------------------
+ * #8 CONTENT TABLE DATA GRIDS
+ * ------------------------------------------------------------ */
+
+.sideGrid {
+	  background: #Fff;
+	  padding-right: 10px;
+	  padding-left: 10px;
+	  padding-bottom: 30px;
+	  margin-top: -10px;
+  	}
+  	
+.sideGrid table {
+	width: 100%;
+  	}
+
+#tooltable  {
+	width: 100%;
+	margin-top: 8px;
+	} 
+  
+#tooltable td {
+	text-align: left;
+	border-bottom: 1px solid #f2f2f2;
+	font: normal 12px/18px verdana,arial,helvetica,sans-serif !important;
+	}	
+ 
+#tooltable td a {
+	color: #8F9B8F;
+	text-decoration: none;
+	DISPLAY: block;
+	height: auto;
+	padding: 4px 0px 4px 10px;
+	font: normal 13px/19px arial,helvetica,sans-serif;
+	} 
+	
+#tooltable td a:hover {
+	color: #8F9B8F;
+	text-decoration: none;
+	DISPLAY: block;
+	background-color: #FFF5EA;
+	height: auto;
+	}
+	
+	
+	
+	
+	
+	
+.fullscreencenter {
+	width: 64%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.dataGrid {
+  margin: 0px 0 10px 0px;
+  border-top: 1px solid #99B2E5;
+  border-bottom: 1px solid #99B2E5;
+  border-left: 0px !important;
+  border-spacing: 0;
+  background: #F2F2F2;
+  padding: 0;
+  width: 100%;
+  }
+.dataGrid caption {
+  margin: 0 0 10px 0;
+  padding: 0;
+	font: bold 14px/20px Verdana, Arial, Helvetica, sans-serif !important;
+	color: #99B2E5;
+	text-align: left;
+  }
+
+.dataGrid tr {
+  background: #fff;
+  }
+
+.dataGrid tr.alt {
+  background: #F5F7FC;
+  }
+
+.dataGrid tr.over,
+.dataGrid td.over {
+  background: #FFF5EA;
+  }
+
+.dataGrid.steps tr.over,
+.dataGrid.steps td.over {
+  background: transparent;
+  }
+
+.dataGrid tr.novcolor,
+.dataGrid td.novcolor {
+  background: #FFF5EA;
+  }
+
+.dataGrid tr.novwhite,
+.dataGrid td.novwhite {
+  background: #fff;
+  width: 20px;
+  }
+
+.dataGrid tr.novwhitelabel,
+.dataGrid td.novwhitelabel {
+  background: #fff;
+  }
+
+.dataGrid tr.novblue,
+.dataGrid td.novblue {
+  background: #F5F7FC;
+  width: 20px;
+  }
+
+.dataGrid tr.novblue2,
+.dataGrid td.novblue2 {
+  background: #F5F7FC;
+  height: 10px;
+  padding: 1px;
+  }
+
+.dataGrid tr.novblue3,
+.dataGrid td.novblue3 {
+  background: #FFF;
+  height: 10px;
+  padding: 1px;
+  }
+
+.dataGrid td.highlight {
+  background: #FFF0E1 !important;
+  }
+
+.dataGrid th,
+.dataGrid tfoot td {
+  background: #C1D1F0 url(/images/bg_bars.png) left center repeat-x;
+  padding: 4px 5px 6px;
+  padding-left: 9px;
+  font: bold 12px/13px Verdana, Arial, Helvetica, sans-serif;
+  color: #111;
+  text-align: left;
+  vertical-align: middle;
+  }
+.dataGrid thead th {
+  border: 1px solid #99B2E5;
+  border-left: 0px !important;
+  }
+.dataGrid tfoot th,
+.dataGrid tfoot td {
+  border: 1px solid #99B2E5;
+  border-bottom: 0;
+  }
+
+.dataGrid th a:link,
+.dataGrid th a:visited,
+.dataGrid tfoot td a:link,
+.dataGrid tfoot td a:visited {
+  color: #000;
+  }
+.dataGrid th a:hover,
+.dataGrid tfoot td a:hover {
+  color: #8CB9B9;
+  }
+.dataGrid th a:active,
+.dataGrid tfoot td a:active {
+  color: #C93;
+  }
+
+.dataGrid td {
+  border-bottom: 1px solid #E1E8F7;
+  border-left: 0px solid #E1E8F7 !important;
+  border-right: 0px solid #E1E8F7;
+  padding: 4px 5px;
+  font: normal 12px/20px Verdana, Arial, Helvetica, sans-serif;
+  color: #333;
+  text-align: left;
+  vertical-align: top;
+  padding-left: 10px;
+  }
+  
+  .dataGrid td a span.tip {
+  font: bold 10px/12px Arial, Helvetica, sans-serif;
+  color: #C0C0C0;
+  vertical-align:middle;
+  }
+  .dataGrid.large td {
+  padding: 10px 7px;
+  font: normal 16px/20px Verdana, Arial, Helvetica, sans-serif;
+  }
+  
+.dataGrid td.gridspace {
+  padding-bottom: 25px !important;
+  padding-top: 15px !important;
+  } 
+  
+.dataGrid td.gridcontent {
+  padding-bottom: 25px !important;
+  }  
+  
+.dataGrid tr.lastRow td {
+  border-bottom: 0;
+  padding-bottom: 5px;
+  }
+
+p.summarytext {
+  	font: normal 12px/20px Verdana, Arial, Helvetica, sans-serif !important;
+	color: #687E95;
+  }	
+
+.dataGrid td a {
+	text-decoration: none;
+	color: #73879D !important;
+}
+
+.dataGrid td a:hover {
+	text-decoration: none;
+	color: #A1AFBD !important;
+}	
+
+.contentarea .panel blockquote .dataGrid td a {
+	text-decoration: none !important;
+	color: #73879D !important;
+}
+
+.contentarea .panel blockquote .dataGrid td a:hover {
+	text-decoration: none !important;
+	color: #A1AFBD !important;
+}
+
+.tdimage {
+	padding: 50px 60px 0px 10px;
+	vertical-align: top !important;
+	}
+
+
+	/* --------CONTENT TABLES---------------------------- */
+
+	.gridtools td {
+		  border-left: 0px !important;
+		  font: normal 12px/18px Arial, Helvetica, sans-serif !important;
+  		}
+
+	.summarytable {
+		width: 95%;
+		padding: 5px;
+		margin: 35px 0 0 0px;
+		}
+
+	.bullettable {
+		width: 100%;
+		padding: 5px;
+		margin: 10px 0 0 15px;
+		}
+
+	.bullettable td {
+		padding: 5px;
+		font-size: 13px;
+		}
+	
+	.tdleft1 {
+		border-bottom: solid 1px #ccc;
+		border-right: solid 1px #ccc;
+		vertical-align: top;
+		padding-top: 0px !important;
+		padding-right: 8px !important;
+		}
+	
+	.tdleft1 img {
+		max-width: none;
+		}
+	
+	.tdright2 img {
+		max-width: none;
+		}
+	
+	.tdleft1.noborder {
+		border-bottom: solid 0px #ccc;
+		border-right: solid 0px #ccc;
+		padding-top: 10px !important;
+		}
+	
+	.tdleft1.success {
+		border-bottom: solid 0px #ccc;
+		border-right: solid 0px #ccc;
+		padding: 10px 50px 0px 0px !important;
+		}
+	
+	.tdleft1.bigicon {
+		padding-top: 20px !important;
+		padding-right: 30px !important;
+		padding-bottom: 40px !important;
+		}
+	
+	.tdright1 {
+		padding-top: 15px;
+		padding-left: 25px;
+		}
+	
+	.tdright2 {
+		padding-top: 75px !important;
+		padding-left: 25px !important;
+		}
+	
+	.tdleft2 {
+		border-bottom: solid 1px #ccc;
+		border-right: solid 0px #ccc;
+	}
+	
+	.tdleft3 {
+		border-bottom: solid 0px #ccc;
+		border-right: solid 0px #ccc;
+		padding: 50px 15px 70px 0px !important;
+		border-top: 1px solid #ccc;
+		}
+	
+	.leftheader {
+		margin-top: -25px;
+		padding-bottom: 60px !important;
+		}
+	
+	.leftheader p {
+		font: normal 18px/36px Georgia, "Times New Roman", Times, serif; !important;
+		margin: 0px;
+		}
+	
+	p.tip {
+	  	font: bold 10px/14px Arial, Helvetica, sans-serif !important;
+		color: #ccc;
+  	}
+  	
+  	p.articleCtrl a {
+	  	font: normal 12px/20px Verdana, Arial, Helvetica, sans-serif !important;
+		color: #444;
+  	}
+  	
+  	p.articleCtrl a:hover {
+	  	color: #888;
+  	}
+  	
+  	.textsm {
+	  	font: normal 11px/16px Verdana, Arial, Helvetica, sans-serif !important;
+		padding: 5px;
+  	}
+
+
+.contenttable {
+  margin: 25px;
+  padding: 0;
+  width: 100%;
+  }
+  
+.contenttable td {
+padding: 25px 50px 0px 10px;
+font: normal 12px/18px Arial, Helvetica, sans-serif !important;
+  }
+  
+  
+/* ------------------------------------------------------------
+   * #9 CSS FOR RANDOM CONTENT
+* ------------------------------------------------------------ */
+
+.jsclass body .randomcontent{ /*Do NOT remove! CSS to hide random contents in JS enabled browsers*/
+display: none;
+
+}
+
+/* ------------------------------------------------------------
+   * #10 CSS FOR SOCIAL BUTTONS
+* ------------------------------------------------------------ */
+
+
+
+.sharequote {
+	margin-top: 12px;
+	text-align: right;
+	background-color: #fff;
+	}
+
+.sharequote td {
+	padding-bottom: 60px;
+	}
+
+#twitter-logo {
+	background: url(../images/social_icon_twitter.png) left top no-repeat;
+	display: block;
+	height: 128px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width:128px;
+	}
+
+#twitter-logo:hover {
+	background: url(../images/social_icon_twitter.png) left top no-repeat;
+	opacity: 0.7;
+    	filter: alpha(opacity=70);
+	}
+
+#facebook-logo {
+	background: url(../images/social_icon_facebook.png) left top no-repeat;
+	display: block;
+	height: 128px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width:128px;
+	}
+
+#facebook-logo:hover {
+	opacity: 0.7;
+    	filter: alpha(opacity=70);
+	}
+
+#plus-logo {
+	background: url(../images/social_icon_google.png) left top no-repeat;
+	display: block;
+	height: 128px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width:128px;
+	}
+
+#plus-logo:hover {
+	opacity: 0.7;
+    	filter: alpha(opacity=70);
+	}
+
+#pin-logo {
+	background: url(../images/social_icon_pin.png) left top no-repeat;
+	display: block;
+	height: 128px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width:128px;
+	}
+
+#pin-logo:hover {
+	opacity: 0.7;
+    	filter: alpha(opacity=70);
+	}
+

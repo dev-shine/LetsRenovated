@@ -1,0 +1,151 @@
+<div id="sidebar" class="side-nav-group">
+  @if($menuRow->side_nav)
+  <div class="widget" id="mobilenav">
+    <div class="w-title">
+      <h3><span>{!! $menuRow->name !!}</span></h3>
+    </div>
+    <div class="shopnav">
+      {!! $menuRow->side_nav !!}
+    </div>
+  </div>
+  <div class="clear-float"></div>
+	@endif
+	<!-- BEGIN .stores -->
+  <div class="widget">
+    <div class="w-title">
+      <h3 id="storesmenu"><span>Stores <?php echo '('.$total_stores.')'; ?></span></h3>
+      <div id="storesnav">
+				<?php
+					$array = array(); $ids=explode(",", $ids);
+					for ($i=0;$i<sizeof($ids);$i++){
+						array_push($array,$ids[$i]);
+					}
+					if(sizeof($array)==$total_stores || sizeof($array)==0) {$all = "checked";} else {$all="";}
+					$index = 0; $seemore = true;
+					echo '<div id="view_1" style="color: #369!important;">';
+					echo '<input class="checkbox_all" type="checkbox" style="cursor: pointer;" id="checkbox_" value="" class="form-checkbox" '.$all.'>All Stores</input><br>';
+					foreach ($stores as $store){
+						if($index<15){
+							if(in_array($store['advertiser-id'],$array)) { $ch ="checked" ;} else { $ch="";}
+							echo '<input class="checkbox_see" type="checkbox" style="cursor: pointer;" id="checkbox_'.$store['advertiser-id'].'" value="'.$store['advertiser-id'].'" class="form-checkbox" '.$ch.'>'.$store['advertiser-name'].'</input><br>';
+						} else {
+							if ($seemore){
+								echo '<span id="see_more" style="cursor: pointer;color: #ff6666;">&#8250;&nbsp;See more&hellip;</span>';
+								$seemore = false;
+							}
+						} $index++;
+					} echo '</div>';
+
+					echo '<div id="view_2" style="color: #369!important;">';
+					echo '<input class="checkbox_all" type="checkbox" style="cursor: pointer;" id="checkbox_" value="" class="form-checkbox" '.$all.'>All Stores</input><br>';
+					foreach ($stores as $store){
+							if(in_array($store['advertiser-id'],$array)) { $ch ="checked" ;} else { $ch="";}
+							echo '<input class="checkbox_see" type="checkbox" style="cursor: pointer;" id="checkbox_'.$store['advertiser-id'].'" value="'.$store['advertiser-id'].'" class="form-checkbox"'.$ch.'>'.$store['advertiser-name'].'</input><br>';
+					} echo '<span id="see_less" style="cursor: pointer;color: #ff6666;">&#8250;&nbsp;See less&hellip;</span></div>';
+					?>
+			</div>
+    </div>
+  </div>
+  <!-- BEGIN .toggle button - need ability to edit -->
+  <div class="container-toggleshop bottomside">
+    <div class="drop-button">
+      <div class="drop-btn"> <a id="botLaunch2">Full Shopping Menu</a> </div>
+    </div>
+  </div>
+
+<!-- BEGIN .ad space or other - script -->
+<div class="widget" style="margin-top: 60px !important">
+    <div class="w-title">
+      <h3><span>Some More Stuff ...</span></h3>
+      </div>
+ </div>
+
+ <div class="clear-float"></div>
+
+  <!-- BEGIN .ad content area -->
+  <div class="widget" style="margin-top: 20px">
+      <div>
+        {!! $ad !!}
+      </div>
+    </div>
+
+<!-- BEGIN random content -->
+<div class="widget mobile">
+      <div>
+        <script type="text/javascript">
+		//Call this following all random contents HTML on the page:
+		randomcontentdisplay.init()
+		</script>
+      </div>
+  </div>
+
+  <div class="clear-float"></div>
+
+
+<!-- BEGIN Google Script -->
+<div class="widget mobile" style="margin-top: 200px">
+	<div class="script-googlebox"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- letsrenovate image responsive -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-3974480447825003"
+	     data-ad-slot="9885492968"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+    </div>
+  </div>
+
+
+<!-- BEGIN Google Script -->
+<div class="widget mobile" style="margin-top: 200px">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- letsshopping responsive -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-3974480447825003"
+	     data-ad-slot="9015122166"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	<!-- END .widget -->
+  </div>
+
+  <div class="clear-float"></div>
+
+
+ <!-- BEGIN Image -->
+ <div class="widget nomobile">
+ 	<div style="margin-top: 900px !important; text-align: center"><img src="../../../images/tictac.jpg" alt="" align="absmiddle" /></div>
+   </div>
+
+
+ <!-- BEGIN Social -->
+ <div class="widget nomobile">
+ 	<div>
+		<center>
+		<table class="sharequote">
+		<tbody>
+		<tr>
+		<td class="twittericon"><a id="twitter-logo" href="https://twitter.com/share" target="_blank" rel="nofollow" data-url="http://www.letsrenovate.com/shophome/">twitter</a></td>
+		</tr>
+		<tr>
+		  <td><a id="facebook-logo" href="https://www.facebook.com/sharer/sharer.php?u=http://www.letsrenovate.com/shophome/" target="_blank" rel="nofollow">facebook</a></td>
+		  </tr>
+		<tr>
+		  <td><a id="plus-logo" href="https://plus.google.com/share?url=http://www.letsrenovate.com/shophome/" target="_blank" rel="nofollow">google+</a></td>
+		  </tr>
+		<tr>
+		  <td><a id="pin-logo" href="https://pinterest.com/pin/create/button/?url=http%3A//www.letsrenovate.com/shophome/&media=&description=" target="_blank" rel="nofollow">pinterest</a></td>
+		  </tr>
+		</tbody>
+		</table>
+		</center>
+     </div>
+   </div>
+
+  <div class="clear-float"></div>
+
+</div>

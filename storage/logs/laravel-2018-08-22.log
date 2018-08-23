@@ -1,0 +1,3 @@
+[2018-08-22 02:43:09] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in C:\xampp\htdocs\shophome\app\Http\Controllers\HomeController.php:1
+Stack trace:
+#0 {main}  

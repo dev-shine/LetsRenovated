@@ -1,0 +1,1717 @@
+<!-- BEGIN .toggle menu for shopping panel -->
+
+<script type="text/javascript">
+
+// This launch Puma SideBar on form load.
+$("#botLaunch,#botLaunch2,#botLaunch3").on("click",function(){
+
+	$.PumaSideBar({
+		position: "left",  // Position
+		label: "Home Structure", // Initial label
+		movebody: true, // if you want to push or not your page
+		avatar: "", // Initial avatar.
+		items: [{ // Level one
+					fa: "",
+					text: "Attic & Basement",
+					items: [{ // Level two
+							fa: "",
+							text: "attic insulation",
+							link: "item/attic-insulation"
+						 },
+						 {
+							fa: "",
+							text: "attic stairs & flooring",
+							link: "item/attic-stair"
+						 },
+						 {
+							fa: "",
+							text: "basement structure",
+							link: "item/basement"
+						 },
+						 {
+							fa: "",
+							text: "home ventilation",
+							link: "item/attic-vent"
+						 },
+						 {
+							fa: "",
+							text: "stellar view",
+							link: "item/roof-window"
+						 },
+						 {
+							fa: "",
+							text: "weather stripping",
+							link: "item/weather-stripping"
+						 },
+						 {
+							fa: "",
+							text: "return: attic & basement",
+							link: "item/attic"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Doors and Windows",
+					items: [{ // Level two
+							fa: "",
+							text: "doors",
+							link: "item/interior-door"
+							},
+							{
+							fa: "",
+							text: "secondary doors",
+							link: "item/pet-door"
+							},
+							{
+							fa: "",
+							text: "storm doors",
+							link: "item/fullview-storm-door"
+							},
+							{
+							fa: "",
+							text: "chimes & locks",
+							link: "item/door-chime"
+							},
+							{
+							fa: "",
+							text: "door knobs & hardware",
+							link: "item/door-knob"
+							},
+							{
+							fa: "",
+							text: "windows",
+							link: "item/glass-window"
+							},
+							{
+							fa: "",
+							text: "windows hardware",
+							link: "item/window-handle"
+							},
+							{
+							fa: "",
+							text: "window wells & awnings",
+							link: "item/window-wells"
+							},
+						 	{
+							fa: "",
+							text: "return: doors & windows",
+							link: "item/door-window"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Flooring",
+					items: [{ // Level two
+							fa: "",
+							text: "carpeting",
+							items: [{  // Level three
+										fa: "",
+										text: "carpet samples",
+										link: "item/carpet-sample"
+									 },
+									 {
+										fa: "",
+										text: "carpet tiles",
+										link: "item/carpet-tile"
+									 },
+									 {
+										fa: "",
+										text: "indoor/outdoor carpet",
+										link: "item/indoor-outdoor-carpet"
+									 },
+									 {
+										fa: "",
+										text: "outdoor carpet",
+										link: "item/outdoor-carpets"
+									 },
+									 {
+										fa: "",
+										text: "carpet padding",
+										link: "item/carpet-pad"
+									 },
+									 {
+										fa: "",
+										text: "carpet care",
+										link: "item/carpet-care"
+									 },
+									 {
+										fa: "",
+										text: "carpet installation",
+										link: "item/carpet-installation"
+									 },
+									 {
+										fa: "",
+										text: "return: carpeting",
+										link: "item/carpet"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "hardwood flooring",
+							items: [{  // Level three
+										fa: "",
+										text: "solid hardwood",
+										link: "item/solid-hardwood-flooring"
+									 },
+									 {
+										fa: "",
+										text: "engineered hardwood",
+										link: "item/engineered-hardwood-flooring"
+									 },
+									 {
+										fa: "",
+										text: "locking hardwood",
+										link: "item/locking-hardwood-flooring"
+									 },
+									 {
+										fa: "",
+										text: "moldings",
+										link: "item/hardwood-flooring-molding"
+									 },
+									 {
+										fa: "",
+										text: "cleansers ",
+										link: "item/hardwood-cleaner"
+									 },
+									 {
+										fa: "",
+										text: "hardwood installation",
+										link: "item/hardwood-floor-installation"
+									 },
+									 {
+										fa: "",
+										text: "return: hardwood flooring",
+										link: "item/hardwood-flooring"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "laminate flooring",
+							items: [{  // Level three
+										fa: "",
+										text: "laminate planks",
+										link: "item/laminate-plank"
+									 },
+									 {
+										fa: "",
+										text: "laminate tiles",
+										link: "item/laminate-tile"
+									 },
+									 {
+										fa: "",
+										text: "moldings",
+										link: "item/laminate-flooring-molding"
+									 },
+									 {
+										fa: "",
+										text: "cleansers",
+										link: "item/laminate-cleaner"
+									 },
+									 {
+										fa: "",
+										text: "laminate installation",
+										link: "item/laminate-floor-installation"
+									 },
+									 {
+										fa: "",
+										text: "return: laminate flooring",
+										link: "item/laminate-flooring"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "rugs",
+							items: [{  // Level three
+										fa: "",
+										text: "area rugs",
+										link: "item/area-rug"
+									 },
+									 {
+										fa: "",
+										text: "bath rugs",
+										link: "item/bath-rug"
+									 },
+									 {
+										fa: "",
+										text: "braided rugs",
+										link: "item/braided-rug"
+									 },
+									 {
+										fa: "",
+										text: "classic rugs",
+										link: "item/classic-rug"
+									 },
+									 {
+										fa: "",
+										text: "contemporary rugs",
+										link: "item/contemporary-rug"
+									 },
+									 {
+										fa: "",
+										text: "mats",
+										link: "item/cushion-mat"
+									 },
+									 {
+										fa: "",
+										text: "oriental rugs",
+										link: "item/oriental-rug"
+									 },
+									 {
+										fa: "",
+										text: "outdoor rugs",
+										link: "item/outdoor-rug"
+									 },
+									 {
+										fa: "",
+										text: "persian rugs",
+										link: "item/persian-rug"
+									 },
+									 {
+										fa: "",
+										text: "stair treads",
+										link: "item/stair-tread"
+									 },
+									 {
+										fa: "",
+										text: "traditional rugs",
+										link: "item/traditional-rug"
+									 },
+									 {
+										fa: "",
+										text: "transitional rugs",
+										link: "item/transitional-rug"
+									 },
+									 {
+										fa: "",
+										text: "shag rugs",
+										link: "item/shag-rug"
+									 },
+									 {
+										fa: "",
+										text: "return: rugs",
+										link: "item/floor-rug"
+									 }]
+						 },
+						 {
+						 fa: "",
+						 text: "stone flooring",
+						 link: "item/natural-stone-floor-tile"
+						 },
+						 {
+							fa: "",
+							text: "tile flooring",
+							items: [{  // Level three
+										fa: "",
+										text: "ceramic tile",
+										link: "item/ceramic-floor-tile"
+									 },
+									 {
+										fa: "",
+										text: "porcelain tile",
+										link: "item/porcelain-floor-tile"
+									 },
+									 {
+										fa: "",
+										text: "natural stone tile",
+										link: "item/natural-stone-floor-tiles"
+									 },
+									 {
+										fa: "",
+										text: "glass tile",
+										link: "item/glass-floor-tiles"
+									 },
+									 {
+										fa: "",
+										text: "mosaic tile ",
+										link: "item/mosaic-floor-tile"
+									 },
+									 {
+										fa: "",
+										text: "tile trim",
+										link: "item/tile-trim"
+									 },
+									 {
+										fa: "",
+										text: "tile cleaners",
+										link: "item/tile-cleaner"
+									 },
+									 {
+										fa: "",
+										text: "tile installation",
+										link: "item/tile-installation"
+									 },
+									 {
+										fa: "",
+										text: "return: tile flooring",
+										link: "item/floor-wall-tile"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "vinyl flooring",
+							items: [{  // Level three
+										fa: "",
+										text: "vinyl planks",
+										link: "item/vinyl-plank"
+									 },
+									 {
+										fa: "",
+										text: "vinyl tile",
+										link: "item/vinyl-tile"
+									 },
+									 {
+										fa: "",
+										text: "sheet vinyl",
+										link: "item/sheet-vinyl"
+									 },
+									 {
+										fa: "",
+										text: "accessories",
+										link: "item/vinyl-quarter-round"
+									 },
+									 {
+										fa: "",
+										text: "cleansers",
+										link: "item/vinyl-cleaner"
+									 },
+									 {
+										fa: "",
+										text: "vinyl installation",
+										link: "item/vinyl-floor-adhesive"
+									 },
+									 {
+										fa: "",
+										text: "return: vinyl flooring",
+										link: "item/vinyl-flooring"
+									 }]
+						 },
+						 {
+						 fa: "",
+						 text: "underfloor heating",
+						 link: "item/floor-heating-system"
+						 },
+						 {
+						 fa: "",
+						 text: "return: flooring",
+						 link: "item/home-flooring"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Garage",
+					items: [{ // Level two
+							fa: "",
+							text: "garage doors",
+							link: "item/insulated-garage-door"
+						 },
+						 {
+							fa: "",
+							text: "door openers",
+							link: "item/garage-door-opener"
+						 },
+						 {
+							fa: "",
+							text: "charging station",
+							link: "item/vehicle-charging-station"
+						 },
+						 {
+							fa: "",
+							text: "garage flooring",
+							link: "item/garage-floor"
+						 },
+						 {
+							fa: "",
+							text: "garage lifts",
+							link: "item/garage-lift"
+						 },
+						 {
+							fa: "",
+							text: "garage maintenance ",
+							link: "item/garage-cleaner"
+						 },
+						 {
+							fa: "",
+							text: "garage storage",
+							link: "item/garage-storage-system"
+						 },
+						 {
+							fa: "",
+							text: "workbench",
+							link: "item/workbench"
+						 },
+						 {
+							fa: "",
+							text: "workbench tools",
+							items: [{  // Level three
+										fa: "",
+										text: "clambs",
+										link: "item/c-clamp"
+									 },
+									 {
+										fa: "",
+										text: "compressors & vacs",
+										link: "item/air-compressor"
+									 },
+									 {
+										fa: "",
+										text: "hammers",
+										link: "item/claw-hammer"
+									 },
+									 {
+										fa: "",
+										text: "ladders",
+										link: "item/ladder"
+									 },
+									 {
+										fa: "",
+										text: "pliers",
+										link: "item/pliers"
+									 },
+									 {
+										fa: "",
+										text: "power tools",
+										link: "item/power-tools"
+									 },
+									 {
+										fa: "",
+										text: "safety gear",
+										link: "item/safety-gear"
+									 },
+									 {
+										fa: "",
+										text: "screwdrivers",
+										link: "item/screwdriver"
+									 },
+									 {
+										fa: "",
+										text: "sockets",
+										link: "item/socket-set"
+									 },
+									 {
+										fa: "",
+										text: "utility",
+										link: "item/utility-tool"
+									 },
+									 {
+										fa: "",
+										text: "wrenches",
+										link: "item/wrench-set"
+									 },
+									 {
+										fa: "",
+										text: "return: workbench tools",
+										link: "item/piece-tool-set"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "return: garage",
+							link: "item/garage"
+						 }]
+				},
+				 {
+					fa: "",
+					text: "HVAC (see utility)",
+					link: "item/heating-and-cooling"
+				 },
+				{
+					fa: "",
+					text: "Exterior Home",
+					items: [{ // Level two
+							fa: "",
+							text: "driveways & walkways",
+							items: [{  // Level three
+										fa: "",
+										text: "driveway gates & security",
+										link: "item/driveway-gate"
+									 },
+									 {
+										fa: "",
+										text: "driveway maintenance",
+										link: "item/driveway-repair"
+									 },
+									 {
+										fa: "",
+										text: "driveway pavers",
+										link: "item/paver"
+									 },
+									 {
+										fa: "",
+										text: "walkway maintenance",
+										link: "item/stone-sealer"
+									 },
+									 {
+										fa: "",
+										text: "return: driveways & walkways",
+										link: "item/driveway"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "foundation & chimney",
+							items: [{  // Level three
+										fa: "",
+										text: "foundation",
+										link: "item/foundation-coating"
+									 },
+									 {
+										fa: "",
+										text: "chimney caps",
+										link: "item/chimney-cap"
+									 },
+									 {
+										fa: "",
+										text: "chimney hoods",
+										link: "item/chimney-hood"
+									 },
+									 {
+										fa: "",
+										text: "chimney pipe",
+										link: "item/chimney-pipe"
+									 },
+									 {
+										fa: "",
+										text: "fireplace plugs",
+										link: "item/fireplace-plug"
+									 },
+									 {
+										fa: "",
+										text: "stove pipes",
+										link: "item/stove-pipe"
+									 },
+									 {
+										fa: "",
+										text: "return: foundation & chimney",
+										link: "item/foundation-door"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "exterior decor",
+							items: [{  // Level three
+										fa: "",
+										text: "columns",
+										link: "item/wood-column"
+									 },
+									 {
+										fa: "",
+										text: "exterior moldings",
+										link: "item/exterior-moulding"
+									 },
+									 {
+										fa: "",
+										text: "gables and gable vents",
+										link: "item/gable-kit"
+									 },
+									 {
+										fa: "",
+										text: "shutters",
+										link: "item/exterior-shutters"
+									 },
+									 {
+										fa: "",
+										text: "return: exterior decor",
+										link: "item/exterior-shutter"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "gutters",
+							items: [{  // Level three
+										fa: "",
+										text: "gutter systems",
+										link: "item/rain-gutter"
+									 },
+									 {
+										fa: "",
+										text: "gutter guards ",
+										link: "item/gutter-guard"
+									 },
+									 {
+										fa: "",
+										text: "down spouts",
+										link: "item/downspout"
+									 },
+									 {
+										fa: "",
+										text: "rain barrels",
+										link: "item/gal-rain-barrel"
+									 },
+									 {
+										fa: "",
+										text: "gutter cleaning",
+										link: "item/gutter-cleaning"
+									 },
+									 {
+										fa: "",
+										text: "return: gutters",
+										link: "item/gutter"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "home entry",
+							items: [{  // Level three
+										fa: "",
+										text: "door chimes",
+										link: "item/wired-door-chime"
+									 },
+									 {
+										fa: "",
+										text: "door locks",
+										link: "item/door-lock"
+									 },
+									 {
+										fa: "",
+										text: "door mats",
+										link: "item/doormat"
+									 },
+									 {
+										fa: "",
+										text: "home entry door",
+										link: "item/entry-door"
+									 },
+									 {
+										fa: "",
+										text: "home security systems",
+										link: "item/home-security-system"
+									 },
+									 {
+										fa: "",
+										text: "return: home entry",
+										link: "item/home-entry"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "home siding",
+							items: [{  // Level three
+										fa: "",
+										text: "brick siding",
+										link: "item/clay-brick"
+									 },
+									 {
+										fa: "",
+										text: "fiber cement siding",
+										link: "item/fiber-cement-siding"
+									 },
+									 {
+										fa: "",
+										text: "stone veneer ",
+										link: "item/stone-veneer"
+									 },
+									 {
+										fa: "",
+										text: "vinyl siding",
+										link: "item/vinyl-siding"
+									 },
+									 {
+										fa: "",
+										text: "wood siding",
+										link: "item/plywood-siding"
+									 },
+									 {
+										fa: "",
+										text: "mounting blocks",
+										link: "item/mounting-block"
+									 },
+									 {
+										fa: "",
+										text: "siding accessories and trim",
+										link: "item/vinyl-corner-post"
+									 },
+									 {
+										fa: "",
+										text: "return: home siding",
+										link: "item/plywood-siding"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "porch systems",
+							items: [{  // Level three
+										fa: "",
+										text: "columns ",
+										link: "item/aluminum-column"
+									 },
+									 {
+										fa: "",
+										text: "posts",
+										link: "item/porch-post"
+									 },
+									 {
+										fa: "",
+										text: "porch flooring",
+										link: "item/porch-flooring"
+									 },
+									 {
+										fa: "",
+										text: "porch rail",
+										link: "item/aluminum-porch-rail"
+									 },
+									 {
+										fa: "",
+										text: "porch rocking chairs",
+										link: "item/porch-rocking-chair"
+									 },
+									 {
+										fa: "",
+										text: "porch swings",
+										link: "item/porch-swing"
+									 },
+									 {
+										fa: "",
+										text: "return: porch systems",
+										link: "item/porch-system"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "roofing",
+							items: [{  // Level three
+										fa: "",
+										text: "roof shingles",
+										link: "item/laminate-shingle"
+									 },
+									 {
+										fa: "",
+										text: "roof panels",
+										link: "item/roof-panel"
+									 },
+									 {
+										fa: "",
+										text: "roofing materials",
+										link: "item/roof-underlayment"
+									 },
+									 {
+										fa: "",
+										text: "flashing",
+										link: "item/shop-structure-exterior-roof-flashing.php"
+									 },
+									 {
+										fa: "",
+										text: "ventilation",
+										link: "item/roof-flashing"
+									 },
+									 {
+										fa: "",
+										text: "ventilation",
+										link: "item/roof-vent"
+									 },
+									 {
+										fa: "",
+										text: "cupolas",
+										link: "item/cupola"
+									 },
+									 {
+										fa: "",
+										text: "solar panels",
+										link: "item/solar-panel"
+									 },
+									 {
+										fa: "",
+										text: "weathervanes",
+										link: "item/weathervane"
+									 },
+									 {
+										fa: "",
+										text: "return: roofing",
+										link: "item/roof-supply"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "return: exterior home",
+							link: "item/exterior-home"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Lighting",
+					items: [{ // Level two
+							fa: "",
+							text: "bath lighting",
+							items: [{  // Level three
+										fa: "",
+										text: " bath vanity lights",
+										link: "item/bath-vanity-light"
+									 },
+									 {
+										fa: "",
+										text: "vanity: 1",
+										link: "item/1-bath-vanity-light"
+									 },
+									 {
+										fa: "",
+										text: "vanity: 2",
+										link: "item/2-bath-vanity-light"
+									 },
+									 {
+										fa: "",
+										text: "vanity: 3",
+										link: "item/3-bath-vanity-light"
+									 },
+									 {
+										fa: "",
+										text: "vanity: 4",
+										link: "item/4-bath-vanity-light"
+									 },
+									 {
+										fa: "",
+										text: "vanity: 5",
+										link: "item/five-bath-vanity-light"
+									 },
+									 {
+										fa: "",
+										text: "ceiling lights",
+										link: "item/bath-ceiling-light"
+									 },
+									 {
+										fa: "",
+										text: "wall lights",
+										link: "item/bath-wall-light"
+									 },
+									 {
+										fa: "",
+										text: "exhaust fans",
+										link: "item/bath-exhaust-light"
+									 },
+									 {
+										fa: "",
+										text: "return: bath lighting",
+										link: "item/bath-lighting"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "ceiling fans",
+							items: [{  // Level three
+										fa: "",
+										text: "indoor ceiling fans",
+										link: "item/ceiling-fan"
+									 },
+									 {
+										fa: "",
+										text: "indoor/outdoor fans",
+										link: "item/indoor-outdoor-ceiling-fan"
+									 },
+									 {
+										fa: "",
+										text: "outdoor ceiling fans",
+										link: "item/outdoor-oscillating-fan"
+									 },
+									 {
+										fa: "",
+										text: "flush mount fans",
+										link: "item/flush-mount-ceiling-fan"
+									 },
+									 {
+										fa: "",
+										text: "energy star ceiling fans",
+										link: "item/energy-star-ceiling-fan"
+									 },
+									 {
+										fa: "",
+										text: "accessories",
+										link: "item/wood-fan-blade"
+									 },
+									 {
+										fa: "",
+										text: "return: ceiling fans",
+										link: "item/indoor-ceiling-fan"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "ceiling lights",
+							items: [{  // Level three
+										fa: "",
+										text: "ceiling pendant",
+										link: "item/ceiling-pendant-light"
+									 },
+									 {
+										fa: "",
+										text: "mini pendant",
+										link: "item/mini-pendant-light"
+									 },
+									 {
+										fa: "",
+										text: "flush mount",
+										link: "item/flush-mount-light"
+									 },
+									 {
+										fa: "",
+										text: "semi flush",
+										link: "item/semi-flush-mount-light"
+									 },
+									 {
+										fa: "",
+										text: "island lights",
+										link: "item/island-light"
+									 },
+									 {
+										fa: "",
+										text: "lanterns",
+										link: "item/foyer-lantern"
+									 },
+									 {
+										fa: "",
+										text: "medallions",
+										link: "item/ceiling-medallion"
+									 },
+									 {
+										fa: "",
+										text: "billiard light",
+										link: "item/billiard-light"
+									 },
+									 {
+										fa: "",
+										text: "lighted pot rack",
+										link: "item/light-pot-rack"
+									 },
+									 {
+										fa: "",
+										text: "return: ceiling lights",
+										link: "item/indoor-ceiling-light"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "chandeliers",
+							items: [{  // Level three
+										fa: "",
+										text: "single tier",
+										link: "item/single-tier-chandelier"
+									 },
+									 {
+										fa: "",
+										text: "two tier",
+										link: "item/two-tier-chandelier"
+									 },
+									 {
+										fa: "",
+										text: "mini chandelier",
+										link: "item/mini-chandelier"
+									 },
+									 {
+										fa: "",
+										text: "foyer chandelier",
+										link: "item/foyer-chandelier"
+									 },
+									 {
+										fa: "",
+										text: "dining chandelier",
+										link: "item/dining-chandelier"
+									 },
+									 {
+										fa: "",
+										text: "kitchen chandelier",
+										link: "item/kitchen-chandelier"
+									 },
+									 {
+										fa: "",
+										text: "living chandelier",
+										link: "item/living-chandelier"
+									 },
+									 {
+										fa: "",
+										text: "return: chandeliers",
+										link: "item/chandelier"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "lamps",
+							items: [{  // Level three
+										fa: "",
+										text: "table lamps",
+										link: "item/table-lamp"
+									 },
+									 {
+										fa: "",
+										text: "floor lamps",
+										link: "item/floor-lamp"
+									 },
+									 {
+										fa: "",
+										text: "torch lamps",
+										link: "item/torchiere-lamp"
+									 },
+									 {
+										fa: "",
+										text: "desk lamps",
+										link: "item/desk-lamp"
+									 },
+									 {
+										fa: "",
+										text: "accent lamps",
+										link: "item/accent-lamp"
+									 },
+									 {
+										fa: "",
+										text: "other lamps",
+										link: "item/arc-lamp"
+									 },
+									 {
+										fa: "",
+										text: "return: lamps",
+										link: "item/table-lamp"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "recessed and track lighting",
+							items: [{  // Level three
+										fa: "",
+										text: "recessed housing lighting",
+										link: "item/recessed-housing"
+									 },
+									 {
+										fa: "",
+										text: "recessed lighting trim ",
+										link: "item/recessed-trim"
+									 },
+									 {
+										fa: "",
+										text: "cable lighting",
+										link: "item/cable-lighting"
+									 },
+									 {
+										fa: "",
+										text: "rail lighting ",
+										link: "item/rail-lighting"
+									 },
+									 {
+										fa: "",
+										text: "track lighting",
+										link: "item/track-lighting"
+									 },
+									 {
+										fa: "",
+										text: "return: recessed n' track",
+										link: "item/track-lighting"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "specialty lighting",
+							items: [{  // Level three
+										fa: "",
+										text: "holiday lighting",
+										link: "item/holiday-light"
+									 },
+									 {
+										fa: "",
+										text: "indoor spotlight",
+										link: "item/indoor-spotlight"
+									 },
+									 {
+										fa: "",
+										text: "light sticks/micro lighting",
+										link: "item/floor-light-stick"
+									 },
+									 {
+										fa: "",
+										text: "undercabinet lighting",
+										link: "item/undercabinet-light"
+									 },
+									 {
+										fa: "",
+										text: "return: specialty lighting",
+										link: "item/specialty-lighting"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "wall lighting",
+							items: [{  // Level three
+										fa: "",
+										text: "wall sconces",
+										link: "item/wall-sconce"
+									 },
+									 {
+										fa: "",
+										text: "wall lanterns ",
+										link: "item/wall-lantern"
+									 },
+									 {
+										fa: "",
+										text: "wall swing arm lamps",
+										link: "item/wall-swing-arm-light"
+									 },
+									 {
+										fa: "",
+										text: "wall reading lamps",
+										link: "item/wall-reading-light"
+									 },
+									 {
+										fa: "",
+										text: "picture light",
+										link: "item/picture-light"
+									 },
+									 {
+										fa: "",
+										text: "return: wall lighting",
+										link: "item/indoor-wall-lighting"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "bulbs",
+							items: [{  // Level three
+										fa: "",
+										text: "CFL",
+										link: "item/cfl-bulb"
+									 },
+									 {
+										fa: "",
+										text: "halogen",
+										link: "item/halogen-bulb"
+									 },
+									 {
+										fa: "",
+										text: "HID",
+										link: "item/hid-light-bulb"
+									 },
+									 {
+										fa: "",
+										text: "incandescent",
+										link: "item/incandescent-light-bulb"
+									 },
+									 {
+										fa: "",
+										text: "LED",
+										link: "item/led-light-bulb"
+									 },
+									 {
+										fa: "",
+										text: "tube fluorescent",
+										link: "item/tube-fluorescent"
+									 },
+									 {
+										fa: "",
+										text: "PAR",
+										link: "item/par-light-bulb"
+									 },
+									 {
+										fa: "",
+										text: "night lights",
+										link: "item/night-light"
+									 },
+									 {
+										fa: "",
+										text: "reflector",
+										link: "item/reflector-light-bulb"
+									 },
+									 {
+										fa: "",
+										text: "specialty",
+										link: "item/appliance-light-bulb"
+									 },
+									 {
+										fa: "",
+										text: "return: bulbs",
+										link: "item/light-bulb"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "return: lighting",
+							link: "item/home-lighting"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Plumbing & Wiring",
+					items: [{ // Level two
+							fa: "",
+							text: "plumbing pipe",
+							items: [{  // Level three
+										fa: "",
+										text: "PVC",
+										link: "item/pvc-pipe"
+									 },
+									 {
+										fa: "",
+										text: "brass",
+										link: "item/brass-pipe"
+									 },
+									 {
+										fa: "",
+										text: "copper",
+										link: "item/copper-pipe"
+									 },
+									 {
+										fa: "",
+										text: "PEX",
+										link: "item/pex-pipe"
+									 },
+									 {
+										fa: "",
+										text: "other materials",
+										link: "item/steel-pipe"
+									 },
+									 {
+										fa: "",
+										text: "return: plumbing pipe",
+										link: "item/plumbing-pipe"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "sewer & drain pipes",
+							link: "item/sewer-drain"
+						 },
+						 {
+							fa: "",
+							text: "plumbing valves",
+							link: "item/plumbing-valves"
+						 },
+						 {
+							fa: "",
+							text: "electrical wiring",
+							link: "item/non-metallic-wire"
+						 },
+						 {
+							fa: "",
+							text: "outlets & sockets",
+							link: "item/electrical-duplex-outlet"
+						 },
+						 {
+							fa: "",
+							text: "switches & plates",
+							items: [{  // Level three
+										fa: "",
+										text: "switches",
+										link: "item/amp-white-switch"
+									 },
+									 {
+										fa: "",
+										text: "dimmers",
+										link: "item/dimmer-switch"
+									 },
+									 {
+										fa: "",
+										text: "plates: 1 toggle",
+										link: "item/1-toggle-plate"
+									 },
+									 {
+										fa: "",
+										text: "2 toggle",
+										link: "item/2-toggle-plate"
+									 },
+									 {
+										fa: "",
+										text: "3 toggle",
+										link: "item/3-toggle-plate"
+									 },
+									 {
+										fa: "",
+										text: "4 toggle",
+										link: "item/4-toggle-plate"
+									 },
+									 {
+										fa: "",
+										text: "5 toggle",
+										link: "item/5-gang-toggle-plate"
+									 },
+									 {
+										fa: "",
+										text: "combo plates",
+										link: "item/combination-switch-plate"
+									 },
+									 {
+										fa: "",
+										text: "wall outlet plates",
+										link: "item/wall-outlet-plate"
+									 },
+									 {
+										fa: "",
+										text: "return: switches & plates",
+										link: "item/amp-switch"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "return: plumbing & wiring",
+							link: "item/plumbing"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Walls & Ceiling",
+					items: [{ // Level two
+							fa: "",
+							text: "ceiling tile",
+							items: [{  // Level three
+										fa: "",
+										text: "ceiling tile",
+										link: "item/ceiling-tile"
+									 },
+									 {
+										fa: "",
+										text: "ceiling panel",
+										link: "item/ceiling-panel"
+									 },
+									 {
+										fa: "",
+										text: "ceiling medallion",
+										link: "item/ceiling-medallion"
+									 },
+									 {
+										fa: "",
+										text: "ceiling grid",
+										link: "item/ceiling-grid"
+									 },
+									 {
+										fa: "",
+										text: "ceiling wire",
+										link: "item/ceiling-wire"
+									 },
+									 {
+										fa: "",
+										text: "return: ceiling tile",
+										link: "item/ceiling-kit"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "drywall",
+							link: "item/drywall-panel"
+						 },
+						 {
+							fa: "",
+							text: "paint & stain",
+							items: [{  // Level three
+										fa: "",
+										text: "paint samples",
+										link: "item/paint-color-samples"
+									 },
+									 {
+										fa: "",
+										text: "enamel paint",
+										link: "item/enamel-paint"
+									 },
+									 {
+										fa: "",
+										text: "latex paint",
+										link: "item/latex-paint"
+									 },
+									 {
+										fa: "",
+										text: "primers",
+										link: "item/white-primer"
+									 },
+									 {
+										fa: "",
+										text: "spray paint ",
+										link: "item/spray-paint"
+									 },
+									 {
+										fa: "",
+										text: "stains",
+										link: "item/oil-wood-stain"
+									 },
+									 {
+										fa: "",
+										text: "paint brushes & rollers",
+										link: "item/paint-brush"
+									 },
+									 {
+										fa: "",
+										text: "painting supplies",
+										link: "item/paint-tools"
+									 },
+									 {
+										fa: "",
+										text: "return: paint & stain",
+										link: "item/interior-paint"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "molding & rail",
+							items: [{  // Level three
+										fa: "",
+										text: "composite moldings",
+										link: "item/composite-molding"
+									 },
+									 {
+										fa: "",
+										text: "vinyl moldings",
+										link: "item/vinyl-moulding"
+									 },
+									 {
+										fa: "",
+										text: "wood moldings",
+										link: "item/wood-moulding"
+									 },
+									 {
+										fa: "",
+										text: "columns ",
+										link: "item/unfinished-wood-column"
+									 },
+									 {
+										fa: "",
+										text: "decorative woodwork",
+										link: "item/corbel"
+									 },
+									 {
+										fa: "",
+										text: "dowels",
+										link: "item/dowel-tool"
+									 },
+									 {
+										fa: "",
+										text: "railings",
+										link: "item/stair-wall-rail"
+									 },
+									 {
+										fa: "",
+										text: "return: molding & rail",
+										link: "item/wall-molding"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "wallpaper",
+							items: [{  // Level three
+										fa: "",
+										text: "abstract",
+										link: "item/abstract-wallpaper"
+									 },
+									 {
+										fa: "",
+										text: "animals",
+										link: "item/animal-wallpaper"
+									 },
+									 {
+										fa: "",
+										text: "botanical",
+										link: "item/plant-wall-art"
+									 },
+									 {
+										fa: "",
+										text: "children",
+										link: "item/fantasy-wallpaper"
+									 },
+									 {
+										fa: "",
+										text: "color",
+										link: "item/color-wallpaper"
+									 },
+									 {
+										fa: "",
+										text: "damask",
+										link: "item/damask-wallpaper"
+									 },
+									 {
+										fa: "",
+										text: "floral",
+										link: "item/floral-wallpaper"
+									 },
+									 {
+										fa: "",
+										text: "geometric",
+										link: "item/geometric-wallpaper"
+									 },
+									 {
+										fa: "",
+										text: "illustration",
+										link: "item/design-wallpaper"
+									 },
+									 {
+										fa: "",
+										text: "paisley",
+										link: "item/paisley-wallpaper"
+									 },
+									 {
+										fa: "",
+										text: "plaid",
+										link: "item/plaid-wallpaper"
+									 },
+									 {
+										fa: "",
+										text: "stripe",
+										link: "item/stripe-wallpaper"
+									 },
+									 {
+										fa: "",
+										text: "woven",
+										link: "item/woven-wallpaper"
+									 },
+									 {
+										fa: "",
+										text: "return: wallpaper",
+										link: "item/wallpaper"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "wall stone/paneling",
+							items: [{  // Level three
+										fa: "",
+										text: "beadboard",
+										link: "item/wall-beadboard"
+									 },
+									 {
+										fa: "",
+										text: "brick wall",
+										link: "item/clay-brick"
+									 },
+									 {
+										fa: "",
+										text: "stone wall",
+										link: "item/stone-veneer"
+									 },
+									 {
+										fa: "",
+										text: "wainscot board",
+										link: "item/wainscot-wall-panel"
+									 },
+									 {
+										fa: "",
+										text: "wall panel",
+										link: "item/hardboard-panel"
+									 },
+									 {
+										fa: "",
+										text: "return: wall stone/paneling",
+										link: "item/wall-panel-kit"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "wall tile",
+							items: [{  // Level three
+										fa: "",
+										text: "ceramic tile",
+										link: "item/ceramic-wall-tile"
+									 },
+									 {
+										fa: "",
+										text: "porcelain tile",
+										link: "item/porcelain-wall-tile"
+									 },
+									 {
+										fa: "",
+										text: "natural stone tile",
+										link: "item/natural-stone-wall-tile"
+									 },
+									 {
+										fa: "",
+										text: "glass tile",
+										link: "item/glass-wall-tile"
+									 },
+									 {
+										fa: "",
+										text: "mosaic tile",
+										link: "item/mosaic-wall-tile"
+									 },
+									 {
+										fa: "",
+										text: "tile trim",
+										link: "item/tile-trim"
+									 },
+									 {
+										fa: "",
+										text: "tile cleaners",
+										link: "item/tile-cleaner"
+									 },
+									 {
+										fa: "",
+										text: "tile installation",
+										link: "item/tile-installation"
+									 },
+									 {
+										fa: "",
+										text: "return: wall tile",
+										link: "item/wall-tiles"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "return: wall & ceiling",
+							link: "item/wall-drywall"
+						 }]
+				},
+
+				{
+					fa: "fa-shopping-cart",
+					text: "Coupons",
+					link: "/coupons/category/home_structure-10.html"
+				},
+				{
+					fa: "fa",
+					text: "",
+					link: ""
+				},
+				{
+					fa: "",
+					text: "Main Menu",
+					items: [{ // Level two
+							fa: "",
+							text: "shop: Kitchen",
+							link: "/shophome/shop-kitchen.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bath",
+							link: "/shophome/shop-bath.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bedroom",
+							link: "/shophome/shop-bed.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Furniture",
+							link: "/shophome/shop-living.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Decor",
+							link: "/shophome/shop-decor.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Rec Room",
+							link: "/shophome/shop-recroom.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Utility",
+							link: "/shophome/shop-home-utility.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Structure",
+							link: "/shophome/shop-home-structure.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Yard n' Garden",
+							link: "/shophome/shop-garden.php"
+						 },
+						 {
+							fa: "fa",
+							text: "",
+							link: ""
+						 },
+						 {
+							fa: "",
+							text: "home",
+							link: "index.php"
+						 }]
+				}]
+	});
+
+
+});
+
+
+</script>
+
+<!-- END .toggle menu panel -->
+

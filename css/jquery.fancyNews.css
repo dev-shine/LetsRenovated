@@ -1,0 +1,132 @@
+/*
+
+Read the comments, they tell you what you change when you change ;)
+
+*/
+
+/* Reset */
+.fn-container div,
+.fn-container h3,
+.fn-container h4,
+.fn-container ul,
+.fn-container li,
+.fn-container span,
+.fn-container a,
+.fn-container img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	list-style: none;
+	list-style-type: none;
+	max-width: 100%;
+	outline: none;
+}
+
+.fn-container {
+	font-size: 11px; /* Set here the text size of all text elements */
+	line-height: 18px;
+	max-width: 100%;
+	position: relative;
+}
+
+.fn-container > div {
+	display: none;
+}
+
+.fn-news-list {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	list-style: none !important;
+	list-style-type: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* the box of the preview */
+.fn-news-list .fn-preview {
+	width: 100%;
+	cursor: pointer;
+	//overflow: hidden;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	margin-left: 0 !important;
+	padding: 0 !important;
+	background-image: none !important;
+	height: auto !important;
+	margin-bottom: 15px !important
+}
+
+/* the thumbnail in the previews */
+.fn-preview	> img	{
+	margin: 10px; /* Set here the margin for every thumbnail */
+	border-width: 1px;
+	border-style: solid;
+	float: left;
+	max-width: 120px;
+	max-height: 75%;
+}
+
+/* the text box in the previews */
+.fn-preview	> div	{
+	margin: 0 10px; /* Set here the padding for the preview text */
+	padding-top: 3px;
+	//max-height: 50px !important;
+	margin-bottom: 5px !important;
+}
+
+.fn-preview	> div > p {
+	margin: 15px 0 0 0;
+	//display: none;
+	color: #777;
+	font: normal 12px/20px arial; !important;
+}
+
+/* the title in the previews */
+.fn-preview	> div > h3	{
+	//font-size: 14px; /* Set here the size of the title */
+	//line-height: 14px;
+	font-size: 18px; !important;
+	font-family: Signika; !important;
+	font-weight: 400;
+	line-height: 25px !important;
+	color: #E3CCAE !important;
+	//margin-left: 95px;
+	width: 100%;
+	height: auto !important;
+	//background: transparent url(/images/icons/bullet_frame.png) left center no-repeat !important;
+	//padding-left: 25px;
+}
+	
+.fn-preview	> div > h3:hover {
+	color: #EBDAC5 !important;
+	}
+
+
+/* the date in the previews */
+.fn-preview	> div > h4	{
+	margin-bottom: 3px;  /* Set here the offset between date and text */
+	font-size: 10px; /* Set here the size of the date */
+	line-height: 10px;
+	display: none;
+}
+
+.fn-navigation .fn-post-count {
+	margin-left: 10px;
+	float: left;
+	display: none;
+}
+
+
+/* Helper */
+.fn-clearfix:before, .fn-clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.fn-clearfix:after { clear: both; }
+.fn-clearfix { zoom: 1; }
+.fn-clear {clear: both;}
+.fn-hidden {display: none;}
+

@@ -1,0 +1,173 @@
+#logo {
+	float:left;
+}
+#topnav {font-size:11px;padding:4px;text-align:right;}
+#topnav a{font-size:11px;}
+
+
+#logo h1 a{
+	background:url(../images/logo.gif);
+	text-indent:-9999px;
+	width:402px;
+	height:90px;
+	margin:0 10px 0 0;
+	padding:0;
+	display:block;
+}
+#logo h1 a span{
+	text-indent:-9999px;
+}
+#search {
+	padding:20px 0 20px 0;
+}
+
+
+
+
+input.keyword {width:14em}
+.error {
+	margin-bottom:4px;
+	color:#ff0000;
+}
+.slider4 {
+	width: 300px;
+	height: 20px;
+	background-image: url(../images/slider_resize_back.jpg);
+	border: 0px hidden #000;
+	margin-top:6px;
+}
+#indicator1 {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	height: 20px;
+	width: 10px;
+}
+
+
+
+
+
+
+.browse h3:hover {
+}
+.browse h3.active {
+	color:#ccc;
+}
+.browse div {
+	margin: 0;
+	padding: 10px 0 10px 0;
+}
+
+#popular-keywords h2  {font-size:16px;margin:0;padding:0}
+#popular-keywords span  {font-size:16px;}
+
+
+
+
+
+span.price {font-size:1.4em}
+
+
+
+
+.keywordsAZ {padding:8px;}
+
+
+#loading-image {
+
+}
+
+
+
+.items > li{
+	float:left;
+	width:16.6667%;
+	padding:0 15px 15px 0;
+}
+.items li .thumbnail{
+	position:relative;
+	margin:0;
+	padding:0;
+	border:0;
+	border-radius:5px;
+	-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.2);
+	-webkit-transition:none;
+	transition:none;
+}
+.items li .thumbnail .sq{
+	position:relative;
+	padding-bottom:100%;
+	width:100%;
+	height:0;
+	background-color:#fcfcfc;
+	border-bottom:1px solid #e8e8e8;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	overflow:hidden;
+}
+.items li .thumbnail a .sq img{
+	position:absolute;
+	height:100%;
+	max-width:none;
+	color:#fcfcfc;
+}
+.items li .thumbnail a:hover .sq img{
+	opacity:0.9;
+	-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+}
+.items li .thumbnail h3{
+	margin:0;
+	padding:8px 9px 0;
+	font-size:13px;
+	font-weight:normal;
+	line-height:inherit;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+/*
+.items li .thumbnail > a:visited, .items li .thumbnail > a:visited h3{
+	color:#6A29B9;
+}
+*/
+.items li .thumbnail .info{
+	padding:0 9px;
+	font-size:13px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.items li .thumbnail .actions{
+	padding:0 9px 9px;
+	overflow:hidden;
+}
+.items li .thumbnail .actions .btn{
+	margin-top:5px;
+	min-width:42px;
+}
+.text-danger{
+	color:#ff0000;
+}
+.items .well ul{
+	list-style:disc;
+}
+.navbar-brand img {
+  position: relative;
+  top: -2px;
+display:inline;
+}
+
+.btn-transparent, .btn-transparent:focus, .btn-transparent:hover, .btn-transparent:active, .btn-transparent.active {
+  height: 39px;
+  line-height: 19px;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+
+footer p {text-align:center}
+
+.noUi-origin {background-color:#fff}

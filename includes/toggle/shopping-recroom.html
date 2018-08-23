@@ -1,0 +1,630 @@
+<!-- BEGIN .toggle menu for shopping panel -->
+
+<script type="text/javascript">
+
+// This launch Puma SideBar on form load.
+$("#botLaunch,#botLaunch2,#botLaunch3").on("click",function(){
+
+	$.PumaSideBar({
+		position: "left",  // Position
+		label: "Rec Area", // Initial label
+		movebody: true, // if you want to push or not your page
+		avatar: "", // Initial avatar.
+		items: [{ // Level one
+					fa: "",
+					text: "Billiard/Game Room",
+					items: [{ // Level two
+							fa: "",
+							text: "pool tables",
+							link: "item/pool-table"
+						 },
+						 {
+							fa: "",
+							text: "dart boards",
+							link: "item/dart-board"
+						 },
+						 {
+							fa: "",
+							text: "foosball & air hockey",
+							link: "item/foosball-table"
+						 },
+						 {
+							fa: "",
+							text: "game tables & play",
+							link: "item/game-table"
+						 },
+						 {
+							fa: "",
+							text: "pinball & arcade",
+							link: "item/pinball-shoe"
+						 },
+						 {
+							fa: "",
+							text: "table tennis",
+							link: "item/table-tennis"
+						 },
+						 {
+							fa: "",
+							text: "return: billiard/game room",
+							link: "item/billiard-game-room"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Computer Room",
+					items: [{ // Level two
+							fa: "",
+							text: "desktop computers",
+							link: "item/desktop-computer"
+						 },
+						 {
+							fa: "",
+							text: "laptops",
+							link: "item/laptop-computer"
+						 },
+						 {
+							fa: "",
+							text: "pads",
+							link: "item/computer-tablet"
+						 },
+						 {
+							fa: "",
+							text: "smartphones",
+							link: "item/smartphones"
+						 },
+						 {
+							fa: "",
+							text: "peripherals",
+							link: "item/peripheral"
+						 },
+						 {
+							fa: "",
+							text: "printers",
+							link: "item/printer"
+						 },
+						 {
+							fa: "",
+							text: "computer desks",
+							link: "item/computer-desk"
+						 },
+						 {
+							fa: "",
+							text: "computer desks",
+							link: "item/computer-desk"
+						 },
+						 {
+							fa: "",
+							text: "gaming fun",
+							link: "item/xbox"
+						 },
+						 {
+							fa: "",
+							text: "monitors",
+							items: [{  // Level three
+										fa: "",
+										text: "acer",
+										link: "item/acer-monitor"
+									 },
+									 {
+										fa: "",
+										text: "apple",
+										link: "item/apple-display-monitor"
+									 },
+									 {
+										fa: "",
+										text: "asus",
+										link: "item/asus-monitor"
+									 },
+									 {
+										fa: "",
+										text: "dell",
+										link: "item/dell-monitor"
+									 },
+									 {
+										fa: "",
+										text: "lenovo",
+										link: "item/lenovo-monitor"
+									 },
+									 {
+										fa: "",
+										text: "LG",
+										link: "item/lg-monitor"
+									 },
+									 {
+										fa: "",
+										text: "NEC",
+										link: "item/nec-monitor"
+									 },
+									 {
+										fa: "",
+										text: "samsung",
+										link: "item/samsung-monitor"
+									 },
+									 {
+										fa: "",
+										text: "touch",
+										link: "item/touchcomputer-monitor"
+									 },
+									 {
+										fa: "",
+										text: "viewsonic",
+										link: "item/viewsonic-monitor"
+									 },
+									 {
+										fa: "",
+										text: "adapters",
+										link: "item/monitor-adapter"
+									 },
+									 {
+										fa: "",
+										text: "arms",
+										link: "item/monitor-arm"
+									 },
+									 {
+										fa: "",
+										text: "filters",
+										link: "item/monitor-filter"
+									 },
+									 {
+										fa: "",
+										text: "switches",
+										link: "item/monitor-switch"
+									 },
+									 {
+										fa: "",
+										text: "return: monitors",
+										link: "item/monitor"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "return: computer room",
+							link: "item/computer"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Exercise Room",
+					items: [{ // Level two
+							fa: "",
+							text: "aerobic training",
+							link: "item/aerobic"
+						 },
+						 {
+							fa: "",
+							text: "strength training",
+							link: "item/abdominal"
+						 },
+						 {
+							fa: "",
+							text: "fitness training",
+							link: "item/fitness-mat"
+						 },
+						 {
+							fa: "",
+							text: "health check monitors",
+							link: "item/health-monitor"
+						 },
+						 {
+							fa: "",
+							text: "return: exercise room",
+							link: "item/fitness-room"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Home Bar & Lounge",
+					items: [{ // Level two
+							fa: "",
+							text: "home bars",
+							link: "item/home-bar-lounge"
+						 },
+						 {
+							fa: "",
+							text: "bar decor",
+							link: "item/bar-clock"
+						 },
+						 {
+							fa: "",
+							text: "bar sinks & faucets",
+							link: "item/bar-sink"
+						 },
+						 {
+							fa: "",
+							text: "bar stemware",
+							link: "item/bar-stemware"
+						 },
+						 {
+							fa: "",
+							text: "bar stools",
+							link: "item/bar-stool"
+						 },
+						 {
+							fa: "",
+							text: "pub table sets",
+							link: "item/pub-table"
+						 },
+						 {
+							fa: "",
+							text: "wine cabinets",
+							link: "item/wine-cabinet"
+						 },
+						 {
+							fa: "",
+							text: "return: home bar & lounge",
+							link: "item/home-bar"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Home Theater",
+					items: [{ // Level two
+							fa: "",
+							text: "home theater systems",
+							link: "item/home-theater-system"
+						 },
+						 {
+							fa: "",
+							text: "home theater seating",
+							link: "item/theater-seating"
+						 },
+						 {
+							fa: "",
+							text: "home theater stuff",
+							link: "item/popcorn-machine"
+						 },
+						 {
+							fa: "",
+							text: "TV",
+							items: [{  // Level three
+										fa: "",
+										text: "LED TV",
+										link: "item/led-tv"
+									 },
+									 {
+										fa: "",
+										text: "HDTV",
+										link: "item/hdtv"
+									 },
+									 {
+										fa: "",
+										text: "OLED TV",
+										link: "item/oled-tv"
+									 },
+									 {
+										fa: "",
+										text: "SMART TV",
+										link: "item/smart-tv"
+									 },
+									 {
+										fa: "",
+										text: "3D TV",
+										link: "item/3d-tv"
+									 },
+									 {
+										fa: "",
+										text: "19in",
+										link: "item/19-tv"
+									 },
+									 {
+										fa: "",
+										text: "26in",
+										link: "item/26-tv"
+									 },
+									 {
+										fa: "",
+										text: "32in",
+										link: "item/32-tv.php"
+									 },
+									 {
+										fa: "",
+										text: "37in",
+										link: "item/39-tv"
+									 },
+									 {
+										fa: "",
+										text: "39in",
+										link: "item/39-tv"
+									 },
+									 {
+										fa: "",
+										text: "40in",
+										link: "item/40-tv"
+									 },
+									 {
+										fa: "",
+										text: "42in",
+										link: "item/42-tv"
+									 },
+									 {
+										fa: "",
+										text: "46in",
+										link: "item/46-tv"
+									 },
+									 {
+										fa: "",
+										text: "47in",
+										link: "item/39-tv"
+									 },
+									 {
+										fa: "",
+										text: "50in",
+										link: "item/50-tv"
+									 },
+									 {
+										fa: "",
+										text: "55in",
+										link: "item/55-tv"
+									 },
+									 {
+										fa: "",
+										text: "60in",
+										link: "item/60-tv"
+									 },
+									 {
+										fa: "",
+										text: "65in",
+										link: "item/65-tv"
+									 },
+									 {
+										fa: "",
+										text: "70in",
+										link: "item/70-tv"
+									 },
+									 {
+										fa: "",
+										text: "return: TV",
+										link: "item/tv"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "media systems",
+							link: "item/media-systems"
+						 },
+						 {
+							fa: "",
+							text: "audio systems",
+							link: "item/audio-theater-speaker"
+						 },
+						 {
+							fa: "",
+							text: "receivers",
+							link: "item/theater-receiver"
+						 },
+						 {
+							fa: "",
+							text: "how-to",
+							link: "item/home-theater"
+						 },
+						 {
+							fa: "",
+							text: "return: home theater",
+							link: "item/home-theater"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Kids Playroom",
+					items: [{ // Level two
+							fa: "",
+							text: "activity tables",
+							link: "item/activity-table"
+						 },
+						 {
+							fa: "",
+							text: "doll houses",
+							link: "item/dollhouse"
+						 },
+						 {
+							fa: "",
+							text: "kids furniture",
+							link: "item/children-table-chair"
+						 },
+						 {
+							fa: "",
+							text: "play houses",
+							link: "item/playhouse"
+						 },
+						 {
+							fa: "",
+							text: "play school",
+							link: "item/school-play-house"
+						 },
+						 {
+							fa: "",
+							text: "toy boxes & storage",
+							link: "item/toy-box"
+						 },
+						 {
+							fa: "",
+							text: "toys & games",
+							link: "item/action-figure"
+						 },
+						 {
+							fa: "",
+							text: "train sets",
+							link: "item/train-set"
+						 },
+						 {
+							fa: "",
+							text: "return: kids playroom",
+							link: "item/playroom"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Music Room",
+					items: [{ // Level two
+							fa: "",
+							text: "AM-FM-satellite radio",
+							link: "item/am-fm-radio"
+						 },
+						 {
+							fa: "",
+							text: "amplifiers",
+							link: "item/acoustic-amplifier"
+						 },
+						 {
+							fa: "",
+							text: "digital pianos",
+							link: "item/digital-piano"
+						 },
+						 {
+							fa: "",
+							text: "listening devices",
+							link: "item/listening-center"
+						 },
+						 {
+							fa: "",
+							text: "receivers",
+							link: "item/stereo-receiver"
+						 },
+						 {
+							fa: "",
+							text: "recording studio",
+							link: "item/recording-studio"
+						 },
+						 {
+							fa: "",
+							text: "speakers",
+							link: "item/speaker-system"
+						 },
+						 {
+							fa: "",
+							text: "return: music room",
+							link: "item/music-room"
+						 }]
+				},
+				{
+					fa: "",
+					text: "The Artists Room",
+					items: [{ // Level two
+							fa: "",
+							text: "brushes",
+							link: "item/artist-brush"
+						 },
+						 {
+							fa: "",
+							text: "ceramics",
+							link: "item/ceramic"
+						 },
+						 {
+							fa: "",
+							text: "crafts",
+							link: "item/craft"
+						 },
+						 {
+							fa: "",
+							text: "cutting tools",
+							link: "item/cutting-tool"
+						 },
+						 {
+							fa: "",
+							text: "drawing & illustration",
+							link: "item/drawing-tool"
+						 },
+						 {
+							fa: "",
+							text: "easels",
+							link: "item/easel"
+						 },
+						 {
+							fa: "",
+							text: "paints",
+							link: "item/paint-set"
+						 },
+						 {
+							fa: "",
+							text: "painting surfaces",
+							link: "item/cotton-canvas"
+						 },
+						 {
+							fa: "",
+							text: "sculpture & molding",
+							link: "item/sculpture"
+						 },
+						 {
+							fa: "",
+							text: "return: the artists room",
+							link: "item/the-artist-room"
+						 }]
+				},
+				{
+					fa: "fa-shopping-cart",
+					text: "Coupons",
+					link: "/coupons/category/rectech_room-16.html"
+				},
+				{
+					fa: "fa",
+					text: "",
+					link: ""
+				},
+				{
+					fa: "",
+					text: "Main Menu",
+					items: [{ // Level two
+							fa: "",
+							text: "shop: Kitchen",
+							link: "/shophome/shop-kitchen.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bath",
+							link: "/shophome/shop-bath.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bedroom",
+							link: "/shophome/shop-bed.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Furniture",
+							link: "/shophome/shop-living.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Decor",
+							link: "/shophome/shop-decor.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Rec Room",
+							link: "/shophome/shop-recroom.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Utility",
+							link: "/shophome/shop-home-utility.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Structure",
+							link: "/shophome/shop-home-structure.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Yard n' Garden",
+							link: "/shophome/shop-garden.php"
+						 },
+						 {
+							fa: "fa",
+							text: "",
+							link: ""
+						 },
+						 {
+							fa: "",
+							text: "home",
+							link: "index.php"
+						 }]
+				}]
+	});
+
+
+});
+
+
+</script>
+
+<!-- END .toggle menu panel -->

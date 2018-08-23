@@ -1,0 +1,396 @@
+<!-- BEGIN .toggle menu for shopping panel -->
+
+<script type="text/javascript">
+
+// This launch Puma SideBar on form load.
+$("#botLaunch,#botLaunch2,#botLaunch3").on("click",function(){
+
+	$.PumaSideBar({
+		position: "left",  // Position
+		label: "Bath Menu", // Initial label
+		movebody: true, // if you want to push or not your page
+		avatar: "", // Initial avatar.
+		items: [{ // Level one
+					fa: "",
+					text: "Bath Tubs",
+					items: [{ // Level two
+							fa: "",
+							text: "air tubs",
+							link: "item/air-tub"
+						 },
+						 {
+							fa: "",
+							text: "clawfoot tubs",
+							link: "item/clawfoot-tub"
+						 },
+						 {
+							fa: "",
+							text: "freestanding tubs",
+							link: "item/freestanding-bath-tub"
+						 },
+						 {
+							fa: "",
+							text: "jet tubs",
+							link: "item/jet-bath-tub"
+						 },
+						 {
+							fa: "",
+							text: "soaking tubs",
+							link: "item/soaking-bath-tub"
+						 },
+						 {
+							fa: "",
+							text: "standard bath tubs",
+							link: "item/bath-tub"
+						 },
+						 {
+							fa: "",
+							text: "tub & shower systems",
+							link: "item/shower-and-tub"
+						 },
+						 {
+							fa: "",
+							text: "walk-in tubs",
+							link: "item/walk-in-tub"
+						 },
+						 {
+							fa: "",
+							text: "return: bathtubs",
+							link: "item/bath-tubs"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Sinks & Faucets",
+					items: [{ // Level two
+							fa: "",
+							text: "bathroom sinks",
+							link: "item/bathroom-sinks"
+						 },
+						 {
+							fa: "",
+							text: "bathroom faucets",
+							link: "item/bathroom-faucet"
+						 },
+						 {
+							fa: "",
+							text: "return: bath sinks n' faucets",
+							link: "item/bathroom-sink-and-faucet"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Shower Fixtures",
+					items: [{ // Level two
+							fa: "",
+							text: "shower enclosures",
+							link: "item/shower-enclosure"
+						 },
+						 {
+							fa: "",
+							text: "shower modules",
+							link: "item/shower-module"
+						 },
+						 {
+							fa: "",
+							text: "shower fixtures",
+							link: "item/shower-system"
+						 },
+						 {
+							fa: "",
+							text: "shower doors",
+							link: "item/shower-door"
+						 },
+						 {
+							fa: "",
+							text: "shower bases",
+							link: "item/shower-base"
+						 },
+						 {
+							fa: "",
+							text: "return: shower fixtures",
+							link: "item/water-shower"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Toilets and Bidets",
+					items: [{ // Level two
+							fa: "",
+							text: "elongated toilets",
+							link: "item/elongated-toilet"
+						 },
+						 {
+							fa: "",
+							text: "rounded toilets",
+							link: "item/round-front-toilet"
+						 },
+						 {
+							fa: "",
+							text: "high efficiency toilets",
+							link: "item/high-efficiency-toilet"
+						 },
+						 {
+							fa: "",
+							text: "toilet seats",
+							link: "item/elongated-toilet-seat"
+						 },
+						 {
+							fa: "",
+							text: "bidets",
+							link: "item/bidet"
+						 },
+						 {
+							fa: "",
+							text: "misc parts",
+							link: "item/electronic-toilet"
+						 },
+						 {
+							fa: "",
+							text: "return: toilets n' bidets",
+							link: "item/toilets-and-bidets"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Vanities & Cabinets",
+					items: [{ // Level two
+							fa: "",
+							text: "double sink vanity",
+							link: "item/double-vanity"
+						 },
+						 {
+							fa: "",
+							text: "single sink vanity",
+							link: "item/single-vanity"
+						 },
+						 {
+							fa: "",
+							text: "bathroom cabinets",
+							link: "item/bathroom-cabinet"
+						 },
+						 {
+							fa: "",
+							text: "return: vanities & cabinets",
+							link: "item/bathroom-vanity"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Bath Hardware",
+					items: [{ // Level two
+							fa: "",
+							text: "towel racks & bars",
+							link: "item/towel-rack"
+						 },
+						 {
+							fa: "",
+							text: "cosmetic & cleaning holders",
+							link: "item/toilet-paper-holder"
+						 },
+						 {
+							fa: "",
+							text: "cabinet knobs",
+							link: "item/cabinet-knobs"
+						 },
+						 {
+							fa: "",
+							text: "safety hardware",
+							link: "item/assist-bars"
+						 },
+						 {
+							fa: "",
+							text: "return: bath hardware",
+							link: "item/bathroom-hardware-set"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Bath Lighting",
+					items: [{ // Level two
+							fa: "",
+							text: "bath vanity lighting",
+							link: "item/vanity-lights"
+						 },
+						 {
+							fa: "",
+							text: "bath fixture lightin",
+							link: "item/bath-fixture-lights"
+						 },
+						 {
+							fa: "",
+							text: "bath ceiling lighting",
+							link: "item/bath-ceiling-lights"
+						 },
+						 {
+							fa: "",
+							text: "bath wall sconce",
+							link: "item/bath-wall-sconce"
+						 },
+						 {
+							fa: "",
+							text: "exhaust bath fan",
+							link: "item/bath-fan"
+						 },
+						 {
+							fa: "",
+							text: "return: bath lighting",
+							link: "item/bathroom-lighting"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Bath Linens",
+					items: [{ // Level two
+							fa: "",
+							text: "bath sheets",
+							link: "item/bath-towel-sheet"
+						 },
+						 {
+							fa: "",
+							text: "bath towels",
+							link: "item/bath-towel-set"
+						 },
+						 {
+							fa: "",
+							text: "beach towels",
+							link: "item/beach-towel"
+						 },
+						 {
+							fa: "",
+							text: "decorative towel sets",
+							link: "item/decorative-towel-set"
+						 },
+						 {
+							fa: "",
+							text: "hooded towels",
+							link: "item/hooded-towel"
+						 },
+						 {
+							fa: "",
+							text: "kids towel",
+							link: "item/kids-towel"
+						 },
+						 {
+							fa: "",
+							text: "wash cloths",
+							link: "item/wash-cloth"
+						 },
+						 {
+							fa: "",
+							text: "bath rugs",
+							link: "item/bath-rugs"
+						 },
+						 {
+							fa: "",
+							text: "return: bath linens",
+							link: "item/bath-linens"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Mirrors",
+					items: [{ // Level two
+							fa: "",
+							text: "medicine cabinets",
+							link: "item/mirror-medicine-cabinet"
+						 },
+						 {
+							fa: "",
+							text: "bath counter mirrors",
+							link: "item/bath-mirror-on-stand"
+						 },
+						 {
+							fa: "",
+							text: "bath vanity mirrors",
+							link: "item/bath-vanity-mirror"
+						 },
+						 {
+							fa: "",
+							text: "bath wall mirrors",
+							link: "item/bath-wall-mirror"
+						 },
+						 {
+							fa: "",
+							text: "return: mirrors",
+							link: "item/bath-mirror"
+						 }]
+				},
+				{
+					fa: "fa-shopping-cart",
+					text: "Coupons",
+					link: "/coupons/category/bed__bath-13.html"
+				},
+				{
+					fa: "fa",
+					text: "",
+					link: ""
+				},
+				{
+					fa: "",
+					text: "Main Menu",
+					items: [{ // Level two
+							fa: "",
+							text: "shop: Kitchen",
+							link: "/shophome/shop-kitchen.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bath",
+							link: "/shophome/shop-bath.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bedroom",
+							link: "/shophome/shop-bed.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Furniture",
+							link: "/shophome/shop-living.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Decor",
+							link: "/shophome/shop-decor.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Rec Room",
+							link: "/shophome/shop-recroom.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Utility",
+							link: "/shophome/shop-home-utility.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Structure",
+							link: "/shophome/shop-home-structure.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Yard n' Garden",
+							link: "/shophome/shop-garden.php"
+						 },
+						 {
+							fa: "fa",
+							text: "",
+							link: ""
+						 },
+						 {
+							fa: "",
+							text: "home",
+							link: "index.php"
+						 }]
+				}]
+	});
+
+
+});
+
+
+</script>
+
+<!-- END .toggle menu panel -->

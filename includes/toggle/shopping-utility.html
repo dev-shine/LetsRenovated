@@ -1,0 +1,481 @@
+<!-- BEGIN .toggle menu for shopping panel -->
+
+<script type="text/javascript">
+
+// This launch Puma SideBar on form load.
+$("#botLaunch,#botLaunch2,#botLaunch3").on("click",function(){
+
+	$.PumaSideBar({
+		position: "left",  // Position
+		label: "Home Utility", // Initial label
+		movebody: true, // if you want to push or not your page
+		avatar: "", // Initial avatar.
+		items: [{ // Level one
+					fa: "",
+					text: "Cleaning",
+					items: [{ // Level two
+							fa: "",
+							text: "cleaning machines",
+							link: "item/cleaning-machines"
+						 },
+						 {
+							fa: "",
+							text: "cleaning machine parts",
+							link: "item/vacuum-bags"
+						 },
+						 {
+							fa: "",
+							text: "cleansers",
+							link: "item/bleach-cleanser"
+						 },
+						 {
+							fa: "",
+							text: "door mats and shoe racks",
+							link: "item/doormats"
+						 },
+						 {
+							fa: "",
+							text: "floor care",
+							link: "item/floor-care"
+						 },
+						 {
+							fa: "",
+							text: "pet care",
+							link: "item/pet-care"
+						 },
+						 {
+							fa: "",
+							text: "sofa slipcovers",
+							link: "item/sofa-cover"
+						 },
+						 {
+							fa: "",
+							text: "return: cleaning",
+							link: "item/house-cleaning"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Closet Organization",
+					items: [{ // Level two
+							fa: "",
+							text: "closet systems",
+							link: "item/closet-systems"
+						 },
+						 {
+							fa: "",
+							text: "closet components",
+							link: "item/closet-tower"
+						 },
+						 {
+							fa: "",
+							text: "closet organization",
+							link: "item/closet-organization"
+						 },
+						 {
+							fa: "",
+							text: "clothes hangers",
+							link: "item/clothes-hangers"
+						 },
+						 {
+							fa: "",
+							text: "shoe storage",
+							link: "item/shoe-storage"
+						 },
+						 {
+							fa: "",
+							text: "general organization",
+							link: "item/modular-storage"
+						 },
+						 {
+							fa: "",
+							text: "return: closet organization",
+							link: "item/closet-system"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Fireplaces",
+					items: [{ // Level two
+							fa: "",
+							text: "fireplace units",
+							link: "item/fireplace-units"
+						 },
+						 {
+							fa: "",
+							text: "fireplace mantels",
+							link: "item/fireplace-mantel"
+						 },
+						 {
+							fa: "",
+							text: "fireplace tools",
+							link: "item/fireplace-tool"
+						 },
+						 {
+							fa: "",
+							text: "fire burning stoves",
+							link: "item/indoor-wood-stove"
+						 },
+						 {
+							fa: "",
+							text: "fuel-lighters-storage",
+							link: "item/gel-fuel"
+						 },
+						 {
+							fa: "",
+							text: "chimney stuff",
+							link: "item/roof-chimney-cap"
+						 },
+						 {
+							fa: "",
+							text: "return: fireplaces",
+							link: "item/fireplace"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Heating and Cooling",
+					items: [{ // Level two
+							fa: "",
+							text: "air cooling",
+							link: "item/air-cooling"
+						 },
+						 {
+							fa: "",
+							text: "air quality",
+							link: "item/air-purifier"
+						 },
+						 {
+							fa: "",
+							text: "fans",
+							link: "item/fan"
+						 },
+						 {
+							fa: "",
+							text: "hvac controls",
+							link: "item/hvac-control"
+						 },
+						 {
+							fa: "",
+							text: "hvac filters",
+							link: "item/hvac-filter"
+						 },
+						 {
+							fa: "",
+							text: "hvac stuff",
+							link: "item/hvac-duct"
+						 },
+						 {
+							fa: "",
+							text: "home heating",
+							link: "item/air-heating"
+						 },
+						 {
+							fa: "",
+							text: "water heating",
+							link: "item/water-heater"
+						 },
+						 {
+							fa: "",
+							text: "return: heating n' cooling",
+							link: "item/heating-and-cooling"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Home Networking",
+					items: [{ // Level two
+							fa: "",
+							text: "home automation",
+							link: "item/home-automation"
+						 },
+						 {
+							fa: "",
+							text: "communication networks",
+							link: "item/automatic-telephone"
+						 },
+						 {
+							fa: "",
+							text: "computer networks",
+							link: "item/networks"
+						 },
+						 {
+							fa: "",
+							text: "home theater networks",
+							link: "item/home-theater-network"
+						 },
+						 {
+							fa: "",
+							text: "satellite & TV networks",
+							link: "item/tv-network"
+						 },
+						 {
+							fa: "",
+							text: "installation",
+							link: "item/home-automation-installation"
+						 },
+						 {
+							fa: "",
+							text: "return: home networking",
+							link: "item/home-network"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Home Security",
+					items: [{ // Level two
+							fa: "",
+							text: "air safety",
+							link: "item/air-purifier"
+						 },
+						 {
+							fa: "",
+							text: "fire safety",
+							link: "item/fire-safety-kit"
+						 },
+						 {
+							fa: "",
+							text: "generators",
+							link: "item/generator"
+						 },
+						 {
+							fa: "",
+							text: "home security systems",
+							link: "item/home-security-system"
+						 },
+						 {
+							fa: "",
+							text: "safety devices",
+							link: "item/home-safety"
+						 },
+						 {
+							fa: "",
+							text: "security cameras",
+							link: "item/security-camera"
+						 },
+						 {
+							fa: "",
+							text: "security entry",
+							link: "item/deadbolt"
+						 },
+						 {
+							fa: "",
+							text: "security safe",
+							link: "item/electronic-safe"
+						 },
+						 {
+							fa: "",
+							text: "return: home security",
+							link: "item/home-security-systems"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Laundry Room",
+					items: [{ // Level two
+							fa: "",
+							text: "washers",
+							link: "item/clothes-washer"
+						 },
+						 {
+							fa: "",
+							text: "dryers",
+							link: "item/clothes-dryer"
+						 },
+						 {
+							fa: "",
+							text: "washer-dryer combos",
+							link: "item/washer-dryer-combo"
+						 },
+						 {
+							fa: "",
+							text: "ironing centers",
+							link: "item/ironing-center"
+						 },
+						 {
+							fa: "",
+							text: "laundry organization",
+							link: "item/laundry-organize"
+						 },
+						 {
+							fa: "",
+							text: "laundry storage",
+							link: "item/laundry-storage"
+						 },
+						 {
+							fa: "",
+							text: "laundry supplies",
+							link: "item/laundry-bleach"
+						 },
+						 {
+							fa: "",
+							text: "mud room",
+							link: "item/mud-room"
+						 },
+						 {
+							fa: "",
+							text: "return: laundry room",
+							link: "item/laundry-room"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Storage",
+					items: [{ // Level two
+							fa: "",
+							text: "clothes storage",
+							link: "item/clothes-storage-bags"
+						 },
+						 {
+							fa: "",
+							text: "food storage",
+							link: "item/food-storage"
+						 },
+						 {
+							fa: "",
+							text: "garage storage",
+							link: "item/garage-storage"
+						 },
+						 {
+							fa: "",
+							text: "laundry storage",
+							link: "item/laundry-storage-units"
+						 },
+						 {
+							fa: "",
+							text: "room storage",
+							link: "item/room-storage"
+						 },
+						 {
+							fa: "",
+							text: "sport storage",
+							link: "item/sport-storage"
+						 },
+						 {
+							fa: "",
+							text: "toy storage",
+							link: "item/toy-storage"
+						 },
+						 {
+							fa: "",
+							text: "return: storage",
+							link: "item/home-storage"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Utility Savings",
+					items: [{ // Level two
+							fa: "",
+							text: "lighting: fluorescent",
+							link: "item/compact-fluorescent"
+						 },
+						 {
+							fa: "",
+							text: "lighting: LED",
+							link: "item/led-socket-light-bulb"
+						 },
+						 {
+							fa: "",
+							text: "electric car chargers",
+							link: "item/electric-car-charger"
+						 },
+						 {
+							fa: "",
+							text: "generators",
+							link: "item/generators"
+						 },
+						 {
+							fa: "",
+							text: "solar power",
+							link: "item/solar-power"
+						 },
+						 {
+							fa: "",
+							text: "wind power",
+							link: "item/standing-wind-turbine"
+						 },
+						 {
+							fa: "",
+							text: "return: utility savings",
+							link: "item/utility-light"
+						 }]
+				},
+				{
+					fa: "fa-shopping-cart",
+					text: "Coupons",
+					link: "/coupons/category/home_utility-11.html"
+				},
+				{
+					fa: "fa",
+					text: "",
+					link: ""
+				},
+				{
+					fa: "",
+					text: "Main Menu",
+					items: [{ // Level two
+							fa: "",
+							text: "shop: Kitchen",
+							link: "/shophome/shop-kitchen.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bath",
+							link: "/shophome/shop-bath.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bedroom",
+							link: "/shophome/shop-bed.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Furniture",
+							link: "/shophome/shop-living.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Decor",
+							link: "/shophome/shop-decor.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Rec Room",
+							link: "/shophome/shop-recroom.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Utility",
+							link: "/shophome/shop-home-utility.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Structure",
+							link: "/shophome/shop-home-structure.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Yard n' Garden",
+							link: "/shophome/shop-garden.php"
+						 },
+						 {
+							fa: "fa",
+							text: "",
+							link: ""
+						 },
+						 {
+							fa: "",
+							text: "home",
+							link: "index.php"
+						 }]
+				}]
+	});
+
+
+});
+
+
+</script>
+
+<!-- END .toggle menu panel -->

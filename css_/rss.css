@@ -1,0 +1,60 @@
+
+/* =================================================== *
+ * RSS FEED ELEMENTS
+ * =================================================== */
+
+
+.labelfield{ /*CSS for label field in general*/
+color:#647D99;
+font: normal 9px/12px arial, helvetica, sans-serif;
+}
+
+.datefield{ /*CSS for date field in general*/
+color:#647D99;
+font: normal 9px/12px arial, helvetica, sans-serif;
+}
+
+
+#example2 div{ /*CSS specific to demo 2*/
+margin-bottom: 5px;
+width: 145px;
+padding-left: 5px;
+font: normal 10px/17px verdana,arial, helvetica, sans-serif;
+color: #777;
+}
+
+#example2 div a{ /*CSS specific to demo 2*/
+text-decoration: underline;
+font: bold 10px/17px verdana,arial, helvetica, sans-serif;
+color: #666;
+}
+
+#example2 div a:hover { /*CSS specific to demo 2*/
+text-decoration: underline;
+font: bold 10px/17px verdana,arial, helvetica, sans-serif;
+color: #777777;
+}
+
+code{ /*CSS for insructions*/
+color: red;
+}
+
+.headerblognews {
+	font: bold 14px/17px verdana,arial, helvetica, sans-serif;
+	padding: 5px 0px 15px 15px;
+	color: #666;
+	text-align: left;
+	}
+	
+.blognews {
+	border-top: 2px dotted #777;
+	border-bottom: 2px dotted #777;
+	border-left: 2px dotted #777;
+	padding: 15px 0px 15px 10px;
+	text-align: left;
+	background: transparent url(/images/bg_news.jpg) top left repeat-y;
+	}	
+	
+	
+	
+	

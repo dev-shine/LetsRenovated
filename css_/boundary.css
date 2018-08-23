@@ -1,0 +1,21 @@
+/* ======================================================= *
+ * TITLE   : NBuy Scholarships  | form2col.css             *
+ * AUTHOR  : Kevin Scholl       | kscholl@comast.net       *
+ * CREATED : 08 Jan 2007        | UPDATED: 08 Jan 2007     *
+ * ======================================================= */
+
+/* =================================================== *
+ * BOUNDARY-BORDER
+ * =================================================== */
+
+.tdleft1 {
+	border-bottom: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+	vertical-align: top;
+	padding-top: 20px;
+	}
+
+.tdleft2 {
+	border-bottom: solid 1px #ccc;
+	border-right: solid 0px #ccc;
+	}

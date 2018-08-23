@@ -1,0 +1,486 @@
+<!-- BEGIN .toggle menu for shopping panel -->
+
+<script type="text/javascript">
+
+// This launch Puma SideBar on form load.
+$("#botLaunch,#botLaunch2,#botLaunch3").on("click",function(){
+
+	$.PumaSideBar({
+		position: "left",  // Position
+		label: "Home Decor", // Initial label
+		movebody: true, // if you want to push or not your page
+		avatar: "", // Initial avatar.
+		items: [{ // Level one
+					fa: "",
+					text: "Candles",
+					items: [{ // Level two
+							fa: "",
+							text: " candles",
+							link: "item/candle"
+						 },
+						 {
+							fa: "",
+							text: "holiday candles",
+							link: "item/holiday-candle"
+						 },
+						 {
+							fa: "",
+							text: "candelabras",
+							link: "item/candle-candelabras"
+						 },
+						 {
+							fa: "",
+							text: "candle holders",
+							link: "item/candle-holder"
+						 },
+						 {
+							fa: "",
+							text: "candle sconces",
+							link: "item/candle-holder-wall"
+						 },
+						 {
+							fa: "",
+							text: "lanterns",
+							link: "item/candle-lantern"
+						 },
+						 {
+							fa: "",
+							text: "torches",
+							link: "item/torch"
+						 },
+						 {
+							fa: "",
+							text: "return: candles",
+							link: "item/candle-lighting"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Clocks",
+					items: [{ // Level two
+							fa: "",
+							text: "atomic clocks",
+							link: "item/atomic-clock"
+						 },
+						 {
+							fa: "",
+							text: "cuckoo clocks",
+							link: "item/cuckoo-clock"
+						 },
+						 {
+							fa: "",
+							text: "desktop clocks",
+							link: "item/desktop-clock"
+						 },
+						 {
+							fa: "",
+							text: "floor clocks",
+							link: "item/floor-clock"
+						 },
+						 {
+							fa: "",
+							text: "grandfather clocks",
+							link: "item/grandfather-clock"
+						 },
+						 {
+							fa: "",
+							text: "hourglass",
+							link: "item/hourglass-clock"
+						 },
+						 {
+							fa: "",
+							text: "mantel clocks",
+							link: "item/mantel-clock"
+						 },
+						 {
+							fa: "",
+							text: "mirror clocks",
+							link: "item/mirror-clock"
+						 },
+						 {
+							fa: "",
+							text: "wall clocks",
+							link: "item/wall-clock"
+						 },
+						 {
+							fa: "",
+							text: "return: clocks",
+							link: "item/clock"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Den Decor",
+					items: [{ // Level two
+							fa: "",
+							text: "aquariums",
+							link: "item/aquarium"
+						 },
+						 {
+							fa: "",
+							text: "bookends",
+							link: "item/bookend"
+						 },
+						 {
+							fa: "",
+							text: "chess sets",
+							link: "item/chess-set"
+						 },
+						 {
+							fa: "",
+							text: "globes and maps",
+							link: "item/world-globe"
+						 },
+						 {
+							fa: "",
+							text: "model airplanes",
+							link: "item/model-airplane"
+						 },
+						 {
+							fa: "",
+							text: "statues & figurines",
+							link: "item/indoor-statue"
+						 },
+						 {
+							fa: "",
+							text: "telescopes",
+							link: "item/tripod-telescope"
+						 },
+						 {
+							fa: "",
+							text: "weather instruments",
+							link: "item/weather-instrument"
+						 },
+						 {
+							fa: "",
+							text: "return: den decor",
+							link: "item/library-decor"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Fountains",
+					items: [{ // Level two
+							fa: "",
+							text: "floor fountains",
+							link: "item/floor-fountain"
+						 },
+						 {
+							fa: "",
+							text: "tabletop fountains",
+							link: "item/tabletop-fountain"
+						 },
+						 {
+							fa: "",
+							text: "tiered fountains",
+							link: "item/indoor-tier-fountain"
+						 },
+						 {
+							fa: "",
+							text: "wall fountains",
+							link: "item/indoor-wall-fountain"
+						 },
+						 {
+							fa: "",
+							text: "all other fountains",
+							link: "item/indoor-fountain"
+						 },
+						 {
+							fa: "",
+							text: "return: fountains",
+							link: "item/home-fountain"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Floor/Room Decor",
+					items: [{ // Level two
+							fa: "",
+							text: "decorative easels",
+							link: "item/decorative-easel"
+						 },
+						 {
+							fa: "",
+							text: "floor racks",
+							link: "item/floor-rack"
+						 },
+						 {
+							fa: "",
+							text: "floor registers",
+							link: "item/floor-register"
+						 },
+						 {
+							fa: "",
+							text: "plant stands",
+							link: "item/plant-stand"
+						 },
+						 {
+							fa: "",
+							text: "room dividers",
+							link: "item/room-divider"
+						 },
+						 {
+							fa: "",
+							text: "statues",
+							link: "item/indoor-statue"
+						 },
+						 {
+							fa: "",
+							text: "topiaries",
+							link: "item/topiary"
+						 },
+						 {
+							fa: "",
+							text: "wall art",
+							link: "item/wall-art"
+						 },
+						 {
+							fa: "",
+							text: "return: floor/room decor",
+							link: "item/floor-art"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Mirrors",
+					items: [{ // Level two
+							fa: "",
+							text: "floor mirrors",
+							link: "item/floor-mirror"
+						 },
+						 {
+							fa: "",
+							text: "room divider mirrors",
+							link: "item/room-divider-mirrors"
+						 },
+						 {
+							fa: "",
+							text: "wall mirrors",
+							link: "item/wall-mirror"
+						 },
+						 {
+							fa: "",
+							text: "mirror decals",
+							link: "item/mirror-decal"
+						 },
+						 {
+							fa: "",
+							text: "return: mirrors",
+							link: "item/room-mirror"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Sofa Decor",
+					items: [{ // Level two
+							fa: "",
+							text: "bench cushions",
+							link: "item/bench-cushion"
+						 },
+						 {
+							fa: "",
+							text: "chair cushions",
+							link: "item/chair-cushion"
+						 },
+						 {
+							fa: "",
+							text: "seating cushions",
+							link: "item/seating-cushion"
+						 },
+						 {
+							fa: "",
+							text: "decorative pillows",
+							link: "item/decorative-pillow"
+						 },
+						 {
+							fa: "",
+							text: "decorative throws",
+							link: "item/decorative-throw"
+						 },
+						 {
+							fa: "",
+							text: "slip covers",
+							link: "item/sofa-slipcover"
+						 },
+						 {
+							fa: "",
+							text: "return: sofa decor",
+							link: "item/sofa-decor"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Tabletop/Accents",
+					items: [{ // Level two
+							fa: "",
+							text: "ceramics",
+							link: "item/tabletop-ceramic"
+						 },
+						 {
+							fa: "",
+							text: "decorative pieces",
+							link: "item/decorative-bowl"
+						 },
+						 {
+							fa: "",
+							text: "faux florals",
+							link: "item/faux-floral"
+						 },
+						 {
+							fa: "",
+							text: "photo albums & frames",
+							link: "item/photo-album"
+						 },
+						 {
+							fa: "",
+							text: "poufs",
+							link: "item/pouf"
+						 },
+						 {
+							fa: "",
+							text: "silk plants",
+							link: "item/silk-plant"
+						 },
+						 {
+							fa: "",
+							text: "statues & figurines",
+							link: "item/indoor-statue"
+						 },
+						 {
+							fa: "",
+							text: "urns",
+							link: "item/urn"
+						 },
+						 {
+							fa: "",
+							text: "vases",
+							link: "item/vase"
+						 },
+						 {
+							fa: "",
+							text: "return: tabletop decor",
+							link: "item/tabletop-art"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Window Treatments",
+					items: [{ // Level two
+							fa: "",
+							text: "curtains",
+							link: "item/curtain"
+						 },
+						 {
+							fa: "",
+							text: "curtain rods & hardware",
+							link: "item/curtain-rod"
+						 },
+						 {
+							fa: "",
+							text: "interior shutters",
+							link: "item/interior-shutter"
+						 },
+						 {
+							fa: "",
+							text: "window blinds",
+							link: "item/blind"
+						 },
+						 {
+							fa: "",
+							text: "window boxes",
+							link: "item/window-box"
+						 },
+						 {
+							fa: "",
+							text: "window shades",
+							link: "item/window-shade"
+						 },
+						 {
+							fa: "",
+							text: "valances",
+							link: "item/window-valance"
+						 },
+						 {
+							fa: "",
+							text: "return: window treatments",
+							link: "item/window-treatment"
+						 }]
+				},
+				{
+					fa: "fa-shopping-cart",
+					text: "Coupons",
+					link: "/coupons/category/home_decor-26.html"
+				},
+				{
+					fa: "fa",
+					text: "",
+					link: ""
+				},
+				{
+					fa: "",
+					text: "Main Menu",
+					items: [{ // Level two
+							fa: "",
+							text: "shop: Kitchen",
+							link: "/shophome/shop-kitchen.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bath",
+							link: "/shophome/shop-bath.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bedroom",
+							link: "/shophome/shop-bed.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Furniture",
+							link: "/shophome/shop-living.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Decor",
+							link: "/shophome/shop-decor.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Rec Room",
+							link: "/shophome/shop-recroom.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Utility",
+							link: "/shophome/shop-home-utility.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Structure",
+							link: "/shophome/shop-home-structure.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Yard n' Garden",
+							link: "/shophome/shop-garden.php"
+						 },
+						 {
+							fa: "fa",
+							text: "",
+							link: ""
+						 },
+						 {
+							fa: "",
+							text: "home",
+							link: "index.php"
+						 }]
+				}]
+	});
+
+
+});
+
+
+</script>
+
+<!-- END .toggle menu panel -->

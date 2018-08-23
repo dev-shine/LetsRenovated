@@ -1,0 +1,127 @@
+/* ======================================================= *
+ * TITLE   : NBuy Scholarships  | form2col.css             *
+ * AUTHOR  : Kevin Scholl       | kscholl@comast.net       *
+ * CREATED : 08 Jan 2007        | UPDATED: 08 Jan 2007     *
+ * ======================================================= */
+
+/* =================================================== *
+ * BANK EQUITY ILLUSTRATIONS
+ * =================================================== */
+
+.tdgraph1-illus {
+	padding-top: 5px;
+	padding-left: 22px;
+	padding-right: 175px;
+	height: 450px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: solid 1px #aaa;
+	border-top: solid 0px #aaa;
+	font: normal 11px/18px verdana, arial,helvetica,sans-serif;
+	background: transparent url(/images/bankequity-illus-1.gif) 0px -10px no-repeat; }
+
+.tdgraph1-illus p {
+	font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+
+}
+
+.tdgraph2-illus {
+	padding-top: 30px;
+	padding-left: 22px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	height: 450px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: solid 1px #aaa;
+	border-top: solid 1px #aaa;
+	font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+	background: transparent url(/images/bankequity-illus-2.gif) 0px 15px no-repeat; }
+
+.tdgraph2-illus p {
+	font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+
+}
+
+.tdgraph2-illus ul li {
+  list-style-type: square;
+  font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+	}
+
+.tdgraph3-illus {
+	padding-top: 30px;
+	padding-left: 22px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	height: 450px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: solid 1px #aaa;
+	border-top: solid 1px #aaa;
+	font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+	background: transparent url(/images/bankequity-illus-3.gif) 0px 15px no-repeat; }
+
+.tdgraph3-illus p {
+	font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+
+}
+
+.tdgraph3-illus ul li {
+  font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+	}
+
+.tdgraph4-illus {
+	padding-top: 30px;
+	padding-left: 22px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	height: 770px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: solid 1px #aaa;
+	border-top: solid 1px #aaa;
+	font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+	background: transparent url(/images/bankequity-illus-4.gif) 0px 15px no-repeat; }
+
+.tdgraph4-illus p {
+	font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+
+}
+
+.tdgraph-illus-top {
+	font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 35px;
+	border-bottom: solid 1px #aaa;
+	text-align: left;
+
+}
+
+.tdgraph-illus-top p {
+	font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+
+}
+
+.tdgraph-illus-bottom {
+	font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 35px;
+	border-top: solid 1px #aaa;
+	text-align: left;
+
+}
+
+.payoff {
+	font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+
+}
+
+
+ul.illustration li {
+  list-style-type: square;
+  font: normal 11px/18px verdana,arial, helvetica, sans-serif;
+	} 

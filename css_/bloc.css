@@ -1,0 +1,127 @@
+/* ------------------------------------------------------------
+ * PROJECT        : NBuy Student Products
+ * FILENAME       : nbsp.css
+ * ------------------------------------------------------------
+ * DATE CREATED   : 29 May 2008
+ * LAST UPDATED   : 02 June 2008
+ * ------------------------------------------------------------
+ * AUTHOR(S)      : Kevin Scholl (http://www.ksscholl.com/)
+ * ------------------------------------------------------------
+ * NOTE(S)        : 
+ * ------------------------------------------------------------ */
+ 
+/* ------------------------------------------------------------
+ * BASIC DECLARATIONS
+ * ------------------------------------------------------------ */
+
+
+
+/* =================================================== *
+ * IMAGE BLOCK
+ * =================================================== */
+	
+	
+#navimage {
+	
+	position: relative;
+	margin: 20px auto;
+	border: 0;
+	width: 480px;
+	height: 470px;
+	background: transparent url(/nbuy-shopping/images/home-tag1.gif) center top no-repeat;
+	}	  
+
+.content1 {
+	position: absolute;
+	top: 10px;
+	left: 120px;
+	font: bold 11px/16px verdana,arial,helvetica,sans-serif;
+ 	color: #A6BACE;
+ 	width: 90px;
+ 	}
+ 	
+ .content1 span {
+	font: normal 10px verdana,arial,helvetica,sans-serif;
+ 	color: #C7C7C7;
+ 	}	
+
+.content2 {
+	position: absolute;
+	top: 40px;
+	left: 285px;
+	font: bold 11px/16px verdana,arial,helvetica,sans-serif;
+ 	color: #A6BACE;
+ 	width: 90px;
+ 	}
+ 	
+ .content2 span {
+	font: normal 10px verdana,arial,helvetica,sans-serif;
+ 	color: #C7C7C7;
+ 	}	
+
+.content3 {
+	position: absolute;
+	top: 196px;
+	left: 180px;
+	font: bold 11px/16px verdana,arial,helvetica,sans-serif;
+ 	color: #A6BACE;
+ 	width: 110px;
+ 	}
+ 	
+ .content3 span {
+	font: normal 10px verdana,arial,helvetica,sans-serif;
+ 	color: #C7C7C7;
+ 	}	
+
+.content4 {
+	position: absolute;
+	top: 290px;
+	left: 70px;
+	font: bold 11px/16px verdana,arial,helvetica,sans-serif;
+ 	color: #A6BACE;
+ 	width: 300px;
+ 	}
+ 	
+ .content4 span {
+	font: normal 10px verdana,arial,helvetica,sans-serif;
+ 	color: #C7C7C7;
+ 	}
+
+.content4 a {
+	font: normal 10px verdana,arial,helvetica,sans-serif;
+ 	color: #cbcbcb;
+ 	text-decoration: none;
+ 	}
+ 	
+ 	
+ #tableshop td {
+ 	font: normal 12px/24px verdana,arial,helvetica,sans-serif;
+	color: #cbcbcb;
+ 	text-decoration: none;
+ 	}
+ 	
+  #tableshop span {
+ 	font: bold 13px/18px verdana,arial,helvetica,sans-serif;
+	color: #666;
+ 	text-decoration: none;
+ 	}
+ 	
+ .divider {
+ 	height: 13px;
+ 	background-color: #F5F7FC;
+ 	} 
+ 	
+ 	
+  #tableshop td.novblue2 {
+ 	font: normal 9px/9px verdana,arial,helvetica,sans-serif;
+ 	}
+ 	
+ 	
+ .shopleadermedium {
+  	font: normal 22px/30px Georgia, "Times New Roman", Times, serif;
+  	color: #333333;
+  	margin: 0 0 20px 0;
+  	color: #C93;
+}
+
+

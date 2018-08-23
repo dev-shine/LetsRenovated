@@ -1,0 +1,312 @@
+
+/* Style Index * /
+
+#0 Reset
+#1 BLOG Feeds
+#2 Toggle Menu Buttons
+#3 Responsive Image Code
+#4 To-Top Navigation
+
+
+/* #0 Reset */
+
+
+
+/* ------------------------------------------------------------
+* #1 SIDENAV: BLOG FEED ENTRIES & SIDE SHAPE
+* ------------------------------------------------------------ */
+
+#feed > .entry h4 a {
+	color: #E3CCAE !important;
+	line-height: 24px !important;
+	}
+	
+	
+.widget .entrysuccess h4 a,
+.widget .entrysuccess h4 a span {
+	line-height: 24px !important;
+	color: #ccc !important;
+	}
+	
+	
+.widget p {
+	line-height: 24px !important;
+	color: #bbb !important;
+	}
+	
+	
+p.testlink {
+	line-height: 24px !important;
+	color: #ccc !important;
+	margin-top: 25px;
+	}
+	
+	
+.widget > .entry p a {
+	line-height: 24px !important;
+	color: #E3CCAE !important;
+	font-size: 110px;
+	}
+
+#centerimg {
+	display: block;
+	margin-left: auto;
+    	margin-right: auto;
+    	max-width:100%;
+    	height:auto;
+    	}
+
+
+/* ------------------------------------------------------------
+ * #2 TOGGLE MENU BUTTONS
+ * ------------------------------------------------------------ */
+
+.container-toggleshop {
+margin: -10px 10px 50px 0px;
+border: 0;
+background: transparent;
+padding: 0;
+}
+
+.container-toggleshop.bottomside {
+margin-top: 50px;
+}
+
+.container-toggleshop.first {
+margin-top: 0px;
+}
+
+.container-toggleshop .drop-button {
+position: relative;
+}
+.container-toggleshop .drop-button .drop-btn {
+display: block;
+margin: 0;
+border-top: 1px solid #fff;
+border-bottom: 1px solid #ccc;
+border-radius: 1px;
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+background: #eee;
+background: -webkit-gradient(linear, 0% 10%, 0% 90%, from(#f5f5f5), to(#dddddd));
+background: -webkit-linear-gradient(top, #f5f5f5 10%, #dddddd 90%);
+background: -moz-linear-gradient(top, #f5f5f5 10%, #dddddd 90%);
+background: -ms-linear-gradient(top, #f5f5f5 10%, #dddddd 90%);
+background: -o-linear-gradient(top, #f5f5f5 10%, #dddddd 90%);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#f5f5f5, endColorstr=#dddddd)";
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+box-shadow: 0 1px 1px #999;
+padding: 0px 4px;
+}
+.container-toggleshop .drop-button .drop-btn a {
+display: block;
+background: transparent url(/shopping/images/icon_btn_closed.png) left center no-repeat;
+padding: 5px 5px 5px 35px;
+color: #333;
+text-decoration: none;
+}
+.container-toggleshop .drop-button .drop-btn a.open {
+background-image: url(/shopping/images/icon_btn_closed.png);
+}
+
+	
+.widget > .entry h4 a {
+	line-height: 24px !important;
+	}
+	
+
+/* ------------------------------------------------------------
+* #3 RESPONSIVE IMAGE CODE
+* ------------------------------------------------------------ */
+
+
+
+.centerimg {
+	display: block;
+	margin-left: auto;
+    	margin-right: auto;
+    	max-width:100%;
+    	height:auto;
+    	}
+
+.summaryimg {
+	display: block;
+	margin-left: auto;
+    	margin-right: auto;
+    	max-width:100%;
+    	height:auto;
+    	}
+
+
+
+/* ------------------------------------------------------------
+* #4 TO TOP JQ
+* ------------------------------------------------------------ */
+
+
+
+#toTop {
+	display:none;
+	content: '';
+	text-decoration:none;
+	position:fixed;
+	bottom:200px;
+	right:10px;
+	overflow:hidden;
+	width:50px;
+	height:50px;
+	border:none;
+	text-indent:100%;
+	background:url(/shopping/images/ui.totop.png) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(/shopping/images/ui.totop.png) no-repeat left -50px;
+	content: '';
+	width:50px;
+	height:50px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}
+
+
+/* ------------------------------------------------------------
+ * #8 CONTENT TABLE DATA GRIDS
+ * ------------------------------------------------------------ */
+
+.sideGrid {
+	  background: #Fff;
+	  padding-right: 10px;
+	  padding-left: 10px;
+	  padding-bottom: 30px;
+	  margin-top: -10px;
+  	}
+  	
+.sideGrid table {
+	width: 100%;
+  	}
+
+#tooltable  {
+	width: 100%;
+	margin-top: 8px;
+	} 
+  
+#tooltable td {
+	text-align: left;
+	border-bottom: 1px solid #f2f2f2;
+	}	
+ 
+#tooltable td a {
+	color: #8F9B8F;
+	display: block;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px !important;
+	font: normal 13px/13px arial,helvetica,sans-serif !important;
+	margin-top: -2px !important;
+	} 
+	
+#tooltable td a:hover {
+	background-color: #FFF5EA;
+	}
+	
+
+  
+  
+/* ------------------------------------------------------------
+   * #9 CSS FOR RANDOM CONTENT
+* ------------------------------------------------------------ */
+
+.jsclass body .randomcontent{ /*Do NOT remove! CSS to hide random contents in JS enabled browsers*/
+display: none;
+
+}	
+
+
+/* ------------------------------------------------------------
+   * #10 CSS FOR SOCIAL BUTTONS
+* ------------------------------------------------------------ */
+
+
+
+.sharequote {
+	margin-top: 12px;
+	text-align: right;
+	background-color: #fff;
+	}
+
+.sharequote td {
+	padding-bottom: 60px;
+	}
+
+#twitter-logo {
+	background: url(../images/social_icon_twitter.png) left top no-repeat;
+	display: block;
+	height: 100px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width:100px;
+	}
+
+#twitter-logo:hover {
+	background: url(../images/social_icon_twitter.png) left top no-repeat;
+	opacity: 0.7;
+    	filter: alpha(opacity=70);
+	}
+
+#facebook-logo {
+	background: url(../images/social_icon_facebook.png) left top no-repeat;
+	display: block;
+	height: 100px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width:100px;
+	}
+
+#facebook-logo:hover {
+	opacity: 0.7;
+    	filter: alpha(opacity=70);
+	}
+
+#plus-logo {
+	background: url(../images/social_icon_google.png) left top no-repeat;
+	display: block;
+	height: 100px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width:100px;
+	}
+
+#plus-logo:hover {
+	opacity: 0.7;
+    	filter: alpha(opacity=70);
+	}
+
+#pin-logo {
+	background: url(../images/social_icon_pin.png) left top no-repeat;
+	display: block;
+	height: 100px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	width:100px;
+	}
+
+#pin-logo:hover {
+	opacity: 0.7;
+    	filter: alpha(opacity=70);
+	}	

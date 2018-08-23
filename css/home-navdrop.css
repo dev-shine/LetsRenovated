@@ -1,0 +1,148 @@
+/* ------------------------------------------------------------
+ * PROJECT        : 
+ * FILENAME       : navdrop.css
+ * ------------------------------------------------------------
+ * LAST UPDATED   : 31 Aug 2013
+ *  ------------------------------------------------------------
+ * AUTHOR(S)      : Kevin Scholl (kevin@ksscholl.com)
+ * ------------------------------------------------------------ */
+
+/* ------------------------------------------------------------
+ * MAIN NAVIGATION
+ * ------------------------------------------------------------ */
+
+ul#mainNav {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+	z-index: 992;
+  }
+ul#mainNav li {
+  position: static;
+	}
+  
+ul#mainNav li div.drop-navigation {
+  display: none;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  margin: 0 0 0 0;
+  border-top: 4px solid #222;
+  border-bottom: 5px solid #222;
+  background: #555;
+  padding: 10px;
+  width: 960px;
+  color: #ccc;
+  text-shadow: none !important;
+  z-index: 999;
+  overflow: auto;
+	}
+  ul#mainNav li div.drop-navigation div.drop-navigation-block {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 33.333%;
+    }
+    ul#mainNav li div.drop-navigation div.drop-navigation-block h3 {
+      margin: 0 0 10px;
+      padding: 0;
+      font: normal 30px/30px Georgia, "Times New Roman", Times, serif;
+      color: #FC6;
+      text-transform: none;
+      }
+    ul#mainNav li div.drop-navigation div.drop-navigation-block p {
+      margin: 0 0 20px;
+      padding: 0;
+      font: normal 14px/20px Arial, Helvetica, sans-serif;
+      text-transform: none;
+      color: #ddd;
+      }
+      ul#mainNav li div.drop-navigation div.drop-navigation-block p.graphic {
+      	margin: 3px 0 5px;
+        }
+        ul#mainNav li div.drop-navigation div.drop-navigation-block p.graphic img {
+          display: block;
+          width: 100%;
+          height: auto;
+          }
+      ul#mainNav li div.drop-navigation div.drop-navigation-block p.caption {
+        font: normal 11px/15px Arial, Helvetica, sans-serif;
+        margin-top: 25px;
+        padding: 0 20px 0 20px;
+        }
+      ul#mainNav li div.drop-navigation div.drop-navigation-block p.captionimg {
+        background: transparent url(../images/icon-note.gif) 20px center no-repeat;
+        margin-top: -25px;
+        padding: 0 25px 0 25px;
+        color: #ccc;
+        }
+      ul#mainNav li div.drop-navigation div.drop-navigation-block p.captionimg a {
+        color: #FFE2A6;
+        font: bold 11px/15px Arial, Helvetica, sans-serif;
+        }
+      ul#mainNav li div.drop-navigation div.drop-navigation-block p.captionimg a:hover {
+        color: #ccc;
+        }
+    ul#mainNav li div.drop-navigation div.drop-navigation-block ul {
+      float: none;
+      position: relative;
+      top: 0;
+      display: block;
+      margin: 0;
+      border: 0;
+      background: transparent;
+      padding: 0;
+      width: 100%;
+			text-shadow: none !important;
+      }
+      ul#mainNav li div.drop-navigation div.drop-navigation-block ul li {
+      	float: none;
+        margin: 0;
+      	border: 0;
+        background: transparent;
+        padding: 0;
+        font: normal 12px/15px Arial, Helvetica, sans-serif !important;
+        text-transform: none;
+        }
+        ul#mainNav li div.drop-navigation div.drop-navigation-block ul li a {
+        	display: block;
+          margin: 0;
+       		border-bottom: 1px dotted #999;
+          background: transparent;
+          padding: 6px 10px;
+          font-size: 12px;
+          color: #fff;
+          }
+        ul#mainNav li div.drop-navigation div.drop-navigation-block ul li a:hover {
+          background: #888;
+          }
+        ul#mainNav li div.drop-navigation div.drop-navigation-block ul li a.sect-hdr {
+       	  border-bottom: 0;
+          background: #222;
+          padding: 6px 10px;
+          color: #FFE2A6;
+	  text-transform: uppercase;
+	  font: bold 13px/16px Arial, Helvetica, sans-serif !important;
+          }
+        ul#mainNav li div.drop-navigation div.drop-navigation-block ul li a.sect-hdr span {
+	  text-transform: normal;
+       	  font: bold 10px/16px Arial, Helvetica, sans-serif !important;
+          }
+          ul#mainNav li div.drop-navigation div.drop-navigation-block ul li a.sect-hdr:hover {
+            color: #278a00;
+            }
+
+
+
+.main-menu ul#mainNav li.current {
+  background: transparent url(../images/hover-line.png) left top no-repeat;
+  }
+  
+  .main-menu2 ul li.current {
+    background: #FFF4D5 !important;
+  }
+  

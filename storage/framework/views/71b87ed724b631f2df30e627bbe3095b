@@ -1,0 +1,13 @@
+<?php $__env->startSection('scripts'); ?>
+<script type="text/javascript">
+  
+$(function(){
+  app_engine.auth_page();
+  $('#login-dailog').modal({
+  	'backdrop':'static'
+  });
+});
+
+</script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('home', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

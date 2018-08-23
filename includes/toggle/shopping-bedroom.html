@@ -1,0 +1,507 @@
+<!-- BEGIN .toggle menu for shopping panel -->
+
+<script type="text/javascript">
+
+// This launch Puma SideBar on form load.
+$("#botLaunch,#botLaunch2,#botLaunch3").on("click",function(){
+
+	$.PumaSideBar({
+		position: "left",  // Position
+		label: "Bedroom", // Initial label
+		movebody: true, // if you want to push or not your page
+		avatar: "", // Initial avatar.
+		items: [{ // Level one
+					fa: "",
+					text: "Master Bed Sets",
+					items: [{ // Level two
+							fa: "",
+							text: "bookcase",
+							link: "item/bookcase-bed"
+						 },
+						 {
+							fa: "",
+							text: "canopy",
+							link: "item/canopy-bed"
+						 },
+						 {
+							fa: "",
+							text: "low profile",
+							link: "item/low-profile-bed"
+						 },
+						 {
+							fa: "",
+							text: "metal",
+							link: "item/metal-finish-bed"
+						 },
+						 {
+							fa: "",
+							text: "panel",
+							link: "item/panel-bed"
+						 },
+						 {
+							fa: "",
+							text: "platform",
+							link: "item/platform-bed"
+						 },
+						 {
+							fa: "",
+							text: "poster",
+							link: "item/poster-bed"
+						 },
+						 {
+							fa: "",
+							text: "shelter",
+							link: "item/shelter-bed"
+						 },
+						 {
+							fa: "",
+							text: "slat",
+							link: "item/slat-bed"
+						 },
+						 {
+							fa: "",
+							text: "sleigh",
+							link: "item/sleigh-bed"
+						 },
+						 {
+							fa: "",
+							text: "storage",
+							link: "item/storage-bed"
+						 },
+						 {
+							fa: "",
+							text: "headboards",
+							link: "item/headboard"
+						 },
+						 {
+							fa: "",
+							text: "frames",
+							link: "item/bed-frame"
+						 },
+						 {
+							fa: "",
+							text: "return: master bed sets",
+							link: "item/bed-furniture"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Toddler/Teen Bedroom",
+					items: [{ // Level two
+							fa: "",
+							text: "bunk beds",
+							link: "item/bunk-bed"
+						 },
+						 {
+							fa: "",
+							text: "captain beds",
+							link: "item/captain-bed"
+						 },
+						 {
+							fa: "",
+							text: "futons",
+							link: "item/futons"
+						 },
+						 {
+							fa: "",
+							text: "loft beds",
+							link: "item/loft-bed"
+						 },
+						 {
+							fa: "",
+							text: "school house beds",
+							link: "item/school-house-bed"
+						 },
+						 {
+							fa: "",
+							text: "trundle beds",
+							link: "item/trundle-beds"
+						 },
+						 {
+							fa: "",
+							text: "wall storage beds",
+							link: "item/wall-storage-bed"
+						 },
+						 {
+							fa: "",
+							text: "frames",
+							link: "item/frame-bed"
+						 },
+						 {
+							fa: "",
+							text: "headboards",
+							link: "item/wood-headboard"
+						 },
+						 {
+							fa: "",
+							text: "return: toddler/teen",
+							link: "item/toddler-bed-set"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Other Beds",
+					items: [{ // Level two
+							fa: "",
+							text: "adjustable beds",
+							link: "item/adjustable-beds"
+						 },
+						 {
+							fa: "",
+							text: "daybeds",
+							link: "item/daybed"
+						 },
+						 {
+							fa: "",
+							text: "folding beds",
+							link: "item/folding-bed"
+						 },
+						 {
+							fa: "",
+							text: "inflatable air beds",
+							link: "item/air-bed"
+						 },
+						 {
+							fa: "",
+							text: "murphy beds",
+							link: "item/murphy-bed"
+						 },
+						 {
+							fa: "",
+							text: "return: other beds",
+							link: "item/other-bed-sets"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Nursery Room",
+					items: [{ // Level two
+							fa: "",
+							text: "cribs",
+							link: "item/crib"
+						 },
+						 {
+							fa: "",
+							text: "cradles & bassinets",
+							link: "item/baby-cradle"
+						 },
+						 {
+							fa: "",
+							text: "nursery decor",
+							link: "item/baby-decor"
+						 },
+						 {
+							fa: "",
+							text: "nursery furniture",
+							link: "item/baby-furniture"
+						 },
+						 {
+							fa: "",
+							text: "nursery gear",
+							link: "item/baby-gear"
+						 },
+						 {
+							fa: "",
+							text: "nursery linens",
+							link: "item/baby-linen"
+						 },
+						 {
+							fa: "",
+							text: "nursery safety",
+							link: "item/baby-safety"
+						 },
+						 {
+							fa: "",
+							text: "seating",
+							link: "item/car-seat"
+						 },
+						 {
+							fa: "",
+							text: "return: nursery room",
+							link: "item/nursery-room"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Bed Linens",
+					items: [{ // Level two
+							fa: "",
+							text: "bedding sets",
+							link: "item/piece-bedding-set"
+						 },
+						 {
+							fa: "",
+							text: "blankets",
+							link: "item/blanket"
+						 },
+						 {
+							fa: "",
+							text: "comforters",
+							link: "item/bed-comforter"
+						 },
+						 {
+							fa: "",
+							text: "decorative throws & quilts",
+							link: "item/decorative-throw"
+						 },
+						 {
+							fa: "",
+							text: "mattress pads",
+							link: "item/mattress-pad"
+						 },
+						 {
+							fa: "",
+							text: "pillows",
+							link: "item/bed-pillow"
+						 },
+						 {
+							fa: "",
+							text: "sheets",
+							link: "item/bed-sheet"
+						 },
+						 {
+							fa: "",
+							text: "skirts",
+							link: "item/bed-skirt"
+						 },
+						 {
+							fa: "",
+							text: "return: bed lines",
+							link: "item/bed-linen"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Bedroom Furniture",
+					items: [{ // Level two
+							fa: "",
+							text: "armoires",
+							link: "item/bedroom-armoire"
+						 },
+						 {
+							fa: "",
+							text: "benches",
+							link: "item/bed-bench"
+						 },
+						 {
+							fa: "",
+							text: "chests",
+							link: "item/bed-chest"
+						 },
+						 {
+							fa: "",
+							text: "dressers",
+							link: "item/dresser"
+						 },
+						 {
+							fa: "",
+							text: "mirrors",
+							link: "item/bedroom-mirror"
+						 },
+						 {
+							fa: "",
+							text: "nightstands",
+							link: "item/nightstand"
+						 },
+						 {
+							fa: "",
+							text: "vanity tables",
+							link: "item/vanity-table"
+						 },
+						 {
+							fa: "",
+							text: "return: bedroom furniture",
+							link: "item/bedroom-furniture"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Mattresses",
+					items: [{ // Level two
+							fa: "",
+							text: "air",
+							link: "item/air-mattress"
+						 },
+						 {
+							fa: "",
+							text: "gel",
+							link: "item/gel-mattress"
+						 },
+						 {
+							fa: "",
+							text: "innerspring",
+							link: "item/spring-mattress"
+						 },
+						 {
+							fa: "",
+							text: "latex foam",
+							link: "item/latex-foam-mattress"
+						 },
+						 {
+							fa: "",
+							text: "memory foam",
+							link: "item/memory-foam-mattress"
+						 },
+						 {
+							fa: "",
+							text: "organic",
+							link: "item/organic-mattress"
+						 },
+						 {
+							fa: "",
+							text: "orthopedic",
+							link: "item/orthopedic-mattress"
+						 },
+						 {
+							fa: "",
+							text: "toppers",
+							link: "item/mattress-topper"
+						 },
+						 {
+							fa: "",
+							text: "box springs",
+							link: "item/box-spring"
+						 },
+						 {
+							fa: "",
+							text: "mattress covers",
+							link: "item/mattress-cover"
+						 },
+						 {
+							fa: "",
+							text: "mattress pads",
+							link: "item/mattress-pad"
+						 },
+						 {
+							fa: "",
+							text: "mattress sets",
+							link: "item/mattress-set"
+						 },
+						 {
+							fa: "",
+							text: "medical mattress",
+							link: "item/medical-mattress"
+						 },
+						 {
+							fa: "",
+							text: "return: mattress",
+							link: "item/mattress"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Bed Safety/Rails",
+					items: [{ // Level two
+							fa: "",
+							text: "bed side rail",
+							link: "item/bed-side-rail"
+						 },
+						 {
+							fa: "",
+							text: "bed support rail",
+							link: "item/bed-support-rail"
+						 },
+						 {
+							fa: "",
+							text: "bunk bed rail",
+							link: "item/bunk-bed-rail"
+						 },
+						 {
+							fa: "",
+							text: "crib bed rail",
+							link: "item/crib-bed-rail"
+						 },
+						 {
+							fa: "",
+							text: "safety bed rail",
+							link: "item/safety-bed-rail"
+						 },
+						 {
+							fa: "",
+							text: "toddler bed rail",
+							link: "item/toddler-bed-rail"
+						 },
+						 {
+							fa: "",
+							text: "return: bed safety/rails",
+							link: "item/bed-rail"
+						 }]
+				},
+				{
+					fa: "fa-shopping-cart",
+					text: "Coupons",
+					link: "/coupons/category/bed__bath-13.html"
+				},
+				{
+					fa: "fa",
+					text: "",
+					link: ""
+				},
+				{
+					fa: "",
+					text: "Main Menu",
+					items: [{ // Level two
+							fa: "",
+							text: "shop: Kitchen",
+							link: "/shophome/shop-kitchen.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bath",
+							link: "/shophome/shop-bath.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bedroom",
+							link: "/shophome/shop-bed.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Furniture",
+							link: "/shophome/shop-living.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Decor",
+							link: "/shophome/shop-decor.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Rec Room",
+							link: "/shophome/shop-recroom.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Utility",
+							link: "/shophome/shop-home-utility.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Structure",
+							link: "/shophome/shop-home-structure.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Yard n' Garden",
+							link: "/shophome/shop-garden.php"
+						 },
+						 {
+							fa: "fa",
+							text: "",
+							link: ""
+						 },
+						 {
+							fa: "",
+							text: "home",
+							link: "index.php"
+						 }]
+				}]
+	});
+
+
+});
+
+
+</script>
+
+<!-- END .toggle menu panel -->

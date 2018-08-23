@@ -1,0 +1,787 @@
+/* =================================================== *
+ * SayStudentCards  *
+ *                          | default.css              *
+ * =================================================== */
+
+/* =================================================== *
+ * BASIC DECLARATIONS
+ * =================================================== */
+
+body {
+	margin: 0px;
+	font-size: 101%;
+	background-color: #fff;}
+	
+
+.cleaner {
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0; }
+
+acronym {
+	cursor: help; }
+		
+.form {
+	margin: 0; }
+
+/* =================================================== *
+ * MASTHEAD
+ * =================================================== */
+
+#topheaderWrapper {
+  margin: 0px;
+	background: transparent url(../images/background-top.gif) center center repeat;
+	padding: 0;
+	width: 100%;
+	height: 26px; }
+
+#bottomfooterWrapper {
+  margin: 0px;
+	background: transparent url(../images/background-bottom.gif) center center repeat;
+	padding: 0;
+	width: 100%;
+	height: 50px; }
+
+
+#mastheadWrapper {
+  margin: 0;
+	background: transparent url(../images/background-mid.gif) center center repeat;
+	padding: 0; }
+
+
+#masthead {
+  position: relative;
+  margin: 0 auto;
+	border: 0;
+	padding: 0;
+	width: 800px;
+	height: 100px; }	
+	
+
+ #bordermast {
+  position: relative;
+  margin: 0 auto;
+ 	background: #99CC11;
+ 	width: 800px;
+ 	height: 6px;
+ }
+ 
+ #masthead h1 {
+   position: absolute;
+ 	top: 7px;
+ 	left: 0;
+ 	letter-spacing: 1px;
+   margin: 0;
+ 	padding: 0 25px 0 0;
+ 	font: normal 28px georgia,"Times New Roman",times,serif;
+ 	color: #FFF;
+ 	}
+ 
+ #masthead h1 span {
+ 	color: #FC6;
+	font: normal 28px georgia,"Times New Roman",times,serif;}
+
+
+#masthead h22 {
+  position: absolute;
+	top: 15px;
+	left: 280px;
+	width: 110px;
+  margin: 0;
+	padding: 0;
+	font: normal 10px/13px georgia,"Times New Roman",times,serif;
+	color: #A6BACE; }
+
+#masthead h2 {
+  position: absolute;
+	top: 64px;
+	left: 0px;
+  margin: 0;
+	padding: 0;
+	font: normal 17px georgia,"Times New Roman",times,serif;
+	color: #8AA5BF; }
+
+
+#masthead p {
+  margin: 0;
+	padding: 0;
+	font: bold 10px/100% verdana,arial,helvetica,sans-serif;
+	line-height: 55px;
+	color: #8AA5BF;
+	text-align: right;
+	z-index:9;
+	}
+#masthead p img {
+  margin-top: 15px; }
+  
+
+#masthead a:link,
+#masthead a:visited,
+#masthead a:active {
+  color: #8AA5BF;
+  	height: 25px;
+  	font: bold 10px/100% verdana,arial,helvetica,sans-serif;
+  	text-decoration: none; }
+  	
+  	
+#masthead a:hover {
+  	TEXT-DECORATION: none;
+  	height: 25px;
+  	font: bold 10px/100% verdana,arial,helvetica,sans-serif;
+	color: #E7E3CB;}
+
+
+/* =================================================== *
+ * BLOCK WRAPS
+ * =================================================== */
+
+
+
+.contentWrap {
+	margin: 0px auto;
+	border: 0;
+	padding: 0;
+	width: 100%; }
+	
+.content {
+	margin: 0px auto;
+	border: 0;
+	padding: 0;
+	width: 800px;
+	background-color: #ffffff;
+	}
+		
+	
+.columnLeft1 {
+	margin: 0;
+	border: 0;
+	background: transparent;
+	padding: 0;
+	width: 200px;
+	vertical-align: top;
+	}
+	
+
+/* =================================================== *
+ * HOME PAGE BLOCK
+ * =================================================== */
+	
+	
+#contenthomearea {
+	
+	position: relative;
+	float: right;
+	margin: 0 auto;
+	border: 0;
+	width: 300px;
+	font: normal 12px/18px verdana,arial,helvetica,sans-serif;
+	color: #787878;
+	padding: 30px 0px 20px 11px;
+	vertical-align: top;
+	}
+
+
+	
+	
+#contenthomearea a:link,
+#contenthomearea a:visited,
+#contenthomearea a:active {
+color: #8AA5BF;
+	text-decoration: none; }
+	
+	
+#contenthomearea a:hover {
+	color: #A7BBCF;}
+		
+
+#contenthomearea h3 {
+	
+	margin: 0;
+	font: normal 28px/32px georgia,"Times New Roman",times,serif;
+	color: #8AA5BF; }
+
+
+/* =================================================== *
+ * OTHER CSS ELEMENTS
+ * =================================================== */	
+
+			
+h2 {
+	margin: 0;
+	border: 0;
+	background: transparent;
+	padding: 25px 0 10px 0;
+	font: bold 14px verdana,arial,helvetica,sans-serif;
+	color: #D5AA00; }
+	
+ul.blockList {
+	margin: 0 0 2px 0;
+	border: 0;
+	padding: 0;
+	list-style: none; }
+	
+ul.blockList li {
+	margin: 0;
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #EEE;
+	color: #666;
+	text-align: left;
+	height: 25px;
+	width: 170px;
+	text-indent: 20px;
+	}
+
+ul.blockList li.space {
+	height: 25px;
+	}
+
+ul.blockList span {
+	font: bold 10px verdana,arial,helvetica,sans-serif;
+	}
+
+ul.blockList li a:link,
+ul.blockList li a:visited,
+ul.blockList li a:active {
+color: #AA9C4F;
+	height: 25px;
+	font: normal 12px/25px verdana,arial,helvetica,sans-serif;
+	text-decoration: none; }
+	
+	
+ul.blockList li a:hover {
+	background-image: url(../images/hover.gif);
+	DISPLAY: block; 
+	TEXT-DECORATION: none;
+	height: 25px;
+	font: normal 12px/25px verdana,arial,helvetica,sans-serif;
+	color: #B9AD68;}
+	
+
+ul.blockList li.file {
+	margin: 0;
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #EEE;
+	color: #666;
+	text-align: left;
+	height: 25px;
+	width: 170px;
+	text-indent: 20px;
+	}
+	
+	
+ul.blockList li.file a:hover, 
+ul.blockList li.file a:link,
+ul.blockList li.file a:visited,
+ul.blockList li.file a:active {
+	background-image: url(../images/hover-visit.gif);
+	DISPLAY: block; 
+	TEXT-DECORATION: none;
+	height: 25px;
+	font: normal 12px/25px verdana,arial,helvetica,sans-serif;
+	color: #938744;}
+
+
+
+/* =================================================== *
+ * CONTENT CARD AREA
+ * =================================================== */	
+
+
+#contentcardarea {
+	
+	font: normal 11px/16px verdana,arial,helvetica,sans-serif;
+	color: #787878;
+	padding: 50px 30px 30px 15px;
+	vertical-align: top;
+	}
+	
+.subheader  {
+	color: #8AA5BF;
+	font: bold 11px/16px verdana,arial,helvetica,sans-serif;
+	text-decoration: none; }
+
+
+.contentlink  {
+	color: #8AA5BF;
+	font: normal 11px/16px verdana,arial,helvetica,sans-serif;
+	text-decoration: underline; }
+	
+	
+.contentlink a:hover {
+	font: normal 11px/16px verdana,arial,helvetica,sans-serif;
+	color: #A7BBCF;}
+	
+#contentcardofferarea {
+	
+	font: normal 11px/16px verdana,arial,helvetica,sans-serif;
+	color: #787878;
+	padding: 50px 30px 50px 30px;
+	vertical-align: top;
+	}	
+	
+/* =================================================== *
+ * CONTENT NEED AREA
+ * =================================================== */	
+
+#contentneedarea {
+	
+	font: normal 11px/16px verdana,arial,helvetica,sans-serif;
+	color: #787878;
+	padding: 50px 0px 30px 11px;
+	vertical-align: top;
+	}
+	
+	
+#contentneedarea a:link,
+#contentneedarea a:visited,
+#contentneedarea a:active {
+color: #8AA5BF;
+	text-decoration: underline; }
+	
+	
+#contentneedarea a:hover {
+	color: #A7BBCF;}
+		
+
+#contentneedarea h3 {
+	
+	margin: 0;
+	font: normal 28px/32px georgia,"Times New Roman",times,serif;
+	color: #8AA5BF; }
+
+#contentneedarea h4 {
+	
+	margin: 0;
+	font: normal 23px/25px georgia,"Times New Roman",times,serif;
+	color: #8AA5BF; }
+	
+	
+#contentneedarea spann {
+	color: #A6BACE; }
+		
+	
+.subhead {
+	
+	font: normal 18px/24px georgia,"Times New Roman",times,serif;
+	color: #A6BACE; }
+	
+#contentarea {
+	
+	font: normal 11px/16px verdana,arial,helvetica,sans-serif;
+	color: #787878;
+	padding: 50px 30px 30px 50px;
+	vertical-align: top;
+	}
+	
+#contentarea h3 {
+	
+	margin: 0;
+	font: normal 28px/30px georgia,"Times New Roman",times,serif;
+	color: #A6BACE; }
+	
+
+#contentarea span {
+	color: #A6BACE; }
+	
+
+#contentarea a:link,
+#contentarea a:visited,
+#contentarea a:active {
+color: #8AA5BF;
+	font: normal 11px/16px verdana,arial,helvetica,sans-serif;
+	text-decoration: underline; }
+	
+	
+#contentarea a:hover {
+	font: normal 11px/16px verdana,arial,helvetica,sans-serif;
+	color: #A7BBCF;}
+	
+.space {
+	height: 25px;
+	}
+
+#contentmaparea {
+	
+	font: normal 11px/16px verdana,arial,helvetica,sans-serif;
+	color: #787878;
+	padding: 50px 0px 30px 0px;
+	vertical-align: top;
+	margin: 20px 0;
+	}
+
+#contentmaparea a:link,
+#contentmaparea a:visited,
+#contentmaparea a:active {
+color: #8AA5BF;
+	text-decoration: underline; }
+	
+	
+#contentmaparea a:hover {
+	color: #A7BBCF;}
+	
+#contentmaparea h3 {
+	
+	margin: 0;
+	font: normal 25px/50px georgia,"Times New Roman",times,serif;
+	color: #8AA5BF; }
+
+/* =================================================== *
+ * HOME AREA
+ * =================================================== */	
+
+
+#hometdarea {
+	
+	font: normal 11px/16px verdana,arial,helvetica,sans-serif;
+	color: #787878;
+	padding: 15px 0px 0px 0px;
+	vertical-align: top;
+	}
+
+/* =================================================== *
+ * FOOTER
+ * =================================================== */
+
+#footerWrap2 {
+	margin: 0;
+	border: 0;
+	background: #465f78;
+	padding: 0; }
+
+
+#footer {
+	margin: 0 auto;
+	border: 0;
+	width: 800px;
+	background: transparent url(../images/bkgd-footer2.gif) center right no-repeat;
+	font: normal 70%/250% verdana,arial,helvetica,sans-serif;
+	color: #787878;
+	text-align: left;
+	padding-top: 20px;}
+	
+#footer span {
+	left: 0;
+	padding: 0 5px;
+	line-height: 18px;
+	}
+	
+#footer a {
+	color: #787878;
+	text-decoration: none; }
+
+#footer2 {
+	margin: 0 auto;
+	border: 0;
+	background: transparent url(../images/bg_footerr.gif) -800px 0 no-repeat;
+	padding: 20px 0 20px 0;
+	width: 740px;
+	font: normal 70%/250% verdana,arial,helvetica,sans-serif;
+	color: #ACACAC;
+	text-align: center;}
+
+
+
+/* =================================================== *
+ * FOOTER
+ * =================================================== */
+
+#footerWrap {
+	margin: 0px auto;
+		border: 0;
+		padding: 0;
+	width: 100%; }
+
+
+/* =================================================== *
+ * FONT DESIGNS
+ * =================================================== */
+ 
+ .nbuymenu {
+ 	font: normal 11px/100% Verdana, Arial, Helvetica, sans-serif;
+ 	background-color: #DFE7EC;
+ 	border: 1px inset #fafafa;
+ 	height: 22px;
+ 	vertical-align: middle;
+}
+
+#contentmainarea {
+ 	font: normal 11px/15px Verdana, Arial, Helvetica, sans-serif;
+ 	color: #939393;
+ 	padding-top: 15px;
+ 	vertical-align: top;
+}
+
+#contentmainarea h3 {
+ 	font: normal 24px/24px georgia,"Times New Roman",times,serif;
+ 	color: #A6BACE;
+}
+
+#test {
+	position: relative;
+  	margin: -10px auto;
+	text-align: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	}
+	
+.td-chart-directory {
+	background-color: #E4E4D6;
+	padding-left: 8px;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	height: 23px;
+	vertical-align: middle;
+}
+.td-chart-total {
+	background-color: #FFEEA8;
+	padding-left: 8px;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	height: 23px;
+	vertical-align: middle;
+}
+
+.inputmenu {
+	background-color: #DFE7EC;
+	border: 1px inset #fafafa;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	padding-left: 3px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 100%;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+.linesep {
+	padding-left: 11px;
+	padding-top: 1px;
+	padding-bottom: 2px;
+	padding-right: 10px;
+	background-color: #EEEEEA;
+	background: transparent url(../images/slip-background.gif) bottom no-repeat;
+	font: normal 11px verdana,arial,helvetica,sans-serif;
+	line-height: 163%;
+	height: 25px;
+	width: 50%;
+
+
+}
+
+.tagline {
+	font: bold 10px/100% arial, helvetica, sans-serif;
+	color: #B1AD8B;
+	vertical-align: middle;
+	padding: 20px 0px 10px 10px;
+	background-color: #fff;
+}
+
+
+.smallheader {
+	
+	font: bold 13px/18px verdana,arial,helvetica,sans-serif;
+	color: #787878;
+	}
+
+
+.smalltext {
+	
+	font: normal 10px/16px verdana,arial,helvetica,sans-serif;
+	color: #787878;
+	}
+
+.smalltext a {
+	
+	font: normal 10px/16px verdana,arial,helvetica,sans-serif;
+	color: #787878;
+	}
+	
+sup {
+	font: normal 10px/16px verdana,arial,helvetica,sans-serif;
+	color: #787878;
+	}
+	
+/* =================================================== *
+ * Left Side Navigation: Brown (q)
+ * =================================================== */
+ 	
+TD#navq A {
+	DISPLAY: block; 
+	TEXT-DECORATION: none;
+	COLOR: #666;
+	text-align: left;
+	vertical-align: middle;
+	padding: 0 0 0 22px;
+	font: normal 11px/22px verdana,arial,helvetica,sans-serif;
+	border-bottom: 1px solid #DDD;
+	background: transparent url(../images/icon_url.gif) 3px center no-repeat;
+}
+
+TD#navq A:hover {
+	COLOR: #999;
+	vertical-align: middle;
+	background: #f4f4f4;
+	DISPLAY: block; 
+	TEXT-DECORATION: none;
+	font: normal 11px/22px verdana,arial,helvetica,sans-serif;
+	background: #f4f4f4 url(../images/icon_url.gif) 3px center no-repeat;
+}
+
+}
+TD#navq {
+	
+	font: normal 11px/22px verdana,arial,helvetica,sans-serif;
+	text-align: left;
+	background: transparent url(../images/icon_url.gif) 3px center no-repeat;
+	width: 160px;
+}
+
+
+
+.tagheader {
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #999999;
+	padding-left: 5px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	background-color: #F5F4F3;
+}
+
+
+/* =================================================== *
+ * Navigation Pull Downs
+ * =================================================== */
+
+
+#frmNavzDrop {
+  float: center;
+	margin: 3px 100px 3px 1px;
+	padding: 0;
+	}
+#frmNavzDrop select {
+  border: 1px solid #555;
+  background: #A8BACC;
+	padding: 1px 0;
+	width: 200px;
+	font: normal 12px/150% arial,helvetica,sans-serif;
+	color: #222222; }
+#frmNavzDrop select optgroup {
+	font-weight: bold;
+	font-style: normal;
+	margin: 10px 0px; }
+
+#frmNavzDrop select bold {
+	font-weight: bold; }
+	
+
+
+.contentatticscript{
+	position: absolute;
+	top: 308px;
+	left: 129px;
+	color: #A6BACE;
+	z-index:8;
+ 	}
+
+
+
+
+#frmNavzDrop2 {
+  float: center;
+	margin: 3px 100px 3px 1px;
+	padding: 0;
+	}
+#frmNavzDrop2 select {
+  border: 1px solid #555;
+  background: #A8BACC;
+	padding: 1px 0;
+	width: 200px;
+	font: normal 12px/150% arial,helvetica,sans-serif;
+	color: #222222; }
+#frmNavzDrop2 select optgroup {
+	font-weight: bold;
+	font-style: normal;
+	margin: 10px 0px; }
+
+#frmNavzDrop2 select bold {
+	font-weight: bold; }	
+	
+
+
+#frmNavzDrop3 {
+  float: center;
+	margin: 3px 100px 3px 1px;
+	padding: 0;
+	}
+#frmNavzDrop3 select {
+  border: 1px solid #555;
+  background: #A8BACC;
+	padding: 1px 0;
+	width: 200px;
+	font: normal 12px/150% arial,helvetica,sans-serif;
+	color: #222222; }
+#frmNavzDrop3 select optgroup {
+	font-weight: bold;
+	font-style: normal;
+	margin: 10px 0px; }
+
+#frmNavzDrop3 select bold {
+	font-weight: bold; }	
+	
+
+
+#frmNavzDrop4 {
+  float: center;
+	margin: 3px 100px 3px 1px;
+	padding: 0;
+	}
+#frmNavzDrop4 select {
+  border: 1px solid #555;
+  background: #A8BACC;
+	padding: 1px 0;
+	width: 200px;
+	font: normal 12px/150% arial,helvetica,sans-serif;
+	color: #222222; }
+#frmNavzDrop4 select optgroup {
+	font-weight: bold;
+	font-style: normal;
+	margin: 10px 0px; }
+
+#frmNavzDrop4 select bold {
+	font-weight: bold; }
+
+
+
+#frmNavzDrop5 {
+  float: center;
+	margin: 3px 100px 3px 1px;
+	padding: 0;
+	}
+#frmNavzDrop5 select {
+  border: 1px solid #555;
+  background: #A8BACC;
+	padding: 1px 0;
+	width: 200px;
+	font: normal 12px/150% arial,helvetica,sans-serif;
+	color: #222222; }
+#frmNavzDrop5 select optgroup {
+	font-weight: bold;
+	font-style: normal;
+	margin: 10px 0px; }
+
+#frmNavzDrop5 select bold {
+	font-weight: bold; }
+
+
+#frmNavxDrop {
+  float: left;
+	margin: 0;
+	padding: 0;
+	}

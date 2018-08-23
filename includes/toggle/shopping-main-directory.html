@@ -1,0 +1,2877 @@
+<!-- BEGIN .toggle menu for shopping panel -->
+
+<script type="text/javascript">
+
+// This launch Puma SideBar on form load.
+$("#botLaunch,#botLaunch2").on("click",function(){
+
+	$.PumaSideBar({
+		position: "left",  // Position
+		label: "Shopping Directory", // Initial label
+		movebody: true, // if you want to push or not your page
+		avatar: "", // Initial avatar.
+		items: [{ // Level one
+					fa: "",
+					text: "Kitchen",
+					items: [{ // Level two
+							fa: "",
+							text: "appliances",
+							items: [{  // Level three
+										fa: "",
+										text: "cooking ranges",
+										link: "item/cooking-ranges"
+									 },
+									 {
+										fa: "",
+										text: "cooktops",
+										link: "item/cooktop"
+						 			 },
+									 {
+										fa: "",
+										text: "counter appliances",
+										link: "item/counter-appliance"
+									 },
+									 {
+										fa: "",
+										text: "dishwashers",
+										link: "item/dishwasher"
+									 },
+									 {
+										fa: "",
+										text: "disposals",
+										link: "item/garbage-disposer"
+									 },
+									 {
+										fa: "",
+										text: "microwaves",
+										link: "item/microwave"
+									 },
+									 {
+										fa: "",
+										text: "hoods",
+										link: "item/range-hood"
+									 },
+									 {
+										fa: "",
+										text: "refrigeration",
+										link: "item/refrigerator"
+									 },
+									 {
+										fa: "",
+										text: "wall ovens",
+										link: "item/wall-oven"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "bar stools & pubs",
+							items: [{  // Level three
+										fa: "",
+										text: "bar stools",
+										link: "item/bar-stool"
+									 },
+									 {
+										fa: "",
+										text: "counter stools",
+										link: "item/counter-stool"
+									 },
+									 {
+										fa: "",
+										text: "extra tall stools",
+										link: "item/extra-tall-bar-stool"
+									 },
+									 {
+										fa: "",
+										text: "pub tables & sets",
+										link: "item/pub-table-set"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "dining tables & chairs",
+							items: [{  // Level three
+										fa: "",
+										text: "accent furniture",
+										link: "item/bakers-rack"
+									 },
+									 {
+										fa: "",
+										text: "breakfast nooks",
+										link: "item/breakfast-nook"
+									 },
+									 {
+										fa: "",
+										text: "dining chairs",
+										link: "item/dining-chair"
+									 },
+									 {
+										fa: "",
+										text: "dining tables",
+										link: "item/dining-table"
+									 },
+									 {
+										fa: "",
+										text: "dining table sets",
+										link: "item/dining-table-set"
+									 },
+									 {
+										fa: "",
+										text: "folding tables",
+										link: "item/folding-dining-table"
+									 },
+									 {
+										fa: "",
+										text: "banquet tables",
+										link: "item/banquet-table"
+									 },
+									 {
+										fa: "",
+										text: "table linens",
+										link: "item/table-linen"
+									 },
+									 {
+										fa: "",
+										text: "return: dining",
+										link: "item/dining-table-dining-chair"
+						 }]
+						 },
+							{
+							fa: "",
+							text: "faucets & sinks",
+							items: [{  // Level three
+										fa: "",
+										text: "kitchen faucets",
+										link: "item/kitchen-faucet"
+									 },
+									 {
+										fa: "",
+										text: "kitchen sinks",
+										link: "item/kitchen-sink"
+										}]
+						 },
+							{
+							fa: "",
+							text: "kitchen design",
+							items: [{  // Level three
+										fa: "",
+										text: "kitchen cabinets",
+										link: "item/kitchen-cabinet"
+									 },
+									 {
+										fa: "",
+										text: "kitchen countertops",
+										link: "item/kitchen-countertop"
+									 },
+									 {
+										fa: "",
+										text: "kitchen islands",
+										link: "item/kitchen-island"
+									 },
+									 {
+										fa: "",
+										text: "kitchen carts",
+										link: "item/kitchen-cart"
+									 }]
+							},
+							{
+							fa: "",
+							text: "kitchen organization",
+							items: [{  // Level three
+										fa: "",
+										text: "drawal organizers",
+										link: "item/kitchen-drawer-organizer"
+									 },
+									 {
+										fa: "",
+										text: "baker racks",
+										link: "item/baker-rack"
+									 },
+									 {
+										fa: "",
+										text: "lazy susans",
+										link: "item/lazy-susan"
+									 },
+									 {
+										fa: "",
+										text: "kitchen canisters",
+										link: "item/kitchen-canister"
+									 },
+									 {
+										fa: "",
+										text: "storage jars & bottles",
+										link: "item/storage-jar"
+									 },
+									 {
+										fa: "",
+										text: "wine cellar storage",
+										link: "item/wine-cellar-storage"
+						 }]
+						 },
+							{
+							fa: "",
+							text: "kitchen utensils",
+							items: [{  // Level three
+										fa: "",
+										text: "utensil holders",
+										link: "item/utensil-holder"
+									 },
+									 {
+										fa: "",
+										text: "knives & cutlery",
+										link: "item/kitchen-knife-set"
+									 },
+									 {
+										fa: "",
+										text: "knife sets",
+										link: "item/knife-set"
+									 },
+									 {
+										fa: "",
+										text: "knife blocs",
+										link: "item/knife-block-set"
+									 },
+									 {
+										fa: "",
+										text: "knife sharpening tools",
+										link: "item/knife-sharpener"
+									 },
+									 {
+										fa: "",
+										text: "scales & timers",
+										link: "item/food-scale"
+									 },
+									 {
+										fa: "",
+										text: "return: utensils",
+										link: "item/kitchen-utensil"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "kitchen wares",
+							items: [{  // Level three
+										fa: "",
+										text: "bakeware",
+										link: "item/bakeware"
+									 },
+									 {
+										fa: "",
+										text: "cookware",
+										link: "item/cookware"
+									 },
+									 {
+										fa: "",
+										text: "dinnerware",
+										link: "item/dinnerware"
+									 },
+									 {
+										fa: "",
+										text: "flatware",
+										link: "item/flatware"
+									 },
+									 {
+										fa: "",
+										text: "serveware",
+										link: "item/serveware"
+									 },
+									 {
+										fa: "",
+										text: "stemware",
+										link: "item/stemware"
+									 },
+									 {
+										fa: "",
+										text: "stoneware",
+										link: "item/stoneware"
+									 },
+									 {
+										fa: "",
+										text: "return: wares",
+										link: "item/kitchen-ware"
+						 			}]
+						 }]
+
+
+			},
+			{
+					fa: "",
+					text: "Bath",
+					items: [{ // Level two
+							fa: "",
+							text: "bathtubs",
+							items: [{  // Level three
+										fa: "",
+										text: "air tubs",
+										link: "shop-bathtubs.php"
+									 },
+									 {
+										fa: "",
+										text: "clawfoot tubs",
+										link: "shop-bathtubs-claw.php"
+						 			 },
+									 {
+										fa: "",
+										text: "freestanding tubs",
+										link: "shop-bathtubs-freestanding.php"
+									 },
+									 {
+										fa: "",
+										text: "jet tubs",
+										link: "shop-bathtubs-jet.php"
+									 },
+									 {
+										fa: "",
+										text: "soaking tubs",
+										link: "shop-bathtubs-soak.php"
+									 },
+									 {
+										fa: "",
+										text: "standard bath tubs",
+										link: "shop-bathtubs-standard.php"
+									 },
+									 {
+										fa: "",
+										text: "tub & shower systems",
+										link: "shop-bathtubs-system.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "sinks & faucets",
+							items: [{  // Level three
+										fa: "",
+										text: "bathroom sinks",
+										link: "shop-bath-sinks.php"
+									 },
+									 {
+										fa: "",
+										text: "bathroom faucets",
+										link: "shop-bath-faucet.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "shower fixtures",
+							items: [{  // Level three
+										fa: "",
+										text: "shower enclosures",
+										link: "shop-shower-enclosure.php"
+									 },
+									 {
+										fa: "",
+										text: "shower modules",
+										link: "shop-shower-modules.php"
+									 },
+									 {
+										fa: "",
+										text: "shower fixtures",
+										link: "shop-shower-fixtures.php"
+									 },
+									 {
+										fa: "",
+										text: "shower doors",
+										link: "shop-shower-doors.php"
+									 },
+									 {
+										fa: "",
+										text: "shower bases",
+										link: "shop-shower-bases.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "toilets & bidets",
+							items: [{  // Level three
+										fa: "",
+										text: "elongated toilets",
+										link: "shop-bath-toilet-elongated.php"
+									 },
+									 {
+										fa: "",
+										text: "rounded toilets",
+										link: "shop-bath-toilet-rounded.php"
+									 },
+									 {
+										fa: "",
+										text: "high efficiency toilets",
+										link: "shop-bath-toilet-efficiency.php"
+									 },
+									 {
+										fa: "",
+										text: "toilet seats",
+										link: "shop-bath-toilet-seats.php"
+									 },
+									 {
+										fa: "",
+										text: "bidets",
+										link: "shop-bath-toilet-bidet.php"
+									 },
+									 {
+										fa: "",
+										text: "misc parts",
+										link: "shop-bath-toilet-parts.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "vanities",
+							items: [{  // Level three
+										fa: "",
+										text: "double sink vanity",
+										link: "shop-bath-vanities-double.php"
+									 },
+									 {
+										fa: "",
+										text: "single sink vanity",
+										link: "shop-bath-vanities-single.php"
+									 },
+									 {
+										fa: "",
+										text: "bathroom cabinet",
+										link: "shop-bath-cabinets.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "bath hardware",
+							items: [{  // Level three
+										fa: "",
+										text: "towel racks & bars",
+										link: "shop-bath-hardware-towel.php"
+									 },
+									 {
+										fa: "",
+										text: "cosmetic & cleaning holders",
+										link: "shop-bath-hardware-gadgets.php"
+									 },
+									 {
+										fa: "",
+										text: "cabinet knobs",
+										link: "shop-bath-hardware-knob.php"
+									 },
+									 {
+										fa: "",
+										text: "safety hardware",
+										link: "shop-bath-hardware-safety.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "bath lighting",
+							items: [{  // Level three
+										fa: "",
+										text: "bath vanity lighting",
+										link: "shop-bath-lighting-vanity.php"
+									 },
+									 {
+										fa: "",
+										text: "bath fixture lighting",
+										link: "shop-bath-lighting-fixture.php"
+									 },
+									 {
+										fa: "",
+										text: "bath ceiling lighting",
+										link: "shop-bath-lighting-ceiling.php"
+									 },
+									 {
+										fa: "",
+										text: "bath wall sconce",
+										link: "shop-bath-lighting-sconce.php"
+									 },
+									 {
+										fa: "",
+										text: "exhaust bath fan",
+										link: "shop-bath-lighting-fan.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "bath linens",
+							items: [{  // Level three
+										fa: "",
+										text: "bath sheets",
+										link: "shop-bath-linens.php?psps_keywords=bath+sheet"
+									 },
+									 {
+										fa: "",
+										text: "bath towels",
+										link: "shop-bath-linens.php?psps_keywords=bath+towel+set"
+									 },
+									 {
+										fa: "",
+										text: "beach towels",
+										link: "shop-bath-linens.php?psps_keywords=beach+towel"
+									 },
+									 {
+										fa: "",
+										text: "decorative towel sets",
+										link: "shop-bath-linens.php?psps_keywords=decorative+towel+set"
+									 },
+									 {
+										fa: "",
+										text: "hooded towels",
+										link: "shop-bath-linens.php?psps_keywords=hooded+towel"
+									 },
+									 {
+										fa: "",
+										text: "kid's towels",
+										link: "shop-bath-linens.php?psps_keywords=kids+towel"
+									 },
+									 {
+										fa: "",
+										text: "bath rugs",
+										link: "shop-bath-linens.php?psps_keywords=bath+rugs"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "mirrors",
+							items: [{  // Level three
+										fa: "",
+										text: "medicine cabinets",
+										link: "shop-bath-mirrors-medicine.php"
+									 },
+									 {
+										fa: "",
+										text: "bath counter mirrors",
+										link: "shop-bath-mirrors-counter.php"
+									 },
+									 {
+										fa: "",
+										text: "bath vanity mirrors",
+										link: "shop-bath-mirrors-vanity.php"
+									 },
+									 {
+										fa: "",
+										text: "bath wall mirrors",
+										link: "shop-bath-mirrors-wall.php"
+						 			}]
+						 }]
+
+
+			},
+			{
+					fa: "",
+					text: "Bedroom",
+					items: [{ // Level two
+							fa: "",
+							text: "master bed sets",
+							items: [{  // Level three
+										fa: "",
+										text: "bookcase",
+										link: "shop-bedroom-bookcase.php"
+									 },
+									 {
+										fa: "",
+										text: "canopy",
+										link: "shop-bedroom-canopy.php"
+						 			 },
+									 {
+										fa: "",
+										text: "low profile",
+										link: "shop-bedroom-profile.php"
+									 },
+									 {
+										fa: "",
+										text: "metal",
+										link: "shop-bedroom-metal.php"
+									 },
+									 {
+										fa: "",
+										text: "panel",
+										link: "shop-bedroom-panel.php"
+									 },
+									 {
+										fa: "",
+										text: "platform",
+										link: "shop-bedroom-platform.php"
+									 },
+									 {
+										fa: "",
+										text: "poster",
+										link: "shop-bedroom-poster.php"
+									 },
+									 {
+										fa: "",
+										text: "shelter",
+										link: "shop-bedroom-shelter.php"
+									 },
+									 {
+										fa: "",
+										text: "slat",
+										link: "shop-bedroom-slat.php"
+									 },
+									 {
+										fa: "",
+										text: "sleigh",
+										link: "shop-bedroom-sleigh.php"
+									 },
+									 {
+										fa: "",
+										text: "storage",
+										link: "shop-bedroom-storage.php"
+									 },
+									 {
+										fa: "",
+										text: "headboards",
+										link: "shop-bedroom-headboard.php"
+									 },
+									 {
+										fa: "",
+										text: "frames",
+										link: "shop-bedroom-bed-frames.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "toddler/teen beds",
+							items: [{  // Level three
+										fa: "",
+										text: "bunk beds",
+										link: "shop-child-bunk.php"
+									 },
+									 {
+										fa: "",
+										text: "captail beds",
+										link: "shop-child-captain.php"
+									 },
+									 {
+										fa: "",
+										text: "futons",
+										link: "shop-child-futon.php"
+									 },
+									 {
+										fa: "",
+										text: "loft beds",
+										link: "shop-child-loft.php"
+									 },
+									 {
+										fa: "",
+										text: "school house beds",
+										link: "shop-child-schoolhouse.php"
+									 },
+									 {
+										fa: "",
+										text: "trundle beds",
+										link: "shop-child-trundle.php"
+									 },
+									 {
+										fa: "",
+										text: "wall storage beds",
+										link: "shop-child-wall.php"
+									 },
+									 {
+										fa: "",
+										text: "frames",
+										link: "shop-child-frame.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "other beds",
+							items: [{  // Level three
+										fa: "",
+										text: "adjustable beds",
+										link: "shop-other-bed-adjustable.php"
+									 },
+									 {
+										fa: "",
+										text: "daybeds",
+										link: "shop-other-bed-day.php"
+									 },
+									 {
+										fa: "",
+										text: "folding beds",
+										link: "shop-other-bed-folding.php"
+									 },
+									 {
+										fa: "",
+										text: "inflatable air beds",
+										link: "shop-other-bed-inflate.php"
+									 },
+									 {
+										fa: "",
+										text: "murphy beds",
+										link: "shop-other-bed-murphy.php"
+									 },
+									 {
+										fa: "",
+										text: "wrap beds",
+										link: "shop-other-bed-wrap.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "nursery room",
+							items: [{  // Level three
+										fa: "",
+										text: "cribs",
+										link: "shop-nursery-cribs.php"
+									 },
+									 {
+										fa: "",
+										text: "cradles & bassinets",
+										link: "shop-nursery-cradle.php"
+									 },
+									 {
+										fa: "",
+										text: "nursery decor",
+										link: "shop-nursery-decor.php"
+									 },
+									 {
+										fa: "",
+										text: "nursery furniture",
+										link: "shop-nursery-furniture.php"
+									 },
+									 {
+										fa: "",
+										text: "nursery gear",
+										link: "shop-nursery-babygear.php"
+									 },
+									 {
+										fa: "",
+										text: "nursery linens",
+										link: "shop-nursery-linen.php"
+									 },
+									 {
+										fa: "",
+										text: "nursery safety",
+										link: "shop-nursery-babysafety.php"
+									 },
+									 {
+										fa: "",
+										text: "seating",
+										link: "shop-nursery-seating.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "bed linens",
+							items: [{  // Level three
+										fa: "",
+										text: "bedding sets",
+										link: "shop-bedlinen-bedding.php"
+									 },
+									 {
+										fa: "",
+										text: "blankets",
+										link: "shop-bedlinen-blanket.php"
+									 },
+									 {
+										fa: "",
+										text: "comforters",
+										link: "shop-bedlinen-comforter.php"
+									 },
+									 {
+										fa: "",
+										text: "decorative throws & quilts",
+										link: "shop-bedlinen-decor.php"
+									 },
+									 {
+										fa: "",
+										text: "mattress pads",
+										link: "shop-bedlinen-pads.php"
+									 },
+									 {
+										fa: "",
+										text: "pillows",
+										link: "shop-bedlinen-pillow.php"
+									 },
+									 {
+										fa: "",
+										text: "sheets",
+										link: "shop-bedlinen-whites.php"
+									 },
+									 {
+										fa: "",
+										text: "skirts",
+										link: "shop-bedlinen-skirts.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "bedroom furniture",
+							items: [{  // Level three
+										fa: "",
+										text: "armoires",
+										link: "shop-furniture-armoires.php"
+									 },
+									 {
+										fa: "",
+										text: "benches",
+										link: "shop-furniture-benches.php"
+									 },
+									 {
+										fa: "",
+										text: "chests",
+										link: "shop-furniture-chests.php"
+									 },
+									 {
+										fa: "",
+										text: "dressers",
+										link: "shop-furniture-dressers.php"
+									 },
+									 {
+										fa: "",
+										text: "mirrors",
+										link: "shop-furniture-mirrors.php"
+									 },
+									 {
+										fa: "",
+										text: "nightstands",
+										link: "shop-furniture-nightstands.php"
+									 },
+									 {
+										fa: "",
+										text: "vanity tables",
+										link: "shop-furniture-vanity.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "mattresses",
+							items: [{  // Level three
+										fa: "",
+										text: "air",
+										link: "shop-mattresses-air.php"
+									 },
+									 {
+										fa: "",
+										text: "gel",
+										link: "shop-mattresses-gel.php"
+									 },
+									 {
+										fa: "",
+										text: "innerspring",
+										link: "shop-mattresses-innerspring.php"
+									 },
+									 {
+										fa: "",
+										text: "latex foam",
+										link: "shop-mattresses-foam.php"
+									 },
+									 {
+										fa: "",
+										text: "memory form",
+										link: "shop-mattresses-memory.php"
+									 },
+									 {
+										fa: "",
+										text: "organic",
+										link: "shop-mattresses-organic.php"
+									 },
+									 {
+										fa: "",
+										text: "othopedic",
+										link: "shop-mattresses-ortho.php"
+									 },
+									 {
+										fa: "",
+										text: "waterbed",
+										link: "shop-mattresses-water.php"
+									 },
+									 {
+										fa: "",
+										text: "box springs",
+										link: "shop-mattresses-boxspring.php"
+									 },
+									 {
+										fa: "",
+										text: "mattress pads",
+										link: "shop-mattresses-pads.php"
+									 },
+									 {
+										fa: "",
+										text: "mattress sets",
+										link: "shop-mattresses-set.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "bed safety/rails",
+							items: [{  // Level three
+										fa: "",
+										text: "bed side rail",
+										link: "shop-rails.php?psps_keywords=bed+side+rail"
+									 },
+									 {
+										fa: "",
+										text: "bed support rail",
+										link: "shop-rails.php?psps_keywords=bed+support+rail"
+									 },
+									 {
+										fa: "",
+										text: "bunk bed rail",
+										link: "shop-rails.php?psps_keywords=bunk+bed+rail"
+									 },
+									 {
+										fa: "",
+										text: "crib bed rail",
+										link: "shop-rails.php?psps_keywords=crib+bed+rail"
+									 },
+									 {
+										fa: "",
+										text: "safetu bed rail",
+										link: "shop-rails.php?psps_keywords=safety+bed+rail"
+									 },
+									 {
+										fa: "",
+										text: "toddler bed rail",
+										link: "shop-rails.php?psps_keywords=toddler+bed+rail"
+						 			}]
+						 }]
+
+
+			},
+			{
+					fa: "",
+					text: "Furniture",
+					items: [{ // Level two
+							fa: "",
+							text: "living-family room area",
+							items: [{  // Level three
+										fa: "",
+										text: "living room set",
+										link: "shop-living-set.php"
+									 },
+									 {
+										fa: "",
+										text: "chairs and benches",
+										link: "shop-living-chairs.php"
+						 			 },
+									 {
+										fa: "",
+										text: "curios and bookcases",
+										link: "shop-living-bookcase.php"
+									 },
+									 {
+										fa: "",
+										text: "media",
+										link: "shop-living-media.php"
+									 },
+									 {
+										fa: "",
+										text: "sofas",
+										link: "shop-living-sofa.php"
+									 },
+									 {
+										fa: "",
+										text: "tables",
+										link: "shop-living-tables.php"
+									 },
+									 {
+										fa: "",
+										text: "decor (see home decor)",
+										link: "shop-decor.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "home/den library",
+							items: [{  // Level three
+										fa: "",
+										text: "bookcases and shelving",
+										link: "shop-den-bookcases.php"
+									 },
+									 {
+										fa: "",
+										text: "den books",
+										link: "shop-den-books.php"
+									 },
+									 {
+										fa: "",
+										text: "den furniture",
+										link: "shop-den-furniture.php"
+									 },
+									 {
+										fa: "",
+										text: "home office",
+										link: "shop-den-homeoffice.php"
+									 },
+									 {
+										fa: "",
+										text: "writing desks",
+										link: "shop-den-writerdesks.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "home entry and hallway",
+							items: [{  // Level three
+										fa: "",
+										text: "benches",
+										link: "shop-entry-benches.php"
+									 },
+									 {
+										fa: "",
+										text: "bookcases",
+										link: "shop-entry-bookcases.php"
+									 },
+									 {
+										fa: "",
+										text: "coat racks and trees",
+										link: "shop-entry-racks.php"
+									 },
+									 {
+										fa: "",
+										text: "grandfather clocks",
+										link: "shop-entry-clocks.php"
+									 },
+									 {
+										fa: "",
+										text: "hall and entry tables",
+										link: "shop-entry-halltables.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "sunroom/conservatory",
+							items: [{  // Level three
+										fa: "",
+										text: "sunroom kits",
+										link: "shop-living-conservatory-kits.php"
+									 },
+									 {
+										fa: "",
+										text: "sunroom furniture",
+										link: "shop-living-conservatory-furniture.php"
+									 },
+									 {
+										fa: "",
+										text: "plant stands",
+										link: "shop-living-conservatory-stands.php"
+									 },
+									 {
+										fa: "",
+										text: "planters",
+										link: "shop-living-conservatory-planters.php"
+									 },
+									 {
+										fa: "",
+										text: "plants",
+										link: "shop-living-conservatory-plants.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "classic design",
+							items: [{  // Level three
+										fa: "",
+										text: "rustic-log cabin-western",
+										link: "shop-living-rustic.php"
+									 },
+									 {
+										fa: "",
+										text: "wicker furniture",
+										link: "shop-living-wicker.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "modern furniture",
+							items: [{  // Level three
+										fa: "",
+										text: "chairs and benches",
+										link: "shop-living-modern-seating.php"
+									 },
+									 {
+										fa: "",
+										text: "home office",
+										link: "shop-living-modern-office.php"
+									 },
+									 {
+										fa: "",
+										text: "love seats and ottomans",
+										link: "shop-living-modern-loveseat.php"
+									 },
+									 {
+										fa: "",
+										text: "media",
+										link: "shop-living-modern-media.php"
+									 },
+									 {
+										fa: "",
+										text: "sofas",
+										link: "shop-living-modern-sofa.php"
+									 },
+									 {
+										fa: "",
+										text: "tables",
+										link: "shop-living-modern-tables.php"
+						 			}]
+						 }]
+
+
+			},
+			{
+					fa: "",
+					text: "Home Decor",
+					items: [{ // Level two
+							fa: "",
+							text: "candles",
+							items: [{  // Level three
+										fa: "",
+										text: "candles",
+										link: "shop-decor-candles.php"
+									 },
+									 {
+										fa: "",
+										text: "holiday candles",
+										link: "shop-decor-candle-holiday.php"
+						 			 },
+									 {
+										fa: "",
+										text: "candelabras",
+										link: "shop-decor-candelabras.php"
+									 },
+									 {
+										fa: "",
+										text: "candle holders",
+										link: "shop-decor-candelabras-holder.php"
+									 },
+									 {
+										fa: "",
+										text: "candle scones",
+										link: "shop-decor-candelabras-sconces.php"
+									 },
+									 {
+										fa: "",
+										text: "lanterns",
+										link: "shop-decor-candelabras-lantern.php"
+									 },
+									 {
+										fa: "",
+										text: "torches",
+										link: "shop-decor-candelabras-torch.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "clocks",
+							items: [{  // Level three
+										fa: "",
+										text: "atomic clocks",
+										link: "shop-decor-clocks-atomic.php"
+									 },
+									 {
+										fa: "",
+										text: "cuckoo clocks",
+										link: "shop-decor-clocks-cuckoo.php"
+									 },
+									 {
+										fa: "",
+										text: "desktop clocks",
+										link: "shop-decor-clocks-desktop.php"
+									 },
+									 {
+										fa: "",
+										text: "floor clocks",
+										link: "shop-decor-clocks-floor.php"
+									 },
+									 {
+										fa: "",
+										text: "grandfather clocks",
+										link: "shop-decor-clocks-grand.php"
+									 },
+									 {
+										fa: "",
+										text: "hourglass",
+										link: "shop-decor-clocks-hourglass.php"
+									 },
+									 {
+										fa: "",
+										text: "mantel clocks",
+										link: "shop-decor-clocks-mantel.php"
+									 },
+									 {
+										fa: "",
+										text: "mirrow clocks",
+										link: "shop-decor-clocks-mirror.php"
+									 },
+									 {
+										fa: "",
+										text: "wall clocks",
+										link: "shop-decor-clocks-wall.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "den decor",
+							items: [{  // Level three
+										fa: "",
+										text: "aquariums",
+										link: "shop-decor-aquarium.php"
+									 },
+									 {
+										fa: "",
+										text: "bookends",
+										link: "shop-decor-bookends.php"
+									 },
+									 {
+										fa: "",
+										text: "chess sets",
+										link: "shop-decor-chess.php"
+									 },
+									 {
+										fa: "",
+										text: "globes and maps",
+										link: "shop-decor-globes.php"
+									 },
+									 {
+										fa: "",
+										text: "model airplanes",
+										link: "shop-decor-airplanes.php"
+									 },
+									 {
+										fa: "",
+										text: "statues & figurines",
+										link: "shop-decor-statues.php"
+									 },
+									 {
+										fa: "",
+										text: "telescopes",
+										link: "shop-decor-telescopes.php"
+									 },
+									 {
+										fa: "",
+										text: "weather instruments",
+										link: "shop-decor-weather.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "fountains",
+							items: [{  // Level three
+										fa: "",
+										text: "floor fountains",
+										link: "shop-decor-fountain-floor.php"
+									 },
+									 {
+										fa: "",
+										text: "tabletop fountains",
+										link: "shop-decor-fountain-tabletop.php"
+									 },
+									 {
+										fa: "",
+										text: "tiered fountains",
+										link: "shop-decor-fountain-tiered.php"
+									 },
+									 {
+										fa: "",
+										text: "wall fountains",
+										link: "shop-decor-fountain-wall.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "foor & room art",
+							items: [{  // Level three
+										fa: "",
+										text: "decorative easels",
+										link: "shop-decor-floor-easels.php"
+									 },
+									 {
+										fa: "",
+										text: "floor racks",
+										link: "shop-decor-floor-rack.php"
+									 },
+									 {
+										fa: "",
+										text: "floor registers",
+										link: "shop-decor-floor-register.php"
+									 },
+									 {
+										fa: "",
+										text: "plant stands",
+										link: "shop-decor-floor-plant.php"
+									 },
+									 {
+										fa: "",
+										text: "room dividers",
+										link: "shop-decor-floor-divider.php"
+									 },
+									 {
+										fa: "",
+										text: "statues",
+										link: "shop-decor-floor-statue.php"
+									 },
+									 {
+										fa: "",
+										text: "topiaries",
+										link: "shop-decor-floor-topiaries.php"
+									 },
+									 {
+										fa: "",
+										text: "wall art",
+										link: "shop-decor-floor-wallart.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "mirrors",
+							items: [{  // Level three
+										fa: "",
+										text: "floor mirrors",
+										link: "shop-decor-mirror-floor.php"
+									 },
+									 {
+										fa: "",
+										text: "room divider mirrors",
+										link: "shop-decor-mirror-divider.php"
+									 },
+									 {
+										fa: "",
+										text: "wall mirrors",
+										link: "shop-decor-mirror-wall.php"
+									 },
+									 {
+										fa: "",
+										text: "mirrow decals",
+										link: "shop-decor-mirror-decal.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "sofa decor",
+							items: [{  // Level three
+										fa: "",
+										text: "bench cushions",
+										link: "shop-decor-sofa-cushions.php"
+									 },
+									 {
+										fa: "",
+										text: "chair cushions",
+										link: "shop-decor-sofa-chair.php"
+									 },
+									 {
+										fa: "",
+										text: "seating cushions",
+										link: "shop-decor-sofa-seating.php"
+									 },
+									 {
+										fa: "",
+										text: "decorative pillows",
+										link: "shop-decor-sofa-pillows.php"
+									 },
+									 {
+										fa: "",
+										text: "decorative throws",
+										link: "shop-decor-sofa-throws.php"
+									 },
+									 {
+										fa: "",
+										text: "slip covers",
+										link: "shop-decor-sofa-slipcovers.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "tabletop art & accents",
+							items: [{  // Level three
+										fa: "",
+										text: "ceramics",
+										link: "shop-decor-tabletop-ceramic.php"
+									 },
+									 {
+										fa: "",
+										text: "decorative pieces",
+										link: "shop-decor-tabletop-bowl.php"
+									 },
+									 {
+										fa: "",
+										text: "faux florals",
+										link: "shop-decor-tabletop-plants.php"
+									 },
+									 {
+										fa: "",
+										text: "photo albums & frames",
+										link: "shop-decor-tabletop-photo.php"
+									 },
+									 {
+										fa: "",
+										text: "poufs",
+										link: "shop-decor-tabletop-pouf.php"
+									 },
+									 {
+										fa: "",
+										text: "silk plants",
+										link: "shop-decor-tabletop-silk.php"
+									 },
+									 {
+										fa: "",
+										text: "statues & figurines",
+										link: "shop-decor-tabletop-statue.php"
+									 },
+									 {
+										fa: "",
+										text: "urns",
+										link: "shop-decor-tabletop-urn.php"
+									 },
+									 {
+										fa: "",
+										text: "vases",
+										link: "shop-decor-tabletop-vase.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "window treatments",
+							items: [{  // Level three
+										fa: "",
+										text: "curtains",
+										link: "shop-decor-window-curtains.php"
+									 },
+									 {
+										fa: "",
+										text: "curtain rods & hardware",
+										link: "shop-decor-window-curtains-rods.php"
+									 },
+									 {
+										fa: "",
+										text: "interior shutters",
+										link: "shop-decor-window-shutter.php"
+									 },
+									 {
+										fa: "",
+										text: "window blinds",
+										link: "shop-decor-window-blinds.php"
+									 },
+									 {
+										fa: "",
+										text: "window boxes",
+										link: "shop-decor-window-boxes.php"
+									 },
+									 {
+										fa: "",
+										text: "window shades",
+										link: "shop-decor-window-shades.php"
+									 },
+									 {
+										fa: "",
+										text: "valances",
+										link: "shop-decor-window-valances.php"
+						 			}]
+						 }]
+
+
+			},
+			{
+					fa: "",
+					text: "Rec Area",
+					items: [{ // Level two
+							fa: "",
+							text: "billiard & game play",
+							items: [{  // Level three
+										fa: "",
+										text: "pool tables",
+										link: "shop-recroom-billiard-table.php"
+									 },
+									 {
+										fa: "",
+										text: "dart boards",
+										link: "shop-recroom-billiard-dart.php"
+						 			 },
+									 {
+										fa: "",
+										text: "foosball & air hockey",
+										link: "shop-recroom-billiard-foosball.php"
+									 },
+									 {
+										fa: "",
+										text: "game tables & play",
+										link: "shop-recroom-billiard-tables.php"
+									 },
+									 {
+										fa: "",
+										text: "pinball & arcade",
+										link: "shop-recroom-billiard-pinball.php"
+									 },
+									 {
+										fa: "",
+										text: "table tennis",
+										link: "shop-recroom-billiard-tennis.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "computer room",
+							items: [{  // Level three
+										fa: "",
+										text: "desktop computers",
+										link: "shop-recroom-computers.php"
+									 },
+									 {
+										fa: "",
+										text: "laptops",
+										link: "shop-recroom-computer-laptops.php"
+									 },
+									 {
+										fa: "",
+										text: "pads",
+										link: "shop-recroom-computer-pads.php"
+									 },
+									 {
+										fa: "",
+										text: "peripherals",
+										link: "shop-recroom-computer-peripherals.php"
+									 },
+									 {
+										fa: "",
+										text: "computer desks",
+										link: "shop-recroom-computer-desk.php"
+									 },
+									 {
+										fa: "",
+										text: "software",
+										link: "shop-recroom-computer-software.php"
+									 },
+									 {
+										fa: "",
+										text: "gaming fun",
+										link: "shop-recroom-computer-gamefun.php"
+									 },
+									 {
+										fa: "",
+										text: "gaming systems",
+										link: "shop-recroom-computer-gamesystems.php"
+									 },
+									 {
+										fa: "",
+										text: "monitors",
+										link: "shop-recroom-computer-monitors.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "exercise room",
+							items: [{  // Level three
+										fa: "",
+										text: "aerobic training",
+										link: "shop-recroom-exercise-aerobic.php"
+									 },
+									 {
+										fa: "",
+										text: "strength training",
+										link: "shop-recroom-exercise-strength.php"
+									 },
+									 {
+										fa: "",
+										text: "fitness training",
+										link: "shop-recroom-exercise-fitness.php"
+									 },
+									 {
+										fa: "",
+										text: "health check monitors",
+										link: "shop-recroom-exercise-monitors.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "home bar & lounge",
+							items: [{  // Level three
+										fa: "",
+										text: "home bars",
+										link: "shop-recroom-bars.php"
+									 },
+									 {
+										fa: "",
+										text: "bar decor",
+										link: "shop-recroom-bar-decor.php"
+									 },
+									 {
+										fa: "",
+										text: "bar sinks & faucets",
+										link: "shop-recroom-bar-sink.php"
+									 },
+									 {
+										fa: "",
+										text: "bar stemware",
+										link: "shop-recroom-bar-stemware.php"
+									 },
+									 {
+										fa: "",
+										text: "bar stools",
+										link: "shop-recroom-bar-stools.php"
+									 },
+									 {
+										fa: "",
+										text: "pub table sets",
+										link: "shop-recroom-bar-pub.php"
+									 },
+									 {
+										fa: "",
+										text: "wine cabinets",
+										link: "shop-recroom-bar-cabinet.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "home theater",
+							items: [{  // Level three
+										fa: "",
+										text: "home theater systems",
+										link: "shop-recroom-theater-systems.php"
+									 },
+									 {
+										fa: "",
+										text: "home theater seating",
+										link: "shop-recroom-theater-seating.php"
+									 },
+									 {
+										fa: "",
+										text: "home theater stuff",
+										link: "shop-recroom-theater-stuff.php"
+									 },
+									 {
+										fa: "",
+										text: "TV",
+										link: "shop-recroom-theater-tv.php"
+									 },
+									 {
+										fa: "",
+										text: "media systems",
+										link: "shop-recroom-theater-dvd.php"
+									 },
+									 {
+										fa: "",
+										text: "audio systems",
+										link: "shop-recroom-theater-audio.php"
+									 },
+									 {
+										fa: "",
+										text: "receivers",
+										link: "shop-recroom-theater-receivers.php"
+									 },
+									 {
+										fa: "",
+										text: "how-to",
+										link: "shop-recroom-theater-how.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "kid's playroom",
+							items: [{  // Level three
+										fa: "",
+										text: "activity tables",
+										link: "shop-recroom-play-activity.php"
+									 },
+									 {
+										fa: "",
+										text: "doll houses",
+										link: "shop-recroom-play-doll.php"
+									 },
+									 {
+										fa: "",
+										text: "kid's furniture",
+										link: "shop-recroom-play-furniture.php"
+									 },
+									 {
+										fa: "",
+										text: "play houses",
+										link: "shop-recroom-play-house.php"
+									 },
+									 {
+										fa: "",
+										text: "play school",
+										link: "shop-recroom-play-school.php"
+									 },
+									 {
+										fa: "",
+										text: "toy boxes & storage",
+										link: "shop-recroom-play-storage.php"
+									 },
+									 {
+										fa: "",
+										text: "toys & games",
+										link: "shop-recroom-play-toys.php"
+									 },
+									 {
+										fa: "",
+										text: "train sets",
+										link: "shop-recroom-play-trains.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "music room",
+							items: [{  // Level three
+										fa: "",
+										text: "AM-FM satellite radio",
+										link: "shop-recroom-music-radio.php"
+									 },
+									 {
+										fa: "",
+										text: "amplifiers",
+										link: "shop-recroom-music-amp.php"
+									 },
+									 {
+										fa: "",
+										text: "digital pianos",
+										link: "shop-recroom-music-piano.php"
+									 },
+									 {
+										fa: "",
+										text: "listening devices",
+										link: "shop-recroom-music-device.php"
+									 },
+									 {
+										fa: "",
+										text: "musical instruments",
+										link: "shop-recroom-music-instrument.php"
+									 },
+									 {
+										fa: "",
+										text: "receivers",
+										link: "shop-recroom-music-receivers.php"
+									 },
+									 {
+										fa: "",
+										text: "recording studio",
+										link: "shop-recroom-music-recording.php"
+									 },
+									 {
+										fa: "",
+										text: "speakers",
+										link: "shop-recroom-music-speakers.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "the artist's room",
+							items: [{  // Level three
+										fa: "",
+										text: "brushes",
+										link: "shop-recroom-artist-brush.php"
+									 },
+									 {
+										fa: "",
+										text: "ceramics",
+										link: "shop-recroom-artist-ceramics.php"
+									 },
+									 {
+										fa: "",
+										text: "crafts",
+										link: "shop-recroom-artist-crafts.php"
+									 },
+									 {
+										fa: "",
+										text: "cutting tools",
+										link: "shop-recroom-artist-tools.php"
+									 },
+									 {
+										fa: "",
+										text: "drawing & illustration",
+										link: "shop-recroom-artist-drawing.php"
+									 },
+									 {
+										fa: "",
+										text: "easels",
+										link: "shop-recroom-artist-easels.php"
+									 },
+									 {
+										fa: "",
+										text: "paints",
+										link: "shop-recroom-artist-paint.php"
+									 },
+									 {
+										fa: "",
+										text: "painting surfaces",
+										link: "shop-recroom-artist-surface.php"
+									 },
+									 {
+										fa: "",
+										text: "sculpture & molding",
+										link: "shop-recroom-artist-sculpture.php"
+						 			}]
+						 }]
+
+
+			},
+			{
+					fa: "",
+					text: "Home Utility",
+					items: [{ // Level two
+							fa: "",
+							text: "cleaning",
+							items: [{  // Level three
+										fa: "",
+										text: "cleaning machines",
+										link: "shop-utility-cleaning-machine.php"
+									 },
+									 {
+										fa: "",
+										text: "cleaning machine parts",
+										link: "shop-utility-cleaning-parts.php"
+						 			 },
+									 {
+										fa: "",
+										text: "cleansers",
+										link: "shop-utility-cleaning-supply.php"
+									 },
+									 {
+										fa: "",
+										text: "door mats and shoe racks",
+										link: "shop-utility-cleaning-mats.php"
+									 },
+									 {
+										fa: "",
+										text: "floor care",
+										link: "shop-utility-cleaning-floor.php"
+									 },
+									 {
+										fa: "",
+										text: "pet care",
+										link: "shop-utility-cleaning-pet.php"
+									 },
+									 {
+										fa: "",
+										text: "sofa slipcovers",
+										link: "shop-utility-cleaning-sofa.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "closet organization",
+							items: [{  // Level three
+										fa: "",
+										text: "closet systems",
+										link: "shop-utility-closet-system.php"
+									 },
+									 {
+										fa: "",
+										text: "closet components",
+										link: "shop-utility-closet-components.php"
+									 },
+									 {
+										fa: "",
+										text: "closet organization",
+										link: "shop-utility-closet-organize.php"
+									 },
+									 {
+										fa: "",
+										text: "clothes hangers",
+										link: "shop-utility-closet-hangers.php"
+									 },
+									 {
+										fa: "",
+										text: "shoe storage",
+										link: "shop-utility-closet-shoe.php"
+									 },
+									 {
+										fa: "",
+										text: "general organization",
+										link: "shop-utility-closet-organization.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "fireplaces",
+							items: [{  // Level three
+										fa: "",
+										text: "fireplace units",
+										link: "shop-utility-fireplace-units.php"
+									 },
+									 {
+										fa: "",
+										text: "fireplace mantels",
+										link: "shop-utility-fireplace-mantel.php"
+									 },
+									 {
+										fa: "",
+										text: "fireplace tools",
+										link: "shop-utility-fireplace-tools.php"
+									 },
+									 {
+										fa: "",
+										text: "fire burning stoves",
+										link: "shop-utility-fireplace-stoves.php"
+									 },
+									 {
+										fa: "",
+										text: "fuel-lighters-storage",
+										link: "shop-utility-fireplace-fuel.php"
+									 },
+									 {
+										fa: "",
+										text: "chimney stuff",
+										link: "shop-utility-fireplace-chimney.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "heating and cooling",
+							items: [{  // Level three
+										fa: "",
+										text: "air cooling",
+										link: "shop-utility-hvac-cooling.php"
+									 },
+									 {
+										fa: "",
+										text: "air quality",
+										link: "shop-utility-hvac-quality.php"
+									 },
+									 {
+										fa: "",
+										text: "fans",
+										link: "shop-utility-hvac-fans.php"
+									 },
+									 {
+										fa: "",
+										text: "HVAC controls",
+										link: "shop-utility-hvac-controls.php"
+									 },
+									 {
+										fa: "",
+										text: "HVAC filters",
+										link: "shop-utility-hvac-filters.php"
+									 },
+									 {
+										fa: "",
+										text: "HVAC stuff",
+										link: "shop-utility-hvac-stuff.php"
+									 },
+									 {
+										fa: "",
+										text: "home heating",
+										link: "shop-utility-hvac-heating.php"
+									 },
+									 {
+										fa: "",
+										text: "water heating",
+										link: "shop-utility-hvac-water.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "home networks",
+							items: [{  // Level three
+										fa: "",
+										text: "home automation",
+										link: "shop-utility-network-automation.php"
+									 },
+									 {
+										fa: "",
+										text: "communication networks",
+										link: "shop-utility-network-phone.php"
+									 },
+									 {
+										fa: "",
+										text: "computer networks",
+										link: "shop-utility-network-computer.php"
+									 },
+									 {
+										fa: "",
+										text: "home theater networks",
+										link: "shop-utility-network-theater.php"
+									 },
+									 {
+										fa: "",
+										text: "satellite & TV networks",
+										link: "shop-utility-network-satellite.php"
+									 },
+									 {
+										fa: "",
+										text: "installation",
+										link: "shop-utility-network-install.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "home security",
+							items: [{  // Level three
+										fa: "",
+										text: "air safety",
+										link: "shop-utility-security-air.php"
+									 },
+									 {
+										fa: "",
+										text: "fire safety",
+										link: "shop-utility-security-fire.php"
+									 },
+									 {
+										fa: "",
+										text: "generators",
+										link: "shop-utility-security-generator.php"
+									 },
+									 {
+										fa: "",
+										text: "home security systems",
+										link: "shop-utility-security-system.php"
+									 },
+									 {
+										fa: "",
+										text: "safety devices",
+										link: "shop-utility-security-device.php"
+									 },
+									 {
+										fa: "",
+										text: "security cameras",
+										link: "shop-utility-security-cameras.php"
+									 },
+									 {
+										fa: "",
+										text: "security entry",
+										link: "shop-utility-security-entry.php"
+									 },
+									 {
+										fa: "",
+										text: "security safe",
+										link: "shop-utility-security-safe.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "laundry room",
+							items: [{  // Level three
+										fa: "",
+										text: "washers",
+										link: "shop-utility-laundry-washer.php"
+									 },
+									 {
+										fa: "",
+										text: "dryers",
+										link: "shop-utility-laundry-dryer.php"
+									 },
+									 {
+										fa: "",
+										text: "washer-dryer combo",
+										link: "shop-utility-laundry-center.php"
+									 },
+									 {
+										fa: "",
+										text: "ironing centers",
+										link: "shop-utility-laundry-iron.php"
+									 },
+									 {
+										fa: "",
+										text: "laundry organization",
+										link: "shop-utility-laundry-organize.php"
+									 },
+									 {
+										fa: "",
+										text: "laundry storage",
+										link: "shop-utility-laundry-storage.php"
+									 },
+									 {
+										fa: "",
+										text: "laundry supplies",
+										link: "shop-utility-laundry-supply.php"
+									 },
+									 {
+										fa: "",
+										text: "mud room",
+										link: "shop-utility-laundry-mud.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "storage",
+							items: [{  // Level three
+										fa: "",
+										text: "clothes storage",
+										link: "shop-utility-storage-clothes.php"
+									 },
+									 {
+										fa: "",
+										text: "foodstorage",
+										link: "shop-utility-storage-food.php"
+									 },
+									 {
+										fa: "",
+										text: "garage storage",
+										link: "shop-utility-storage-garage.php"
+									 },
+									 {
+										fa: "",
+										text: "laundry storage",
+										link: "shop-utility-storage-laundry.php"
+									 },
+									 {
+										fa: "",
+										text: "kitchen storage",
+										link: "shop-utility-storage-kitchen.php"
+									 },
+									 {
+										fa: "",
+										text: "room storage",
+										link: "shop-utility-storage-trunks.php"
+									 },
+									 {
+										fa: "",
+										text: "sport storage",
+										link: "shop-utility-storage-sport.php"
+									 },
+									 {
+										fa: "",
+										text: "toy storage",
+										link: "shop-utility-storage-toy.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "utility savings",
+							items: [{  // Level three
+										fa: "",
+										text: "lighting: fluorescent",
+										link: "shop-utility-savings-lighting.php"
+									 },
+									 {
+										fa: "",
+										text: "lighting: LED",
+										link: "shop-utility-savings-led.php"
+									 },
+									 {
+										fa: "",
+										text: "electric car charges",
+										link: "shop-utility-savings-auto.php"
+									 },
+									 {
+										fa: "",
+										text: "generators",
+										link: "shop-utility-savings-generator.php"
+									 },
+									 {
+										fa: "",
+										text: "insulation and weatherization",
+										link: "shop-utility-savings-insulation.php"
+									 },
+									 {
+										fa: "",
+										text: "solar power",
+										link: "shop-utility-savings-solar.php"
+									 },
+									 {
+										fa: "",
+										text: "wind power",
+										link: "shop-utility-savings-wind.php"
+						 			}]
+						 }]
+
+
+			},
+			{
+					fa: "",
+					text: "Home Structure",
+					items: [{ // Level two
+							fa: "",
+							text: "attic & basement",
+							items: [{  // Level three
+										fa: "",
+										text: "attic insulation",
+										link: "shop-structure-attic-insulation.php"
+									 },
+									 {
+										fa: "",
+										text: "attic stairs & flooring",
+										link: "shop-structure-attic-stairs.php"
+						 			 },
+									 {
+										fa: "",
+										text: "basement structure",
+										link: "shop-structure-attic-basement.php"
+									 },
+									 {
+										fa: "",
+										text: "home ventilation",
+										link: "shop-structure-attic-ventilation.php"
+									 },
+									 {
+										fa: "",
+										text: "stellar view",
+										link: "shop-structure-attic-stellar.php"
+									 },
+									 {
+										fa: "",
+										text: "weather stripping",
+										link: "shop-structure-attic-weather.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "doors & windows",
+							items: [{  // Level three
+										fa: "",
+										text: "doors",
+										link: "shop-structure-door.php"
+									 },
+									 {
+										fa: "",
+										text: "secondary doors",
+										link: "shop-structure-door-other.php"
+									 },
+									 {
+										fa: "",
+										text: "chimes & locks",
+										link: "shop-structure-door-chime.php"
+									 },
+									 {
+										fa: "",
+										text: "door knobs & hardware",
+										link: "shop-structure-door-knob.php"
+									 },
+									 {
+										fa: "",
+										text: "windows",
+										link: "shop-structure-window.php"
+									 },
+									 {
+										fa: "",
+										text: "windows hardware",
+										link: "shop-structure-window-hardware.php"
+									 },
+									 {
+										fa: "",
+										text: "window wells & awnings",
+										link: "shop-structure-window-wells.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "flooring",
+							items: [{  // Level three
+										fa: "",
+										text: "carpeting",
+										link: "shop-structure-floor-carpet.php"
+									 },
+									 {
+										fa: "",
+										text: "hardwood flooring",
+										link: "shop-structure-floor-hardwood.php"
+									 },
+									 {
+										fa: "",
+										text: "laminate flooring",
+										link: "shop-structure-floor-laminate.php"
+									 },
+									 {
+										fa: "",
+										text: "rugs",
+										link: "shop-structure-floor-rugs.php"
+									 },
+									 {
+										fa: "",
+										text: "stone flooring",
+										link: "shop-structure-floor-stone.php"
+									 },
+									 {
+										fa: "",
+										text: "tile flooring",
+										link: "shop-structure-floor-tile.php"
+									 },
+									 {
+										fa: "",
+										text: "vinyl flooring",
+										link: "shop-structure-floor-vinyl.php"
+									 },
+									 {
+										fa: "",
+										text: "underfloor heating",
+										link: "shop-structure-floor-heat.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "garage",
+							items: [{  // Level three
+										fa: "",
+										text: "garage doors",
+										link: "shop-structure-garage-doors.php"
+									 },
+									 {
+										fa: "",
+										text: "garage door openers",
+										link: "shop-structure-garage-open.php"
+									 },
+									 {
+										fa: "",
+										text: "garage flooring",
+										link: "shop-structure-garage-floor.php"
+									 },
+									 {
+										fa: "",
+										text: "garage lifts",
+										link: "shop-structure-garage-lift.php"
+									 },
+									 {
+										fa: "",
+										text: "garage maintenance",
+										link: "shop-structure-garage-maintenance.php"
+									 },
+									 {
+										fa: "",
+										text: "garage storage",
+										link: "shop-structure-garage-storage.php"
+									 },
+									 {
+										fa: "",
+										text: "workbench",
+										link: "shop-structure-garage-workbench.php"
+									 },
+									 {
+										fa: "",
+										text: "workbench tools",
+										link: "shop-structure-garage-tools.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "home exterior",
+							items: [{  // Level three
+										fa: "",
+										text: "driveways & walkways",
+										link: "shop-structure-exterior-driveway.php"
+									 },
+									 {
+										fa: "",
+										text: "foundations & chimneys",
+										link: "shop-structure-exterior-foundation.php"
+									 },
+									 {
+										fa: "",
+										text: "exterior decor",
+										link: "shop-structure-exterior-decor.php"
+									 },
+									 {
+										fa: "",
+										text: "gutters",
+										link: "shop-structure-exterior-gutter.php"
+									 },
+									 {
+										fa: "",
+										text: "home entry",
+										link: "shop-structure-exterior-entry.php"
+									 },
+									 {
+										fa: "",
+										text: "home siding",
+										link: "shop-structure-exterior-siding.php"
+									 },
+									 {
+										fa: "",
+										text: "porch systems",
+										link: "shop-structure-exterior-porch.php"
+									 },
+									 {
+										fa: "",
+										text: "roofing",
+										link: "shop-structure-exterior-roof.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "lighting",
+							items: [{  // Level three
+										fa: "",
+										text: "bath lighting",
+										link: "shop-structure-light-bathroom.php"
+									 },
+									 {
+										fa: "",
+										text: "ceiling fans",
+										link: "shop-structure-light-fans.php"
+									 },
+									 {
+										fa: "",
+										text: "ceiling lights",
+										link: "shop-structure-light-ceiling.php"
+									 },
+									 {
+										fa: "",
+										text: "chandeliers",
+										link: "shop-structure-light-chandelier.php"
+									 },
+									 {
+										fa: "",
+										text: "lamps",
+										link: "shop-structure-light-lamps.php"
+									 },
+									 {
+										fa: "",
+										text: "recessed and track lighting",
+										link: "shop-structure-light-track.php"
+									 },
+									 {
+										fa: "",
+										text: "specialty lightings",
+										link: "shop-structure-light-special.php"
+									 },
+									 {
+										fa: "",
+										text: "wall lighting",
+										link: "shop-structure-light-wall.php"
+									 },
+									 {
+										fa: "",
+										text: "light bulbs",
+										link: "shop-structure-light-bulb.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "plumbing & wiring",
+							items: [{  // Level three
+										fa: "",
+										text: "plumbing pipe",
+										link: "shop-structure-plumbing-pipe.php"
+									 },
+									 {
+										fa: "",
+										text: "sewer & drain pipes",
+										link: "shop-structure-plumbing-drain.php"
+									 },
+									 {
+										fa: "",
+										text: "plumbing valves",
+										link: "shop-structure-plumbing-valves.php"
+									 },
+									 {
+										fa: "",
+										text: "electrical wiring",
+										link: "shop-structure-electrical-wiring.php"
+									 },
+									 {
+										fa: "",
+										text: "outlets & sockets",
+										link: "shop-structure-electrical-outlet.php"
+									 },
+									 {
+										fa: "",
+										text: "switches & plates",
+										link: "shop-structure-electrical-switch.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "walls & ceiling",
+							items: [{  // Level three
+										fa: "",
+										text: "ceiling materials",
+										link: "shop-structure-walls-ceiling.php"
+									 },
+									 {
+										fa: "",
+										text: "drywall",
+										link: "shop-structure-walls-materials.php"
+									 },
+									 {
+										fa: "",
+										text: "interior paint & stains",
+										link: "shop-structure-walls-paint.php"
+									 },
+									 {
+										fa: "",
+										text: "moulding & rail",
+										link: "shop-structure-walls-moulding.php"
+									 },
+									 {
+										fa: "",
+										text: "wallpaper",
+										link: "shop-structure-walls-paper.php"
+									 },
+									 {
+										fa: "",
+										text: "wall stone & paneling",
+										link: "shop-structure-walls-panel.php"
+									 },
+									 {
+										fa: "",
+										text: "wall tile",
+										link: "shop-structure-walls-tile.php"
+						 			}]
+						 }]
+
+
+			},
+			{
+				fa: "",
+				text: "Garden",
+				items: [{ // Level two
+							fa: "",
+							text: "animal stuff",
+							items: [{  // Level three
+										fa: "",
+										text: "bird baths",
+										link: "shop-garden-animal-bath.php"
+									 },
+									 {
+										fa: "",
+										text: "bird feeders",
+										link: "shop-garden-animal-feeder.php"
+						 			 },
+									 {
+										fa: "",
+										text: "bird houses",
+										link: "shop-garden-animal-house.php"
+									 },
+									 {
+										fa: "",
+										text: "chicken coops",
+										link: "shop-garden-animal-coop.php"
+									 },
+									 {
+										fa: "",
+										text: "dog houses",
+										link: "shop-garden-animal-dog.php"
+									 },
+									 {
+										fa: "",
+										text: "pest control",
+										link: "shop-garden-animal-pest.php"
+									 },
+									 {
+										fa: "",
+										text: "rabbbit hutches",
+										link: "shop-garden-animal-hutch.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "building structures",
+							items: [{  // Level three
+										fa: "",
+										text: "arbors, pergolas & trellis",
+										link: "shop-garden-building-arbor.php"
+									 },
+									 {
+										fa: "",
+										text: "canopies",
+										link: "shop-garden-building-canopy.php"
+									 },
+									 {
+										fa: "",
+										text: "carports",
+										link: "shop-garden-building-carport.php"
+									 },
+									 {
+										fa: "",
+										text: "fences & gates",
+										link: "shop-garden-building-fence.php"
+									 },
+									 {
+										fa: "",
+										text: "garden bridges",
+										link: "shop-garden-building-bridge.php"
+									 },
+									 {
+										fa: "",
+										text: "gazebos",
+										link: "shop-garden-building-gazebo.php"
+									 },
+									 {
+										fa: "",
+										text: "greenhouses",
+										link: "shop-garden-building-greenhouse.php"
+									 },
+									 {
+										fa: "",
+										text: "sheds",
+										link: "shop-garden-building-shed.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "decks, patios & pool",
+							items: [{  // Level three
+										fa: "",
+										text: "cooking grills",
+										link: "shop-garden-deck-grill.php"
+									 },
+									 {
+										fa: "",
+										text: "cooking kitchens",
+										link: "shop-garden-deck-kitchen.php"
+									 },
+									 {
+										fa: "",
+										text: "deck design",
+										link: "shop-garden-deck-design.php"
+									 },
+									 {
+										fa: "",
+										text: "fire pits",
+										link: "shop-garden-deck-fire.php"
+									 },
+									 {
+										fa: "",
+										text: "patio & deck furniture",
+										link: "shop-garden-deck-patio.php"
+									 },
+									 {
+										fa: "",
+										text: "pools & water fun",
+										link: "shop-garden-deck-pool.php"
+									 },
+									 {
+										fa: "",
+										text: "spas & tubs",
+										link: "shop-garden-deck-spa.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "landscaping",
+							items: [{  // Level three
+										fa: "",
+										text: "containers",
+										link: "shop-garden-landscape-containers.php"
+									 },
+									 {
+										fa: "",
+										text: "garden care",
+										link: "shop-garden-landscape-care.php"
+									 },
+									 {
+										fa: "",
+										text: "garden plants",
+										link: "shop-garden-landscape-plants.php"
+									 },
+									 {
+										fa: "",
+										text: "garden tools",
+										link: "shop-garden-landscape-tools.php"
+									 },
+									 {
+										fa: "",
+										text: "green living",
+										link: "shop-garden-landscape-green.php"
+									 },
+									 {
+										fa: "",
+										text: "landscape design",
+										link: "shop-garden-landscape-design.php"
+									 },
+									 {
+										fa: "",
+										text: "lawn care",
+										link: "shop-garden-landscape-lawn.php"
+									 },
+									 {
+										fa: "",
+										text: "trees & shrubs",
+										link: "shop-garden-landscape-trees.php"
+									 },
+									 {
+										fa: "",
+										text: "watering",
+										link: "shop-garden-landscape-watering.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "outdoor furniture",
+							items: [{  // Level three
+										fa: "",
+										text: "benches",
+										link: "shop-garden-furniture-bench.php"
+									 },
+									 {
+										fa: "",
+										text: "chaise lounges",
+										link: "shop-garden-furniture-chaise.php"
+									 },
+									 {
+										fa: "",
+										text: "chairs",
+										link: "shop-garden-furniture-chair.php"
+									 },
+									 {
+										fa: "",
+										text: "cushions",
+										link: "shop-garden-furniture-cushion.php"
+									 },
+									 {
+										fa: "",
+										text: "furniture sets",
+										link: "shop-garden-furniture-sets.php"
+									 },
+									 {
+										fa: "",
+										text: "hammocks",
+										link: "shop-garden-furniture-hammock.php"
+									 },
+									 {
+										fa: "",
+										text: "sofas",
+										link: "shop-garden-furniture-sofa.php"
+									 },
+									 {
+										fa: "",
+										text: "storage",
+										link: "shop-garden-furniture-storage.php"
+									 },
+									 {
+										fa: "",
+										text: "swings",
+										link: "shop-garden-furniture-swings.php"
+									 },
+									 {
+										fa: "",
+										text: "tables",
+										link: "shop-garden-furniture-table.php"
+									 },
+									 {
+										fa: "",
+										text: "umbrellas",
+										link: "shop-garden-furniture-umbrella.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "outdoor play",
+							items: [{  // Level three
+										fa: "",
+										text: "basketball",
+										link: "shop-garden-fun-basketball.php"
+									 },
+									 {
+										fa: "",
+										text: "baseball & soccer",
+										link: "shop-garden-fun-baseball.php"
+									 },
+									 {
+										fa: "",
+										text: "field play",
+										link: "shop-garden-fun-field.php"
+									 },
+									 {
+										fa: "",
+										text: "lawn games",
+										link: "shop-garden-fun-lawn.php"
+									 },
+									 {
+										fa: "",
+										text: "sandboxes",
+										link: "shop-garden-fun-sandbox.php"
+									 },
+									 {
+										fa: "",
+										text: "swing sets & playsets",
+										link: "shop-garden-fun-swingset.php"
+									 },
+									 {
+										fa: "",
+										text: "trampolines",
+										link: "shop-garden-fun-trampoline.php"
+									 },
+									 {
+										fa: "",
+										text: "volleyball & badminton",
+										link: "shop-garden-fun-volleyball.php"
+						 	}]
+						 },
+							{
+							fa: "",
+							text: "yard decor",
+							items: [{  // Level three
+										fa: "",
+										text: "fountains",
+										link: "shop-garden-decor-fountain.php"
+									 },
+									 {
+										fa: "",
+										text: "garden art",
+										link: "shop-garden-decor-art.php"
+									 },
+									 {
+										fa: "",
+										text: "garden planters",
+										link: "shop-garden-decor-planter.php"
+									 },
+									 {
+										fa: "",
+										text: "garden structures",
+										link: "shop-garden-decor-structure.php"
+									 },
+									 {
+										fa: "",
+										text: "holiday decor",
+										link: "shop-garden-decor-holiday.php"
+									 },
+									 {
+										fa: "",
+										text: "rugs & doormats",
+										link: "shop-garden-decor-rug.php"
+									 },
+									 {
+										fa: "",
+										text: "statues",
+										link: "shop-garden-decor-statue.php"
+									 },
+									 {
+										fa: "",
+										text: "wall art",
+										link: "shop-garden-decor-wall.php"
+									 },
+									 {
+										fa: "",
+										text: "weather art",
+										link: "shop-garden-decor-weather.php"
+						 	}]
+						 	},
+							{
+							fa: "",
+							text: "yard lighting",
+							items: [{  // Level three
+										fa: "",
+										text: "ceiling fans",
+										link: "shop-garden-light-fans.php"
+									 },
+									 {
+										fa: "",
+										text: "ceiling lights",
+										link: "shop-garden-light-ceiling.php"
+									 },
+									 {
+										fa: "",
+										text: "hanging lights",
+										link: "shop-garden-light-hanging.php"
+									 },
+									 {
+										fa: "",
+										text: "landscape lighting",
+										link: "shop-garden-light-landscape.php"
+									 },
+									 {
+										fa: "",
+										text: "post lighting",
+										link: "shop-garden-light-post.php"
+									 },
+									 {
+										fa: "",
+										text: "security",
+										link: "shop-garden-light-security.php"
+									 },
+									 {
+										fa: "",
+										text: "solar",
+										link: "shop-garden-light-solar.php"
+									 },
+									 {
+										fa: "",
+										text: "specialty light",
+										link: "shop-garden-light-wall.php"
+									 },
+									 {
+										fa: "",
+										text: "wall lighting",
+										link: "shop-garden-light-wall.php"
+						 			}]
+					}]
+				},
+				{
+					fa: "fa-shopping-cart",
+					text: "Coupons",
+					link: "/coupons/"
+				}]
+
+
+	});
+
+
+});
+
+
+</script>
+
+<!-- END .toggle menu panel -->

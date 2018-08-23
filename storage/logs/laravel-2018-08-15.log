@@ -1,0 +1,3 @@
+[2018-08-15 12:50:28] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '"'' in C:\xampp\htdocs\shophome\app\Http\Controllers\SettingController.php:108
+Stack trace:
+#0 {main}  

@@ -1,0 +1,15 @@
+RewriteEngine on
+Options +FollowSymlinks
+
+RewriteCond %{HTTP_HOST} ^letsrenovate\.com
+RewriteRule ^(.*)$ http://www.letsrenovate.com/ebay/$1 [R=permanent,L]
+
+
+RewriteRule ^([^/]*)/([^/]*)\/$ /search.php?country=$1&search=$2 [L]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)\/$ /search.php?country=$1&search=$2&listType=$3 [L]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([^/]*)\/$ /search.php?country=$1&search=$2&listType=$3&sort=$4 [L]
+ErrorDocument 404 http://www.letsrenovate.com
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>

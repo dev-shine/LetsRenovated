@@ -1,0 +1,15 @@
+<li><a href="<?php echo $path;?>/USA/<? echo str_replace("_", "+", $search); ?>/">USA</a></li>
+<li><a href="<?php echo $path;?>/Canada/<? echo str_replace("_", "+", $search); ?>/">Canada</a></li>
+<li><a href="<?php echo $path;?>/Canada-French/<? echo str_replace("_", "+", $search); ?>/">Canada French</a></li>
+<li><a href="<?php echo $path;?>/United-Kingdom/<? echo str_replace("_", "+", $search); ?>/">United-Kingdom</a></li>
+<li><a href="<?php echo $path;?>/Australia/<? echo str_replace("_", "+", $search); ?>/">Australia</a></li>
+<li><a href="<?php echo $path;?>/Austria/<? echo str_replace("_", "+", $search); ?>/">Austria</a></li>
+<li><a href="<?php echo $path;?>/Belgium-French/<? echo str_replace("_", "+", $search); ?>/">USA</a></li>
+<li><a href="<?php echo $path;?>/France/<? echo str_replace("_", "+", $search); ?>/">Belgium-French</a></li>
+<li><a href="<?php echo $path;?>/Germany/<? echo str_replace("_", "+", $search); ?>/">Germany</a></li>
+<li><a href="<?php echo $path;?>/Italy/<? echo str_replace("_", "+", $search); ?>/">Italy</a></li>
+<li><a href="<?php echo $path;?>/Belgium-Dutch/<? echo str_replace("_", "+", $search); ?>/">Belgium-Dutch</a></li>
+<li><a href="<?php echo $path;?>/Netherlands/<? echo str_replace("_", "+", $search); ?>/">Netherlands</a></li>
+<li><a href="<?php echo $path;?>/Spain/<? echo str_replace("_", "+", $search); ?>/">Spain</a></li>
+<li><a href="<?php echo $path;?>/Switzerland/<? echo str_replace("_", "+", $search); ?>/">Switzerland</a></li>
+<li><a href="<?php echo $path;?>/Ireland/<? echo str_replace("_", "+", $search); ?>/">Ireland</a></li>

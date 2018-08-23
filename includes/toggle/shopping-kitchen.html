@@ -1,0 +1,426 @@
+<!-- BEGIN .toggle menu for shopping panel -->
+
+<script type="text/javascript">
+
+// This launch Puma SideBar on form load.
+$("#botLaunch,#botLaunch2,#botLaunch3").on("click",function(){
+
+	$.PumaSideBar({
+		position: "left",  // Position
+		label: "Kitchen Menu", // Initial label
+		movebody: true, // if you want to push or not your page
+		avatar: "", // Initial avatar.
+		items: [{ // Level one
+					fa: "",
+					text: "Appliances",
+					items: [{ // Level two
+							fa: "",
+							text: "cooking ranges",
+							link: "item/cooking-ranges"
+						 },
+						 {
+							fa: "",
+							text: "cooktops",
+							link: "item/cooktop"
+						 },
+						 {
+							fa: "",
+							text: "countertop appliances",
+							items: [{  // Level three
+										fa: "",
+										text: "blenders & juicers",
+										link: "item/blender"
+									 },
+									 {
+										fa: "",
+										text: "coffee & drink makers",
+										link: "item/coffee-maker"
+									 },
+									 {
+										fa: "",
+										text: "electric tools",
+										link: "item/electric-can-opener"
+									 },
+									 {
+										fa: "",
+										text: "food makers",
+										link: "item/food-maker"
+									 },
+									 {
+										fa: "",
+										text: "food processors",
+										link: "item/food-processor"
+									 },
+									 {
+										fa: "",
+										text: "specialty items",
+										link: "item/chocolate-fountain"
+									 },
+									 {
+										fa: "",
+										text: "toasters & ovens",
+										link: "item/toaster"
+									 },
+									 {
+										fa: "",
+										text: "return: counter apps",
+										link: "item/ 	counter-appliance"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "dishwashers",
+							link: "item/dishwasher"
+						 },
+						 {
+							fa: "",
+							text: "disposals",
+							link: "item/garbage-disposer"
+						 },
+						 {
+							fa: "",
+							text: "microwaves",
+							link: "item/microwave"
+						 },
+						 {
+							fa: "",
+							text: "hoods",
+							link: "item/range-hood"
+						 },
+						 {
+							fa: "",
+							text: "refrigeration",
+							link: "item/refrigerator"
+						 },
+						 {
+							fa: "",
+							text: "wall ovens",
+							link: "item/wall-oven"
+						 },
+						 {
+							fa: "",
+							text: "return: appliances",
+							link: "item/kitchen-appliance"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Bar Stools & Pubs",
+					items: [{ // Level two
+							fa: "",
+							text: "bar stools",
+							link: "item/bar-stool"
+						 },
+						 {
+							fa: "",
+							text: "counter stools",
+							link: "item/counter-stool"
+						 },
+						 {
+							fa: "",
+							text: "extra tall stools",
+							link: "item/extra-tall-bar-stool"
+						 },
+						 {
+							fa: "",
+							text: "pub tables & sets",
+							link: "item/pub-table-set"
+						 },
+						 {
+							fa: "",
+							text: "return: bar stools",
+							link: "item/bar-stools"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Dining Tables & Chairs",
+					items: [{ // Level two
+							fa: "",
+							text: "accent furniture",
+							link: "item/bakers-rack"
+						 },
+						 {
+							fa: "",
+							text: "breakfast nooks",
+							link: "item/breakfast-nook"
+						 },
+						 {
+							fa: "",
+							text: "dining chairs",
+							link: "item/dining-chair"
+						 },
+						 {
+							fa: "",
+							text: "dining tables",
+							link: "item/dining-table"
+						 },
+						 {
+							fa: "",
+							text: "dining table sets",
+							link: "item/dining-table-set"
+						 },
+						 {
+							fa: "",
+							text: "folding tables",
+							link: "item/folding-dining-table"
+						 },
+						 {
+							fa: "",
+							text: "banquet tables",
+							link: "item/banquet-table"
+						 },
+						 {
+							fa: "",
+							text: "table linens",
+							link: "item/table-linen"
+						 },
+						 {
+							fa: "",
+							text: "return: dining",
+							link: "item/dining-table-dining-chair"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Faucets & Sinks",
+					items: [{ // Level two
+							fa: "",
+							text: "kitchen faucets",
+							link: "item/kitchen-faucet"
+						 },
+						 {
+							fa: "",
+							text: "kitchen sinks",
+							link: "item/kitchen-sink"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Kitchen Design",
+					items: [{ // Level two
+							fa: "",
+							text: "kitchen cabinets",
+							link: "item/kitchen-cabinet"
+						 },
+						 {
+							fa: "",
+							text: "kitchen countertops",
+							link: "item/kitchen-countertop"
+						 },
+						 {
+							fa: "",
+							text: "kitchen islands",
+							link: "item/kitchen-island"
+						 },
+						 {
+							fa: "",
+							text: "kitchen carts",
+							link: "item/kitchen-cart"
+						 },
+						 {
+							fa: "",
+							text: "return: kitchen design",
+							link: "item/kitchen-design"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Kitchen Organization",
+					items: [{ // Level two
+							fa: "",
+							text: "drawal organizers",
+							link: "item/kitchen-drawer-organizer"
+						 },
+						 {
+							fa: "",
+							text: "baker racks",
+							link: "item/baker-rack"
+						 },
+						 {
+							fa: "",
+							text: "lazy susans",
+							link: "item/lazy-susan"
+						 },
+						 {
+							fa: "",
+							text: "kitchen canisters",
+							link: "item/kitchen-canister"
+						 },
+						 {
+							fa: "",
+							text: "storage jars & bottles",
+							link: "item/storage-jar"
+						 },
+						 {
+							fa: "",
+							text: "wine cellar storage",
+							link: "item/wine-cellar-storage"
+						 },
+						 {
+							fa: "",
+							text: "return: organization",
+							link: "item/kitchen-organization"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Kitchen Utensils",
+					items: [{ // Level two
+							fa: "",
+							text: "utensil holders",
+							link: "item/utensil-holder"
+						 },
+						 {
+							fa: "",
+							text: "knives & cutlery",
+							link: "item/kitchen-knife-set"
+						 },
+						 {
+							fa: "",
+							text: "knife sets",
+							link: "item/knife-set"
+						 },
+						 {
+							fa: "",
+							text: "knife blocs",
+							link: "item/knife-block-set"
+						 },
+						 {
+							fa: "",
+							text: "knife sharpening tools",
+							link: "item/knife-sharpener"
+						 },
+						 {
+							fa: "",
+							text: "scales & timers",
+							link: "item/food-scale"
+						 },
+						 {
+							fa: "",
+							text: "return: utensils",
+							link: "item/kitchen-utensil"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Kitchen Wares",
+					items: [{ // Level two
+							fa: "",
+							text: "bakeware",
+							link: "item/bakeware"
+						 },
+						 {
+							fa: "",
+							text: "cookware",
+							link: "item/cookware"
+						 },
+						 {
+							fa: "",
+							text: "dinnerware",
+							link: "item/dinnerware"
+						 },
+						 {
+							fa: "",
+							text: "flatware",
+							link: "item/flatware"
+						 },
+						 {
+							fa: "",
+							text: "serveware",
+							link: "item/serveware"
+						 },
+						 {
+							fa: "",
+							text: "stemware",
+							link: "item/stemware"
+						 },
+						 {
+							fa: "",
+							text: "stoneware",
+							link: "item/stoneware"
+						 },
+						 {
+							fa: "",
+							text: "return: wares",
+							link: "item/kitchen-ware"
+						 }]
+				},
+				{
+					fa: "fa-shopping-cart",
+					text: "Coupons",
+					link: "/coupons/category/kitchen__dining-15.html"
+				},
+				{
+					fa: "fa",
+					text: "",
+					link: ""
+				},
+				{
+					fa: "",
+					text: "Main Menu",
+					items: [{ // Level two
+							fa: "",
+							text: "shop: Kitchen",
+							link: "/shophome/shop-kitchen.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bath",
+							link: "/shophome/shop-bath.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bedroom",
+							link: "/shophome/shop-bed.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Furniture",
+							link: "/shophome/shop-living.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Decor",
+							link: "/shophome/shop-decor.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Rec Room",
+							link: "/shophome/shop-recroom.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Utility",
+							link: "/shophome/shop-home-utility.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Structure",
+							link: "/shophome/shop-home-structure.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Yard n' Garden",
+							link: "/shophome/shop-garden.php"
+						 },
+						 {
+							fa: "fa",
+							text: "",
+							link: ""
+						 },
+						 {
+							fa: "",
+							text: "home",
+							link: "index.php"
+						 }]
+				}]
+	});
+
+
+});
+
+
+</script>
+
+<!-- END .toggle menu panel -->

@@ -1,0 +1,314 @@
+<!-- BEGIN .toggle menu for shopping panel -->
+
+<script type="text/javascript">
+
+// This launch Puma SideBar on form load.
+$("#botLaunch,#botLaunch2,#botLaunch3").on("click",function(){
+
+	$.PumaSideBar({
+		position: "left",  // Position
+		label: "Furniture", // Initial label
+		movebody: true, // if you want to push or not your page
+		avatar: "", // Initial avatar.
+		items: [{ // Level one
+					fa: "",
+					text: "Living-Family Room",
+					items: [{ // Level two
+							fa: "",
+							text: "living room set",
+							link: "item/living-room-set"
+						 },
+						 {
+							fa: "",
+							text: "chairs and benches",
+							link: "item/living-room-chair"
+						 },
+						 {
+							fa: "",
+							text: "curios and bookcases",
+							link: "item/curio"
+						 },
+						 {
+							fa: "",
+							text: "media",
+							link: "item/media-furniture"
+						 },
+						 {
+							fa: "",
+							text: "sofas",
+							link: "item/sofa-furniture"
+						 },
+						 {
+							fa: "",
+							text: "tables",
+							link: "item/living-room-table"
+						 },
+						 {
+							fa: "",
+							text: "decor (see decor)",
+							link: "item/decor"
+						 },
+						 {
+							fa: "",
+							text: "return: living/family room",
+							link: "item/living-room-furniture"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Home Library & Den",
+					items: [{ // Level two
+							fa: "",
+							text: "bookcases n' shelving",
+							link: "item/library-bookcases"
+						 },
+						 {
+							fa: "",
+							text: "den books",
+							link: "item/book-sets"
+						 },
+						 {
+							fa: "",
+							text: "den furniture",
+							link: "item/furniture-living-set"
+						 },
+						 {
+							fa: "",
+							text: "home office",
+							link: "item/home-office-furniture"
+						 },
+						 {
+							fa: "",
+							text: "writing desks",
+							link: "item/writing-desk"
+						 },
+						 {
+							fa: "",
+							text: "den decor (see decor)",
+							link: "item/library-decor"
+						 },
+						 {
+							fa: "",
+							text: "return: library/den",
+							link: "item/library-bookcase"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Home Entry n' Hallway",
+					items: [{ // Level two
+							fa: "",
+							text: "benches",
+							link: "item/entry-home-bench"
+						 },
+						 {
+							fa: "",
+							text: "bookcases",
+							link: "item/bookcases"
+						 },
+						 {
+							fa: "",
+							text: "coat racks and trees",
+							link: "item/coat-racks-and-trees"
+						 },
+						 {
+							fa: "",
+							text: "grandfather clocks",
+							link: "item/grandfather-clocks"
+						 },
+						 {
+							fa: "",
+							text: "hall and entry tables",
+							link: "item/console-table"
+						 },
+						 {
+							fa: "",
+							text: "hall room decor",
+							link: "item/hall-room-decor"
+						 },
+						 {
+							fa: "",
+							text: "return: home entry/hallway",
+							link: "item/entry-home-furniture"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Sunroom/Conversatory",
+					items: [{ // Level two
+							fa: "",
+							text: "sunroom kits",
+							link: "item/sun-room-kit"
+						 },
+						 {
+							fa: "",
+							text: "sunroom furniture",
+							link: "item/sunroom-furniture"
+						 },
+						 {
+							fa: "",
+							text: "plant stands",
+							link: "item/plant-stands"
+						 },
+						 {
+							fa: "",
+							text: "planters",
+							link: "item/indoor-planter"
+						 },
+						 {
+							fa: "",
+							text: "plants",
+							link: "item/house-plants"
+						 },
+						 {
+							fa: "",
+							text: "room decor (see decor)",
+							link: "item/sunroom-decor"
+						 },
+						 {
+							fa: "",
+							text: "return: sunroom/conversatory",
+							link: "item/sun-room"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Classic Furniture",
+					items: [{ // Level two
+							fa: "",
+							text: "sunroom kits",
+							link: "item/rustic-furniture"
+						 },
+						 {
+							fa: "",
+							text: "wicker furniture (see sunroom)",
+							link: "item/sunroom-furniture"
+						 },
+						 {
+							fa: "",
+							text: "return: class furniture",
+							link: "item/classic-furniture"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Modern Furniture",
+					items: [{ // Level two
+							fa: "",
+							text: "chairs and benches",
+							link: "item/modern-accent-chair"
+						 },
+						 {
+							fa: "",
+							text: "home office",
+							link: "item/modern-office-desk"
+						 },
+						 {
+							fa: "",
+							text: "love seats and ottomans",
+							link: "item/modern-loveseat"
+						 },
+						 {
+							fa: "",
+							text: "media",
+							link: "item/modern-media"
+						 },
+						 {
+							fa: "",
+							text: "sofas",
+							link: "item/modern-sofa"
+						 },
+						 {
+							fa: "",
+							text: "tables",
+							link: "item/modern-table"
+						 },
+						 {
+							fa: "",
+							text: "room decor (see decor)",
+							link: "item/shop-decor.php"
+						 },
+						 {
+							fa: "",
+							text: "return: modern furniture",
+							link: "item/modern-furniture"
+						 }]
+				},
+				{
+					fa: "fa-shopping-cart",
+					text: "Coupons",
+					link: "/coupons/category/home_furniture-14.html"
+				},
+				{
+					fa: "fa",
+					text: "",
+					link: ""
+				},
+				{
+					fa: "",
+					text: "Main Menu",
+					items: [{ // Level two
+							fa: "",
+							text: "shop: Kitchen",
+							link: "/shophome/shop-kitchen.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bath",
+							link: "/shophome/shop-bath.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bedroom",
+							link: "/shophome/shop-bed.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Furniture",
+							link: "/shophome/shop-living.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Decor",
+							link: "/shophome/shop-decor.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Rec Room",
+							link: "/shophome/shop-recroom.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Utility",
+							link: "/shophome/shop-home-utility.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Structure",
+							link: "/shophome/shop-home-structure.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Yard n' Garden",
+							link: "/shophome/shop-garden.php"
+						 },
+						 {
+							fa: "fa",
+							text: "",
+							link: ""
+						 },
+						 {
+							fa: "",
+							text: "home",
+							link: "index.php"
+						 }]
+				}]
+	});
+
+
+});
+
+
+</script>
+
+<!-- END .toggle menu panel -->

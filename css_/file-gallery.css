@@ -1,0 +1,159 @@
+
+/* ------------------------------------------------------------
+ * PROJECT        : 
+ * FILENAME       : default.css (as PHP)
+ * ------------------------------------------------------------
+ * LAST UPDATED   : 21 Mar 2010
+ * ------------------------------------------------------------
+ * AUTHOR(S)      : Kevin Scholl (kevin@ksscholl.com)
+ * ------------------------------------------------------------
+ * NOTE(S)        : 
+ * ------------------------------------------------------------ */
+ 
+ 
+ 
+
+/* ------------------------------------------------------------
+* BULLET LIST
+* ------------------------------------------------------------ */
+
+
+.formlist {
+background: transparent url(/images/bullet_form.png) left center no-repeat;
+}
+
+.threelist {
+background: transparent url(/images/bullet_three.png) left center no-repeat;
+}
+
+.fourlist {
+background: transparent url(/images/bullet_four.png) left center no-repeat;
+}
+
+.onelist {
+background: transparent url(/images/bullet_one.png) left center no-repeat;
+}
+
+.twolist {
+background: transparent url(/images/bullet_two.png) left center no-repeat;
+}
+
+
+.creditlist {
+background: transparent url(/images/bullet_credit.png) left center no-repeat;
+}
+
+.creditlistinside {
+background: transparent url(/images/bullet_creditfile.png) 25px center no-repeat;
+}
+
+.debtlist {
+background: transparent url(/images/bullet_debt.png) left center no-repeat;
+}
+
+.moneylist {
+background: transparent url(/images/bullet_finmoney.png) left center no-repeat;
+}
+
+.budgetlist {
+background: transparent url(/images/bullet_budget.png) left center no-repeat;
+}
+
+.toolinside {
+background: transparent url(/images/bullet_creditfile.png) 25px center no-repeat;
+}
+
+
+
+
+
+
+
+
+
+.insidelist {
+background: transparent url(/images/bullet_sub.png) 25px center no-repeat;
+}
+
+
+
+.fivelist {
+background: transparent url(/images/bullet_five.png) left center no-repeat;
+}
+
+.sixlist {
+background: transparent url(/images/bullet_six.png) left center no-repeat;
+}
+
+.garagelist {
+background: transparent url(/images/bullet_garage.png) left center no-repeat;
+}
+
+.gardenlist {
+background: transparent url(/images/bullet_garden.png) left center no-repeat;
+}
+
+.navlist {
+background: transparent url(/images/bullet_nav.png) left center no-repeat;
+}
+
+
+
+.sublist {
+background: transparent url(/images/bullet_sub.png) 25px center no-repeat;
+}
+
+
+
+.servicelist {
+background: transparent url(/images/bullet_contract.png) left center no-repeat;
+}
+
+.yellowlist {
+background: transparent url(/images/bullet_yellow.png) left center no-repeat;
+}
+
+.statelist {
+background: transparent url(/images/bullet_state.png) left center no-repeat;
+}
+
+.adlist {
+background: transparent url(/images/bullet_ad.png) left center no-repeat;
+}
+
+.returnlist {
+background: transparent url(/images/bullet_return.png) left center no-repeat;
+}
+
+.classifiedlist {
+background: transparent url(/images/bullet_classified.png) left center no-repeat;
+}
+
+.steplist {
+background: transparent url(/images/bullet_steps.png) left center no-repeat;
+}
+
+.stepnavlist {
+background: transparent url(/images/bullet_steps.png) 25px center no-repeat;
+}
+
+.steplistinside {
+background: transparent url(/images/bullet_steps-inside.png) 25px center no-repeat;
+}
+
+.toollist {
+background: transparent url(/images/bullet_tool.png) left center no-repeat;
+}
+
+.financelist {
+background: transparent url(/images/bullet_finmoney.png) left center no-repeat;
+}
+
+.calclist {
+background: transparent url(/images/bullet_calc.png) left center no-repeat;
+}
+
+.printlist {
+background: transparent url(/images/bullet_print.png) left center no-repeat;
+}
+

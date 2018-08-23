@@ -1,0 +1,2035 @@
+<!-- BEGIN .toggle menu for shopping panel -->
+
+<script type="text/javascript">
+
+// This launch Puma SideBar on form load.
+$("#botLaunch,#botLaunch2,#botLaunch3").on("click",function(){
+
+	$.PumaSideBar({
+		position: "left",  // Position
+		label: "Yard n' Garden", // Initial label
+		movebody: true, // if you want to push or not your page
+		avatar: "", // Initial avatar.
+		items: [{ // Level one
+					fa: "",
+					text: "Animal Stuff",
+					items: [{ // Level two
+							fa: "",
+							text: "bird baths",
+							link: "item/bird-bath"
+						 },
+						 {
+							fa: "",
+							text: "bird feeders",
+							link: "item/bird-feeder"
+						 },
+						 {
+							fa: "",
+							text: "bird houses",
+							link: "item/bird-house"
+						 },
+						 {
+							fa: "",
+							text: "chick coops",
+							link: "item/chicken-coop"
+						 },
+						 {
+							fa: "",
+							text: "dog houses",
+							link: "item/dog-house"
+						 },
+						 {
+							fa: "",
+							text: "pest control",
+							items: [{  // Level three
+										fa: "",
+										text: "bird control",
+										link: "item/bird-control"
+									 },
+									 {
+										fa: "",
+										text: "deer & rabbit control",
+										link: "item/deer-control"
+									 },
+									 {
+										fa: "",
+										text: "mosquito & insect control",
+										link: "item/mosquito-insect-control"
+									 },
+									 {
+										fa: "",
+										text: "mice/rodent control",
+										link: "item/ 	mouse-control"
+									 },
+									 {
+										fa: "",
+										text: "mole/vole control",
+										link: "item/mole-control"
+									 },
+									 {
+										fa: "",
+										text: "other animal control",
+										link: "item/animal-control"
+									 },
+									 {
+										fa: "",
+										text: "return: pest control",
+										link: "item/pest-control"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "rabbit hutches",
+							link: "item/rabbit-hutch"
+						 },
+						 {
+							fa: "",
+							text: "return: animal stuff",
+							link: "item/bird-feeder-bath"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Building Structures",
+					items: [{ // Level two
+							fa: "",
+							text: "arbors, pergolas & trellis",
+							items: [{  // Level three
+										fa: "",
+										text: "arbors",
+										link: "item/garden-arbor"
+									 },
+									 {
+										fa: "",
+										text: "arbor pergola combo",
+										link: "item/garden-arbor-pergola"
+									 },
+									 {
+										fa: "",
+										text: "pergolas",
+										link: "item/pergola"
+									 },
+									 {
+										fa: "",
+										text: "trellises",
+										link: "item/garden-trellis"
+									 },
+									 {
+										fa: "",
+										text: "return: arbor, pergola",
+										link: "item/arbor-pergola"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "canopies",
+							link: "item/garden-canopy"
+						 },
+						 {
+							fa: "",
+							text: "carports",
+							link: "item/carport"
+						 },
+						 {
+							fa: "",
+							text: "fences & gates",
+							items: [{  // Level three
+										fa: "",
+										text: "chain-link",
+										link: "item/chain-link-fabric"
+									 },
+									 {
+										fa: "",
+										text: "composite",
+										link: "item/composite-fence"
+									 },
+									 {
+										fa: "",
+										text: "electric fence",
+										link: "item/electric-fence"
+									 },
+									 {
+										fa: "",
+										text: "farm fence",
+										link: "item/farm-fence"
+									 },
+									 {
+										fa: "",
+										text: "garden fence",
+										link: "item/garden-fence"
+									 },
+									 {
+										fa: "",
+										text: "gates",
+										link: "item/driveway-gate"
+									 },
+									 {
+										fa: "",
+										text: "lattice",
+										link: "item/vinyl-lattice"
+									 },
+									 {
+										fa: "",
+										text: "metal fence",
+										link: "item/metal-fence"
+									 },
+									 {
+										fa: "",
+										text: "pet fencing",
+										link: "item/pet-fence"
+									 },
+									 {
+										fa: "",
+										text: "vinyl fence",
+										link: "item/vinyl-fence"
+									 },
+									 {
+										fa: "",
+										text: "wood fence",
+										link: "item/wood-fence"
+									 },
+									 {
+										fa: "",
+										text: "return: fences & gates",
+										link: "item/yard-fence"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "garden bridges",
+							link: "item/garden-bridge"
+						 },
+						 {
+							fa: "",
+							text: "gazebos",
+							link: "item/gazebo"
+						 },
+						 {
+							fa: "",
+							text: "greenhouses",
+							link: "item/greenhouse"
+						 },
+						 {
+							fa: "",
+							text: "sheds",
+							items: [{  // Level three
+										fa: "",
+										text: "cedar wood sheds",
+										link: "item/cedar-shed"
+									 },
+									 {
+										fa: "",
+										text: "metal sheds",
+										link: "item/metal-shed"
+									 },
+									 {
+										fa: "",
+										text: "resin sheds",
+										link: "item/resin-shed"
+									 },
+									 {
+										fa: "",
+										text: "steel sheds",
+										link: "item/steel-shed"
+									 },
+									 {
+										fa: "",
+										text: "vinyl sheds",
+										link: "item/vinyl-shed"
+									 },
+									 {
+										fa: "",
+										text: "wood sheds",
+										link: "item/wood-shed"
+									 },
+									 {
+										fa: "",
+										text: "tool sheds",
+										link: "item/tool-shed"
+									 },
+									 {
+										fa: "",
+										text: "outdoor storage",
+										link: "item/outdoor-storage"
+									 },
+									 {
+										fa: "",
+										text: "return: sheds",
+										link: "item/garden-shed"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "return: outdoor buildings",
+							link: "item/garden-shed-fence"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Decks, Patios & Pools",
+					items: [{ // Level two
+							fa: "",
+							text: "cooking grills",
+							items: [{  // Level three
+										fa: "",
+										text: "charcoal",
+										link: "item/charcoal-grill"
+									 },
+									 {
+										fa: "",
+										text: "electric",
+										link: "item/electric-grill"
+									 },
+									 {
+										fa: "",
+										text: "kamado",
+										link: "item/kamado-grill"
+									 },
+									 {
+										fa: "",
+										text: "natural gas",
+										link: "item/natural-gas-grill"
+									 },
+									 {
+										fa: "",
+										text: "portable",
+										link: "item/portable-grill"
+									 },
+									 {
+										fa: "",
+										text: "propane gas",
+										link: "item/propane-gas-grill"
+									 },
+									 {
+										fa: "",
+										text: "smokers",
+										link: "item/smoker"
+									 },
+									 {
+										fa: "",
+										text: "turkey fryers",
+										link: "item/turkey-fryer"
+									 },
+									 {
+										fa: "",
+										text: "grill accessories",
+										link: "item/grill-accessories"
+									 },
+									 {
+										fa: "",
+										text: "return: cooking grills",
+										link: "item/cooking-grill"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "cooking kitchens",
+							link: "item/grill-island"
+						 },
+						 {
+							fa: "",
+							text: "deck design",
+							link: "item/pressured-treated-lumber"
+						 },
+						 {
+							fa: "",
+							text: "fire pits",
+							link: "item/fire-pit"
+						 },
+						 {
+							fa: "",
+							text: "patio & deck furniture",
+							items: [{  // Level three
+										fa: "",
+										text: "patio dining set",
+										link: "item/patio-dining-set"
+									 },
+									 {
+										fa: "",
+										text: "patio conversation sets",
+										link: "item/patio-conversation-set"
+									 },
+									 {
+										fa: "",
+										text: "patio bar sets",
+										link: "item/patio-bar-set"
+									 },
+									 {
+										fa: "",
+										text: "patio bistro sets",
+										link: "item/patio-bistro-set"
+									 },
+									 {
+										fa: "",
+										text: "umbrellas",
+										link: "item/patio-umbrella"
+									 },
+									 {
+										fa: "",
+										text: "umbrella base/stands",
+										link: "item/umbrella-base"
+									 },
+									 {
+										fa: "",
+										text: "return: patio/deck furniture",
+										link: "item/patio-set"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "pools & water fun",
+							items: [{  // Level three
+										fa: "",
+										text: "swimming pools",
+										link: "item/above-ground-swimming-pool"
+									 },
+									 {
+										fa: "",
+										text: "pool components",
+										link: "item/pool-cover"
+									 },
+									 {
+										fa: "",
+										text: "cleaners",
+										link: "item/pool-cleaner"
+									 },
+									 {
+										fa: "",
+										text: "pool floats",
+										link: "item/pool-floats"
+									 },
+									 {
+										fa: "",
+										text: "pool furniture",
+										link: "item/adirondack-chair"
+									 },
+									 {
+										fa: "",
+										text: "pool games",
+										link: "item/swimming-pool-game"
+									 },
+									 {
+										fa: "",
+										text: "pool toys",
+										link: "item/pool-toy"
+									 },
+									 {
+										fa: "",
+										text: "water slides",
+										link: "item/water-slide"
+									 },
+									 {
+										fa: "",
+										text: "water trampolines",
+										link: "item/water-trampoline"
+									 },
+									 {
+										fa: "",
+										text: "return: pools & water fun",
+										link: "item/pool-water"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "spas & tubs",
+							items: [{  // Level three
+										fa: "",
+										text: "spa hot tubs",
+										link: "item/jet-spa"
+									 },
+									 {
+										fa: "",
+										text: "spa equipment",
+										link: "item/spa-cover"
+									 },
+									 {
+										fa: "",
+										text: "spa maintanance ",
+										link: "item/spa-maintenance"
+									 },
+									 {
+										fa: "",
+										text: "saunas ",
+										link: "item/sauna"
+									 },
+									 {
+										fa: "",
+										text: "sauna equipment",
+										link: "item/sauna-control"
+									 },
+									 {
+										fa: "",
+										text: "return: spas & tubs",
+										link: "item/spa"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "return: deck, patios & pools",
+							link: "item/deck-patio-pool"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Landscaping",
+					items: [{ // Level two
+							fa: "",
+							text: "containers",
+							items: [{  // Level three
+										fa: "",
+										text: "base planters",
+										link: "item/base-planter"
+									 },
+									 {
+										fa: "",
+										text: "hanging planters",
+										link: "item/hanging-planter"
+									 },
+									 {
+										fa: "",
+										text: "gardening beds",
+										link: "item/raised-garden-bed"
+									 },
+									 {
+										fa: "",
+										text: "pedestals",
+										link: "item/stone-pedestal"
+									 },
+									 {
+										fa: "",
+										text: "potting benches",
+										link: "item/potting-bench"
+									 },
+									 {
+										fa: "",
+										text: "urns",
+										link: "item/urn-planter"
+									 },
+									 {
+										fa: "",
+										text: "wall-deck planters",
+										link: "item/wall-planter"
+									 },
+									 {
+										fa: "",
+										text: "window boxes",
+										link: "item/window-box"
+									 },
+									 {
+										fa: "",
+										text: "return: containers",
+										link: "item/garden-container"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "garden care",
+							items: [{  // Level three
+										fa: "",
+										text: "carts n' wheelbarrows",
+										link: "item/garden-cart"
+									 },
+									 {
+										fa: "",
+										text: "fertilizers & weed control",
+										link: "item/plant-fertilizer"
+									 },
+									 {
+										fa: "",
+										text: "garden apparel",
+										link: "item/garden-apparel"
+									 },
+									 {
+										fa: "",
+										text: "plant cover sheets",
+										link: "item/plant-cover"
+									 },
+									 {
+										fa: "",
+										text: "pest control",
+										link: "item/pest-control"
+									 },
+									 {
+										fa: "",
+										text: "soil testers",
+										link: "item/garden-soil"
+									 },
+									 {
+										fa: "",
+										text: "return: garden care",
+										link: "item/garden-care"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "garden plants",
+							items: [{  // Level three
+										fa: "",
+										text: "flower seed",
+										link: "item/flower-seed"
+									 },
+									 {
+										fa: "",
+										text: "bulbs",
+										link: "item/garden-bulb"
+									 },
+									 {
+										fa: "",
+										text: "fruits",
+										link: "item/fruit-plant"
+									 },
+									 {
+										fa: "",
+										text: "grasses",
+										link: "item/ornamental-grass"
+									 },
+									 {
+										fa: "",
+										text: "ground cover",
+										link: "item/ground-cover"
+									 },
+									 {
+										fa: "",
+										text: "herbs",
+										link: "item/herbs"
+									 },
+									 {
+										fa: "",
+										text: "vegetables",
+										link: "item/vegetable-seed"
+									 },
+									 {
+										fa: "",
+										text: "vines",
+										link: "item/boston-ivy"
+									 },
+									 {
+										fa: "",
+										text: "return: garden plants",
+										link: "item/garden-plants"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "garden tools",
+							items: [{  // Level three
+										fa: "",
+										text: "axes & picks",
+										link: "item/axes"
+									 },
+									 {
+										fa: "",
+										text: "carts & wheelbarrows",
+										link: "item/garden-cart"
+									 },
+									 {
+										fa: "",
+										text: "hoes & cultivators",
+										link: "item/garden-hoe"
+									 },
+									 {
+										fa: "",
+										text: "planters",
+										link: "item/bulb-planter"
+									 },
+									 {
+										fa: "",
+										text: "pruning & saws",
+										link: "item/pruning-shear"
+									 },
+									 {
+										fa: "",
+										text: "rakes & shovels",
+										link: "item/garden-rake"
+									 },
+									 {
+										fa: "",
+										text: "trimmers & edgers",
+										link: "item/brush-cutter"
+									 },
+									 {
+										fa: "",
+										text: "return: garden tools",
+										link: "item/garden-tool"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "green living",
+							items: [{  // Level three
+										fa: "",
+										text: "clothesline",
+										link: "item/outdoor-clothesline"
+									 },
+									 {
+										fa: "",
+										text: "compost bins",
+										link: "item/composter"
+									 },
+									 {
+										fa: "",
+										text: "rain barrels",
+										link: "item/rain-barrel"
+									 },
+									 {
+										fa: "",
+										text: "recycling bins",
+										link: "item/recycling-bin"
+									 },
+									 {
+										fa: "",
+										text: "solar lighting",
+										link: "item/garden-solar-lighting"
+									 },
+									 {
+										fa: "",
+										text: "trash bins",
+										link: "item/trash-bin"
+									 },
+									 {
+										fa: "",
+										text: "return: green living",
+										link: "item/eco-garden"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "landscape design",
+							items: [{  // Level three
+										fa: "",
+										text: "garden beds",
+										link: "item/gardening-bed"
+									 },
+									 {
+										fa: "",
+										text: "garden fountains",
+										link: "item/garden-fountain"
+									 },
+									 {
+										fa: "",
+										text: "garden ponds",
+										link: "item/garden-pond"
+									 },
+									 {
+										fa: "",
+										text: "garden statues",
+										link: "item/garden-statue"
+									 },
+									 {
+										fa: "",
+										text: "garden structures",
+										link: "item/garden-building"
+									 },
+									 {
+										fa: "",
+										text: "return: landscape design",
+										link: "item/landscape-design"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "lawn care",
+							items: [{  // Level three
+										fa: "",
+										text: "lawn seed & care",
+										link: "item/grass-seed"
+									 },
+									 {
+										fa: "",
+										text: "electric mowers",
+										link: "item/electric-mower"
+									 },
+									 {
+										fa: "",
+										text: "powered mowers",
+										link: "item/lawn-mower"
+									 },
+									 {
+										fa: "",
+										text: "reel mowers",
+										link: "item/reel-mower"
+									 },
+									 {
+										fa: "",
+										text: "riding mowers",
+										link: "item/riding-mower"
+									 },
+									 {
+										fa: "",
+										text: "blowers",
+										link: "item/leaf-blower"
+									 },
+									 {
+										fa: "",
+										text: "trimmers & edgers",
+										link: "item/grass-trimmer"
+									 },
+									 {
+										fa: "",
+										text: "other lawn tools",
+										link: "item/lawn-sprayer"
+									 },
+									 {
+										fa: "",
+										text: "return: lawn care",
+										link: "item/lawn-care"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "trees & shrubs",
+							items: [{  // Level three
+										fa: "",
+										text: "trees: featured",
+										link: "item/tree-nursery"
+									 },
+									 {
+										fa: "",
+										text: "trees: flowering",
+										link: "item/flowering-plant-trees"
+									 },
+									 {
+										fa: "",
+										text: "trees: fruit",
+										link: "item/fruit-plant-tree"
+									 },
+									 {
+										fa: "",
+										text: "trees: shade",
+										link: "item/shade-trees"
+									 },
+									 {
+										fa: "",
+										text: "trees: screening",
+										link: "item/tree-nursery"
+									 },
+									 {
+										fa: "",
+										text: "shrubs: accent",
+										link: "item/shrub-nursery"
+									 },
+									 {
+										fa: "",
+										text: "shrubs: featured",
+										link: "item/spruce-nursery"
+									 },
+									 {
+										fa: "",
+										text: "shrubs: foundation",
+										link: "item/boxwood"
+									 },
+									 {
+										fa: "",
+										text: "shrubs: flowering",
+										link: "item/bush-nursery"
+									 },
+									 {
+										fa: "",
+										text: "shrubs: screening",
+										link: "item/arborvitae"
+									 },
+									 {
+										fa: "",
+										text: "return: trees & shrubs",
+										link: "item/gal-plant-trees"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "watering",
+							items: [{  // Level three
+										fa: "",
+										text: "garden hoses",
+										link: "item/water-hose"
+									 },
+									 {
+										fa: "",
+										text: "hose connectors",
+										link: "item/hose-connector"
+									 },
+									 {
+										fa: "",
+										text: "hose sprinkers & nozzles",
+										link: "item/sprinkler"
+									 },
+									 {
+										fa: "",
+										text: "hose storage",
+										link: "item/hose-reel"
+									 },
+									 {
+										fa: "",
+										text: "irrigation systems",
+										link: "item/irrigation-kit"
+									 },
+									 {
+										fa: "",
+										text: "rain collection",
+										link: "item/rain-barrels"
+									 },
+									 {
+										fa: "",
+										text: "return: watering",
+										link: "item/lawn-watering-system"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "return: landscaping",
+							link: "item/garden-container-plants"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Outdoor Furniture",
+					items: [{ // Level two
+							fa: "",
+							text: "benches",
+							link: "item/outdoor-bench"
+						 },
+						 {
+							fa: "",
+							text: "chaise lounges",
+							link: "item/patio-chaise-lounge"
+						 },
+						 {
+							fa: "",
+							text: "chairs",
+							link: "item/outdoor-chair"
+						 },
+						 {
+							fa: "",
+							text: "cushions",
+							link: "item/outdoor-cushion"
+						 },
+						 {
+							fa: "",
+							text: "furniture sets",
+							items: [{  // Level three
+										fa: "",
+										text: "patio dining sets",
+										link: "item/outdoor-dining-set"
+									 },
+									 {
+										fa: "",
+										text: "patio conversation sets",
+										link: "item/outdoor-conversation-set"
+									 },
+									 {
+										fa: "",
+										text: "patio furniture sets",
+										link: "item/patio-furniture-set"
+									 },
+									 {
+										fa: "",
+										text: "patio bar sets",
+										link: "item/outdoor-bar-set"
+									 },
+									 {
+										fa: "",
+										text: "patio bistro sets",
+										link: "item/outdoor-bistro-set"
+									 },
+									 {
+										fa: "",
+										text: "return: furniture sets",
+										link: "item/outdoor-patio-set"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "hammocks",
+							link: "item/hammocks"
+						 },
+						 {
+							fa: "",
+							text: "sofas",
+							items: [{  // Level three
+										fa: "",
+										text: "outdoor sofa sets",
+										link: "item/garden-sofa-set"
+									 },
+									 {
+										fa: "",
+										text: "outdoor sofas",
+										link: "item/outdoor-sofas"
+									 },
+									 {
+										fa: "",
+										text: "patio sofa sets",
+										link: "item/patio-sofa-set"
+									 },
+									 {
+										fa: "",
+										text: "patio sofas",
+										link: "item/patio-sofas"
+									 },
+									 {
+										fa: "",
+										text: "patio conversation sofas",
+										link: "item/patio-conversation-sofa"
+									 },
+									 {
+										fa: "",
+										text: "return: outdoor sofas",
+										link: "item/garden-sofa-set"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "storage",
+							link: "item/patio-storage"
+						 },
+						 {
+							fa: "",
+							text: "swings",
+							link: "item/patio-swing"
+						 },
+						 {
+							fa: "",
+							text: "tables",
+							items: [{  // Level three
+										fa: "",
+										text: "bar tables",
+										link: "item/outdoor-table"
+									 },
+									 {
+										fa: "",
+										text: "bistro tables",
+										link: "item/patio-bistro-table"
+									 },
+									 {
+										fa: "",
+										text: "coffee tables",
+										link: "item/patio-coffee-table"
+									 },
+									 {
+										fa: "",
+										text: "conversation tables",
+										link: "item/patio-conversation-table"
+									 },
+									 {
+										fa: "",
+										text: "dining tables",
+										link: "item/patio-dining-table"
+									 },
+									 {
+										fa: "",
+										text: "picnic tables",
+										link: "item/picnic-table"
+									 },
+									 {
+										fa: "",
+										text: "side-end tables",
+										link: "item/patio-side-table"
+									 },
+									 {
+										fa: "",
+										text: "other patio tables",
+										link: "item/patio-pub-table"
+									 },
+									 {
+										fa: "",
+										text: "return: outdoor tables",
+										link: "item/outdoor-table"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "umbrellas",
+							items: [{  // Level three
+										fa: "",
+										text: "patio umbrellas",
+										link: "garden-patio-umbrella"
+									 },
+									 {
+										fa: "",
+										text: "umbrella bases",
+										link: "garden-umbrella-base"
+									 },
+									 {
+										fa: "",
+										text: "beach umbrellas",
+										link: "beach-umbrella"
+									 },
+									 {
+										fa: "",
+										text: "patio & deck canopies",
+										link: "outdoor-canopy"
+									 },
+									 {
+										fa: "",
+										text: "return: umbrellas",
+										link: "item/garden-umbrella"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "return: outdoor furniture",
+							link: "item/outdoor-furniture"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Outdoor Play",
+					items: [{ // Level two
+							fa: "",
+							text: "basketball",
+							items: [{  // Level three
+										fa: "",
+										text: "portable basketball",
+										link: "item/portable-basketball-system"
+									 },
+									 {
+										fa: "",
+										text: "specialty hoops",
+										link: "item/pool-basketball"
+									 },
+									 {
+										fa: "",
+										text: "post mounted boards",
+										link: "item/in-ground-basketball"
+									 },
+									 {
+										fa: "",
+										text: "wall mounted boards",
+										link: "item/wall-mount-basketball"
+									 },
+									 {
+										fa: "",
+										text: "basketball equipment",
+										link: "item/spalding-basketball"
+									 },
+									 {
+										fa: "",
+										text: "return: basketball",
+										link: "item/basketball-system"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "baseball & soccer",
+							items: [{  // Level three
+										fa: "",
+										text: "batting cages",
+										link: "item/baseball-cage"
+									 },
+									 {
+										fa: "",
+										text: "pitching machines",
+										link: "item/pitching-machine"
+									 },
+									 {
+										fa: "",
+										text: "pitching screens",
+										link: "item/pitching-screen"
+									 },
+									 {
+										fa: "",
+										text: "baseball equipment",
+										link: "item/baseball-bat"
+									 },
+									 {
+										fa: "",
+										text: "soccer goals",
+										link: "item/soccer-goal"
+									 },
+									 {
+										fa: "",
+										text: "soccer equipment",
+										link: "item/soccer-ball"
+									 },
+									 {
+										fa: "",
+										text: "return: field play",
+										link: "item/baseball"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "field play",
+							items: [{  // Level three
+										fa: "",
+										text: "archery",
+										link: "item/archery-bow"
+									 },
+									 {
+										fa: "",
+										text: "field hockey",
+										link: "item/field-hockey-goal"
+									 },
+									 {
+										fa: "",
+										text: "football",
+										link: "item/wilson-game-football"
+									 },
+									 {
+										fa: "",
+										text: "lacrosse",
+										link: "item/lacrosse-goal"
+									 },
+									 {
+										fa: "",
+										text: "shooting range",
+										link: "item/paintball"
+									 },
+									 {
+										fa: "",
+										text: "skates",
+										link: "item/inline-skate"
+									 },
+									 {
+										fa: "",
+										text: "return: field play",
+										link: "item/field-sport"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "lawn games",
+							items: [{  // Level three
+										fa: "",
+										text: "bocce set",
+										link: "item/bocce-set"
+									 },
+									 {
+										fa: "",
+										text: "cornhole",
+										link: "item/cornhole-set"
+									 },
+									 {
+										fa: "",
+										text: "croquet",
+										link: "item/croquet-set"
+									 },
+									 {
+										fa: "",
+										text: "football toss",
+										link: "item/football-toss"
+									 },
+									 {
+										fa: "",
+										text: "golf",
+										link: "item/golf-net"
+									 },
+									 {
+										fa: "",
+										text: "horseshoes",
+										link: "item/horseshoe-set"
+									 },
+									 {
+										fa: "",
+										text: "ladderballs",
+										link: "item/ladderball"
+									 },
+									 {
+										fa: "",
+										text: "tennis",
+										link: "item/tennis-racket"
+									 },
+									 {
+										fa: "",
+										text: "return: lawn games",
+										link: "item/lawn-bowling"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "sandboxes",
+							link: "item/sandbox"
+						 },
+						 {
+							fa: "",
+							text: "swing sets & playsets",
+							items: [{  // Level three
+										fa: "",
+										text: "fun pools and slides",
+										link: "item/play-pool-center"
+									 },
+									 {
+										fa: "",
+										text: "playhouses",
+										link: "item/playhouse"
+									 },
+									 {
+										fa: "",
+										text: "playground equipment",
+										link: "item/playground"
+									 },
+									 {
+										fa: "",
+										text: "playsets",
+										link: "item/playset"
+									 },
+									 {
+										fa: "",
+										text: "swing sets",
+										link: "item/swing-set"
+									 },
+									 {
+										fa: "",
+										text: "swing",
+										link: "item/belt-swing"
+									 },
+									 {
+										fa: "",
+										text: "return: playsets",
+										link: "item/play-center"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "trampolines",
+							items: [{  // Level three
+										fa: "",
+										text: "round trampolines",
+										link: "item/round-trampoline"
+									 },
+									 {
+										fa: "",
+										text: "octogon trampolines",
+										link: "item/octagon-trampoline"
+									 },
+									 {
+										fa: "",
+										text: "rectangle trampolines",
+										link: "item/rectangular-trampoline"
+									 },
+									 {
+										fa: "",
+										text: "square trampolines",
+										link: "item/square-trampoline"
+									 },
+									 {
+										fa: "",
+										text: "water trampolines",
+										link: "item/water-trampoline"
+									 },
+									 {
+										fa: "",
+										text: "other/mini trampolines",
+										link: "item/mini-trampoline"
+									 },
+									 {
+										fa: "",
+										text: "trampoline accessories",
+										link: "item/trampoline-accessories"
+									 },
+									 {
+										fa: "",
+										text: "bounce houses",
+										link: "item/bounce-house"
+									 },
+									 {
+										fa: "",
+										text: "zip lines",
+										link: "item/steel-zip-line"
+									 },
+									 {
+										fa: "",
+										text: "return: trampolines",
+										link: "item/trampoline"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "volleyball & badminton",
+							items: [{  // Level three
+										fa: "",
+										text: "outdoor volleyball",
+										link: "item/outdoor-volleyball-set"
+									 },
+									 {
+										fa: "",
+										text: "beach volleyball",
+										link: "item/beach-volleyball"
+									 },
+									 {
+										fa: "",
+										text: "pool volleyball",
+										link: "item/pool-volleyball"
+									 },
+									 {
+										fa: "",
+										text: "badminton sets",
+										link: "item/badminton-set"
+									 },
+									 {
+										fa: "",
+										text: "outdoor table tennis",
+										link: "item/outdoor-table-tennis"
+									 },
+									 {
+										fa: "",
+										text: "return: volleyball & badminton",
+										link: "item/volleyball"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "return: outdoor play",
+							link: "item/outdoor-game"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Yard Decor",
+					items: [{ // Level two
+							fa: "",
+							text: "fountains",
+							items: [{  // Level three
+										fa: "",
+										text: "garden fountains",
+										link: "item/garden-fountain"
+									 },
+									 {
+										fa: "",
+										text: " pond fountains & waterfalls",
+										link: "item/pond-fountain"
+									 },
+									 {
+										fa: "",
+										text: "water fountains",
+										link: "item/water-fountain"
+									 },
+									 {
+										fa: "",
+										text: "bird bath fountains",
+										link: "item/bird-bath-fountain"
+									 },
+									 {
+										fa: "",
+										text: "other outdoor fountains",
+										link: "item/outdoor-fountain"
+									 },
+									 {
+										fa: "",
+										text: "return: fountains",
+										link: "item/outdoor-fountains"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "garden art",
+							items: [{  // Level three
+										fa: "",
+										text: "decorative flags",
+										link: "item/house-flag"
+									 },
+									 {
+										fa: "",
+										text: "flag poles",
+										link: "item/flag-pole"
+									 },
+									 {
+										fa: "",
+										text: "gazing globes",
+										link: "item/gazing-globe"
+									 },
+									 {
+										fa: "",
+										text: "lawn ornaments",
+										link: "item/lawn-ornament"
+									 },
+									 {
+										fa: "",
+										text: "outdoor sculpture",
+										link: "item/outdoor-sculpture"
+									 },
+									 {
+										fa: "",
+										text: "plaques",
+										link: "item/garden-plaque"
+									 },
+									 {
+										fa: "",
+										text: "stepping stones",
+										link: "item/stepping-stone"
+									 },
+									 {
+										fa: "",
+										text: "return: garden art",
+										link: "item/outdoor-decor"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "garden containers (see landscape)",
+							link: "item/garden-container"
+						 },
+						 {
+							fa: "",
+							text: "garden structures (see building)",
+							link: "item/garden-shed-fence"
+						 },
+						 {
+							fa: "",
+							text: "holiday decor",
+							link: "item/outdoor-holiday-decor"
+						 },
+						 {
+							fa: "",
+							text: "rugs & doormats",
+							items: [{  // Level three
+										fa: "",
+										text: "outdoor rugs",
+										link: "item/outdoor-rugs"
+									 },
+									 {
+										fa: "",
+										text: "outdoor carpet",
+										link: "item/outdoor-carpet"
+									 },
+									 {
+										fa: "",
+										text: "outdoor curtains",
+										link: "item/outdoor-curtain"
+									 },
+									 {
+										fa: "",
+										text: "doormats",
+										link: "item/doormat"
+									 },
+									 {
+										fa: "",
+										text: "return: rugs & doormats",
+										link: "item/rug-doormat"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "statues",
+							items: [{  // Level three
+										fa: "",
+										text: "animal statues",
+										link: "item/animal-garden-statue"
+									 },
+									 {
+										fa: "",
+										text: "garden statues",
+										link: "item/garden-statue"
+									 },
+									 {
+										fa: "",
+										text: "garden gnomes",
+										link: "item/garden-gnome"
+									 },
+									 {
+										fa: "",
+										text: "gargoyles",
+										link: "item/gargoyle-statue"
+									 },
+									 {
+										fa: "",
+										text: "griffins",
+										link: "item/garden-griffin"
+									 },
+									 {
+										fa: "",
+										text: "return: statues",
+										link: "item/outdoor-statue"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "wall art",
+							items: [{  // Level three
+										fa: "",
+										text: "cedar wall art",
+										link: "item/cedar-wall-art"
+									 },
+									 {
+										fa: "",
+										text: "decorative flags",
+										link: "item/house-flag"
+									 },
+									 {
+										fa: "",
+										text: "outdoor clocks",
+										link: "item/outdoor-clock"
+									 },
+									 {
+										fa: "",
+										text: "privacy screens",
+										link: "item/privacy-screen"
+									 },
+									 {
+										fa: "",
+										text: "wall plaques",
+										link: "item/wall-plaque"
+									 },
+									 {
+										fa: "",
+										text: "wall sculpture",
+										link: "item/outdoor-wall-sculpture"
+									 },
+									 {
+										fa: "",
+										text: "return: wall art",
+										link: "item/outdoor-wall-art"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "weather art",
+							items: [{  // Level three
+										fa: "",
+										text: "outdoor clocks",
+										link: "item/outdoor-clocks"
+									 },
+									 {
+										fa: "",
+										text: "rain barrels",
+										link: "item/rain-barrels"
+									 },
+									 {
+										fa: "",
+										text: "rain chains",
+										link: "item/rain-chain"
+									 },
+									 {
+										fa: "",
+										text: "weathervanes",
+										link: "item/weathervane"
+									 },
+									 {
+										fa: "",
+										text: "weather stations",
+										link: "item/weather-instrument"
+									 },
+									 {
+										fa: "",
+										text: "windmills",
+										link: "item/windmill-system"
+									 },
+									 {
+										fa: "",
+										text: "wind chimes",
+										link: "item/wind-chime"
+									 },
+									 {
+										fa: "",
+										text: "return: weather art",
+										link: "item/weather-instruments"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "return: yard decor",
+							link: "item/garden-ornament"
+						 }]
+				},
+				{
+					fa: "",
+					text: "Yard Lighting",
+					items: [{ // Level two
+							fa: "",
+							text: "ceiling fans",
+							items: [{  // Level three
+										fa: "",
+										text: "indoor/outdoor fans",
+										link: "item/indoor-outdoor-ceiling-fan"
+									 },
+									 {
+										fa: "",
+										text: "outdoor ceiling fans",
+										link: "item/outdoor-ceiling-fan"
+									 },
+									 {
+										fa: "",
+										text: "patio fans",
+										link: "item/patio-fan"
+									 },
+									 {
+										fa: "",
+										text: "flush mount fans",
+										link: "item/flush-mount-ceiling-fan"
+									 },
+									 {
+										fa: "",
+										text: "energy star ceiling fans",
+										link: "item/energy-star-ceiling-fan"
+									 },
+									 {
+										fa: "",
+										text: "accessories",
+										link: "item/wood-fan-blade"
+									 },
+									 {
+										fa: "",
+										text: "return: ceiling fans",
+										link: "item/outdoor-ceiling-fans"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "ceiling lights",
+							link: "item/outdoor-ceiling-light"
+						 },
+						 {
+							fa: "",
+							text: "hanging lights",
+							items: [{  // Level three
+										fa: "",
+										text: "outdoor chandeliers",
+										link: "item/outdoor-chandelier"
+									 },
+									 {
+										fa: "",
+										text: "hanging lanterns",
+										link: "item/outdoor-hanging-lantern"
+									 },
+									 {
+										fa: "",
+										text: "outdoor pendant lighting",
+										link: "item/outdoor-pendant-light"
+									 },
+									 {
+										fa: "",
+										text: "other outdoor hanging lights",
+										link: "item/outdoor-hanging-light"
+									 },
+									 {
+										fa: "",
+										text: "return: hanging lights",
+										link: "item/outdoor-hanging-light"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "landscape lighting",
+							items: [{  // Level three
+										fa: "",
+										text: "deck lighting",
+										link: "item/deck-light"
+									 },
+									 {
+										fa: "",
+										text: "flood lighting",
+										link: "item/area-flood-light"
+									 },
+									 {
+										fa: "",
+										text: "path lighting",
+										link: "item/path-light"
+									 },
+									 {
+										fa: "",
+										text: "patio lighting ",
+										link: "item/patio-light"
+									 },
+									 {
+										fa: "",
+										text: "pond lighting",
+										link: "item/pond-light"
+									 },
+									 {
+										fa: "",
+										text: "spot lighting",
+										link: "item/spot-landscape-light"
+									 },
+									 {
+										fa: "",
+										text: "well lighting",
+										link: "item/well-light"
+									 },
+									 {
+										fa: "",
+										text: "return: landscape lighting",
+										link: "item/landscape-lighting"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "post lighting",
+							items: [{  // Level three
+										fa: "",
+										text: "lamp posts",
+										link: "item/outdoor-post-lamp"
+									 },
+									 {
+										fa: "",
+										text: "landscape post lighting",
+										link: "item/landscape-post-light"
+									 },
+									 {
+										fa: "",
+										text: "lantern post lighting",
+										link: "item/lantern-post-light"
+									 },
+									 {
+										fa: "",
+										text: "outdoor post lighting",
+										link: "item/outdoor-post-light"
+									 },
+									 {
+										fa: "",
+										text: "other post lighting",
+										link: "item/post-light"
+									 },
+									 {
+										fa: "",
+										text: "post caps n' poles",
+										link: "item/post-light-cap"
+									 },
+									 {
+										fa: "",
+										text: "return: post lighting",
+										link: "item/outdoor-post-lighting"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "security lighting",
+							items: [{  // Level three
+										fa: "",
+										text: "security flood light",
+										link: "item/security-flood-light"
+									 },
+									 {
+										fa: "",
+										text: "security spot light ",
+										link: "item/security-spot-light"
+									 },
+									 {
+										fa: "",
+										text: "motion sensors",
+										link: "item/motion-security-light"
+									 },
+									 {
+										fa: "",
+										text: "motion sensing",
+										link: "item/sensing-security-light"
+									 },
+									 {
+										fa: "",
+										text: "LED motion",
+										link: "item/led-motion-security-light"
+									 },
+									 {
+										fa: "",
+										text: "motion alarm",
+										link: "item/motion-alarm-security-light"
+									 },
+									 {
+										fa: "",
+										text: "motion flood",
+										link: "item/motion-flood-security-light"
+									 },
+									 {
+										fa: "",
+										text: "solar security lighting",
+										link: "item/solar-security-light"
+									 },
+									 {
+										fa: "",
+										text: "solar motion",
+										link: "item/solar-motion-security-light"
+									 },
+									 {
+										fa: "",
+										text: "wireless security",
+										link: "item/wireless-security-light"
+									 },
+									 {
+										fa: "",
+										text: "return: security lighting",
+										link: "item/outdoor-security-light"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "solar lighting",
+							items: [{  // Level three
+										fa: "",
+										text: "solar deck lighting",
+										link: "item/solar-deck-light"
+									 },
+									 {
+										fa: "",
+										text: "solar garden lighting",
+										link: "item/solar-garden-light"
+									 },
+									 {
+										fa: "",
+										text: "solar landscape lighting",
+										link: "item/solar-landscape-light"
+									 },
+									 {
+										fa: "",
+										text: "solar LED",
+										link: "item/solar-garden-led"
+									 },
+									 {
+										fa: "",
+										text: "return: solar lighting",
+										link: "item/solar-lighting"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "specialty lighting",
+							items: [{  // Level three
+										fa: "",
+										text: "address lighting",
+										link: "item/address-light"
+									 },
+									 {
+										fa: "",
+										text: "area lighting",
+										link: "item/outdoor-area-light"
+									 },
+									 {
+										fa: "",
+										text: "planter lighting",
+										link: "item/planter-lantern"
+									 },
+									 {
+										fa: "",
+										text: "holiday lighting",
+										link: "item/holiday-light"
+									 },
+									 {
+										fa: "",
+										text: "rope & string lighting",
+										link: "item/led-rope-light"
+									 },
+									 {
+										fa: "",
+										text: "party/play lighting",
+										link: "item/party-string-light"
+									 },
+									 {
+										fa: "",
+										text: "return: specialty lighting",
+										link: "item/ 	outdoor-area-light"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "wall lighting",
+							items: [{  // Level three
+										fa: "",
+										text: "wall fixtures",
+										link: "item/outdoor-wall-fixture"
+									 },
+									 {
+										fa: "",
+										text: "wall lanterns",
+										link: "item/outdoor-wall-lantern"
+									 },
+									 {
+										fa: "",
+										text: "wall mount",
+										link: "item/outdoor-wall-mount-light"
+									 },
+									 {
+										fa: "",
+										text: "wall motion/security",
+										link: "item/motion-sensor-light"
+									 },
+									 {
+										fa: "",
+										text: "wall pack light",
+										link: "item/wall-pack-light"
+									 },
+									 {
+										fa: "",
+										text: "wall sconce",
+										link: "item/outdoor-wall-sconce"
+									 },
+									 {
+										fa: "",
+										text: "solar/LED",
+										link: "item/outdoor-wall-solar-light"
+									 },
+									 {
+										fa: "",
+										text: "return: wall lighting",
+										link: "item/outdoor-wall-lighting"
+									 }]
+						 },
+						 {
+							fa: "",
+							text: "return: yard lighting",
+							link: "item/garden-lighting"
+						 }]
+				},
+				{
+					fa: "fa-shopping-cart",
+					text: "Coupons",
+					link: "/coupons/category/yard__garden-12.html"
+				},
+				{
+					fa: "fa",
+					text: "",
+					link: ""
+				},
+				{
+					fa: "",
+					text: "Main Menu",
+					items: [{ // Level two
+							fa: "",
+							text: "shop: Kitchen",
+							link: "/shophome/shop-kitchen.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bath",
+							link: "/shophome/shop-bath.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Bedroom",
+							link: "/shophome/shop-bed.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Furniture",
+							link: "/shophome/shop-living.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Decor",
+							link: "/shophome/shop-decor.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Rec Room",
+							link: "/shophome/shop-recroom.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Utility",
+							link: "/shophome/shop-home-utility.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Home Structure",
+							link: "/shophome/shop-home-structure.php"
+						 },
+						 {
+							fa: "",
+							text: "shop: Yard n' Garden",
+							link: "/shophome/shop-garden.php"
+						 },
+						 {
+							fa: "fa",
+							text: "",
+							link: ""
+						 },
+						 {
+							fa: "",
+							text: "home",
+							link: "index.php"
+						 }]
+				}]
+	});
+
+
+});
+
+
+</script>
+
+<!-- END .toggle menu panel -->

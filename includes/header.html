@@ -1,0 +1,26 @@
+<div class="header-block">
+    <div class="header-logo">
+        <a href="index.php"><img src="images/header-logo.png" alt="" /></a>
+        <!-- <h1><a href="index.html">NOVOMag</a></h1> --></div>
+
+    <div class="rightsearch">
+        <div class="search-block">
+            <form id="search-form">
+                <input type="text" class="search-value" id='search-value' value="" />
+                <input type="submit" id="btn-search-button" class="search-button" value="" />
+            </form>
+            <script>
+                $("#search-form").submit(function () {
+                    var t = $("input#search-value").val();
+                    if (t == "" || t == null) {
+                        alert("Please enter a search term...");
+                    }
+                    else {
+                        location.href = "http://www.letsrenovate.com/shophome/search/" + t;
+                    }
+                    return false;
+                });
+            </script>
+        </div>
+    </div>
+</div>
